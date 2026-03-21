@@ -3,33 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Open research dataset by Juan Moisés de la Serna Tuya">
+  <meta name="description" content="Open Research Portal of Juan Moisés de la Serna Tuya — 71+ open datasets in Neuroscience, Behavioral Economics, Epidemiology, Demography and more. ORCID: 0000-0002-8401-8018">
   <meta name="author" content="Juan Moisés de la Serna Tuya">
-  <meta name="keywords" content=", open-data, dataset, fair-data, zenodo, orcid, juan moises de la serna, neuroeconomics, latin america">
+  <meta name="keywords" content="juan moises de la serna, neuroeconomics, behavioral economics, neuroscience, epidemiology, latin america, open data, datasets, ORCID, zenodo, FAIR data">
   <meta name="robots" content="index, follow">
-  <meta property="og:type" content="dataset">
-  <meta property="og:title" content="juanmoisesd.github.io">
-  <meta property="og:description" content="Open research dataset by Juan Moisés de la Serna Tuya">
-  <meta property="og:url" content="https://github.com/juanmoisesd/juanmoisesd.github.io">
-  <meta property="og:site_name" content="Juan Moisés de la Serna Tuya — Open Research">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="juanmoisesd.github.io">
-  <meta name="twitter:description" content="Open research dataset by Juan Moisés de la Serna Tuya">
-  <link rel="canonical" href="https://github.com/juanmoisesd/juanmoisesd.github.io">
-  <title>juanmoisesd.github.io | Juan Moisés de la Serna Tuya</title>
-  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Open Research Portal — Juan Moisés de la Serna Tuya">
+  <meta property="og:description" content="71+ open datasets in Neuroscience, Behavioral Economics, Mental Health, Epidemiology & more">
+  <meta property="og:url" content="https://juanmoisesd.github.io">
+  <meta property="og:image" content="https://orcid.org/sites/default/files/images/orcid_16x16.png">
+  <link rel="canonical" href="https://juanmoisesd.github.io">
+  <title>Open Research Portal — Juan Moisés de la Serna Tuya</title>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Dataset",
-    "name": "juanmoisesd.github.io",
-    "description": "Open research dataset",
-    "url": "https://github.com/juanmoisesd/juanmoisesd.github.io",
-    "sameAs": "https://juanmoisesd.github.io/juanmoisesd.github.io/",
-    "identifier": "https://github.com/juanmoisesd/juanmoisesd.github.io",
+    "@type": "DataCatalog",
+    "name": "Open Research Collection — Juan Moisés de la Serna Tuya",
+    "description": "Master catalog of 71+ open research datasets covering Neuroscience, Behavioral Economics, Mental Health, Epidemiology, Demography, and AI.",
+    "url": "https://juanmoisesd.github.io",
+    "sameAs": "https://doi.org/10.5281/zenodo.19145316",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "isAccessibleForFree": true,
-    "keywords": [],
+    "keywords": ["neuroeconomics","behavioral economics","neuroscience","mental health","epidemiology","latin america","open data","FAIR"],
     "creator": {
       "@type": "Person",
       "name": "Juan Moisés de la Serna Tuya",
@@ -38,111 +34,1015 @@
         "https://orcid.org/0000-0002-8401-8018",
         "https://www.linkedin.com/in/juanmoisesdelaserna/",
         "https://www.scopus.com/authid/detail.uri?authorId=26632846700",
-        "https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya",
         "https://github.com/juanmoisesd"
       ],
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidad Internacional de La Rioja (UNIR)"
-      }
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "GitHub",
-      "url": "https://github.com"
-    },
-    "datePublished": "2025",
-    "dateModified": "2025",
-    "inLanguage": ["es", "en"],
-    "distribution": {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "https://github.com/juanmoisesd/juanmoisesd.github.io"
+      "affiliation": {"@type": "Organization", "name": "Universidad Internacional de La Rioja (UNIR)"}
     }
   }
   </script>
+
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 860px; margin: 0 auto; padding: 2rem; color: #24292e; }
-    header { border-bottom: 3px solid #0366d6; padding-bottom: 1.5rem; margin-bottom: 2rem; }
-    h1 { color: #0366d6; font-size: 1.8rem; }
-    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
-    .badges img { height: 20px; }
-    .author-card { background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
-    .author-card h2 { color: #0366d6; margin-top: 0; }
-    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
-    th, td { border: 1px solid #e1e4e8; padding: 0.5rem 1rem; text-align: left; }
-    th { background: #f6f8fa; }
-    .citation-block { background: #fff8c5; border: 1px solid #f0e68c; border-radius: 6px; padding: 1rem 1.5rem; margin: 1rem 0; }
-    pre { background: #f6f8fa; padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem; }
-    a { color: #0366d6; }
-    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e1e4e8; font-size: 0.85rem; color: #586069; }
+    :root { --primary: #0366d6; --secondary: #24292e; --accent: #28a745; --bg: #f6f8fa; --card-bg: #fff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--secondary); }
+    
+    header { background: linear-gradient(135deg, #0366d6 0%, #044289 100%); color: white; padding: 3rem 2rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    header .subtitle { font-size: 1.1rem; opacity: 0.9; margin-bottom: 1.5rem; }
+    .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin: 1rem 0; }
+    .badges a img { height: 24px; }
+    .stats { display: flex; justify-content: center; gap: 3rem; margin-top: 2rem; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat .number { font-size: 2.5rem; font-weight: 700; }
+    .stat .label { font-size: 0.85rem; opacity: 0.8; }
+    
+    .search-bar { background: white; padding: 2rem; text-align: center; border-bottom: 1px solid #e1e4e8; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    #search { width: 100%; max-width: 600px; padding: 0.75rem 1rem; font-size: 1rem; border: 2px solid #e1e4e8; border-radius: 8px; outline: none; }
+    #search:focus { border-color: var(--primary); }
+    
+    main { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+    
+    .category { margin-bottom: 3rem; }
+    .category h2 { font-size: 1.5rem; color: var(--secondary); border-bottom: 3px solid var(--primary); padding-bottom: 0.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+    .count { background: var(--primary); color: white; border-radius: 20px; padding: 0.2rem 0.7rem; font-size: 0.8rem; }
+    
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.25rem; }
+    .card { background: var(--card-bg); border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.25rem; transition: transform 0.2s, box-shadow 0.2s; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(3,102,214,0.15); }
+    .card h3 { font-size: 0.9rem; margin-bottom: 0.5rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .card h3 a { color: var(--primary); text-decoration: none; }
+    .card h3 a:hover { text-decoration: underline; }
+    .card p { font-size: 0.85rem; color: #586069; margin-bottom: 0.75rem; line-height: 1.5; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
+    .tag { background: #f1f8ff; color: var(--primary); border: 1px solid #c8e1ff; border-radius: 12px; padding: 0.15rem 0.5rem; font-size: 0.75rem; }
+    .links { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+    .links a { font-size: 0.8rem; color: var(--primary); text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+    
+    .author-section { background: white; border: 1px solid #e1e4e8; border-radius: 12px; padding: 2.5rem; margin: 2rem 0; }
+    .author-section h2 { color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; }
+    .id-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .id-card { background: var(--bg); border-radius: 8px; padding: 1rem; }
+    .id-card .platform { font-weight: 600; font-size: 0.85rem; color: #586069; margin-bottom: 0.25rem; }
+    .id-card a { color: var(--primary); text-decoration: none; font-size: 0.9rem; word-break: break-all; }
+    
+    .collection-doi { background: linear-gradient(135deg, #fff8c5, #fffde7); border: 2px solid #f9c513; border-radius: 8px; padding: 1.5rem 2rem; margin: 2rem 0; text-align: center; }
+    .collection-doi h3 { color: #24292e; margin-bottom: 0.5rem; }
+    .collection-doi .doi { font-size: 1.2rem; font-weight: 700; color: var(--primary); }
+    .collection-doi p { color: #586069; font-size: 0.9rem; margin-top: 0.5rem; }
+    
+    footer { background: var(--secondary); color: #959da5; padding: 2rem; text-align: center; font-size: 0.85rem; margin-top: 4rem; }
+    footer a { color: #0366d6; }
+    
+    .hidden { display: none !important; }
+    
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.5rem; }
+      .stats { gap: 1.5rem; }
+      .cards { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>📂 juanmoisesd.github.io</h1>
-  <p>Open research dataset by Juan Moisés de la Serna Tuya</p>
+  <h1>🔬 Open Research Portal</h1>
+  <div class="subtitle">Juan Moisés de la Serna Tuya — Neuroeconomista Forense | IA antifraude | UNIR</div>
   <div class="badges">
     <a href="https://orcid.org/0000-0002-8401-8018"><img src="https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid" alt="ORCID"></a>
     <a href="https://www.linkedin.com/in/juanmoisesdelaserna/"><img src="https://img.shields.io/badge/LinkedIn-juanmoisesdelaserna-blue?logo=linkedin" alt="LinkedIn"></a>
-    <a href="https://github.com/juanmoisesd/juanmoisesd.github.io"><img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub"></a>
+    <a href="https://www.scopus.com/authid/detail.uri?authorId=26632846700"><img src="https://img.shields.io/badge/Scopus-26632846700-orange" alt="Scopus"></a>
+    <a href="https://doi.org/10.5281/zenodo.19145316"><img src="https://img.shields.io/badge/Collection_DOI-10.5281%2Fzenodo.19145316-blue?logo=zenodo" alt="Collection DOI"></a>
     <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey" alt="CC0">
     <img src="https://img.shields.io/badge/Data-FAIR_Compliant-brightgreen" alt="FAIR">
   </div>
+  <div class="stats">
+    <div class="stat"><div class="number">71+</div><div class="label">Open Datasets</div></div>
+    <div class="stat"><div class="number">1,273+</div><div class="label">Zenodo DOIs</div></div>
+    <div class="stat"><div class="number">290+</div><div class="label">Scientific Works</div></div>
+    <div class="stat"><div class="number">500+</div><div class="label">Total DOIs</div></div>
+  </div>
 </header>
 
-<main>
-  <section>
-    <h2>📋 About This Dataset</h2>
-    <p>Open research dataset by Juan Moisés de la Serna Tuya</p>
-    <p><strong>Topics:</strong> </p>
-    <p><a href="https://github.com/juanmoisesd/juanmoisesd.github.io" target="_blank">→ View on GitHub</a> | <a href="https://github.com/juanmoisesd/juanmoisesd.github.io/blob/main/README.md" target="_blank">→ README</a> | <a href="https://github.com/juanmoisesd/juanmoisesd.github.io/blob/main/GLOSSARY.md" target="_blank">→ Glossary</a></p>
-  </section>
+<div class="search-bar">
+  <input type="text" id="search" placeholder="🔍 Search datasets by name, topic, or keyword...">
+</div>
 
-  <div class="author-card">
-    <h2>👤 About the Author</h2>
-    <p><strong>Juan Moisés de la Serna Tuya</strong><br>
-    <em>Neuroeconomista forense de élite | IA antifraude + sesgos en decisiones económicas | Gobiernos · Bancos centrales · Big Four · Fortune 500</em></p>
-    <table>
-      <tr><th>Identifier</th><th>Link</th></tr>
-      <tr><td>ORCID</td><td><a href="https://orcid.org/0000-0002-8401-8018">0000-0002-8401-8018</a></td></tr>
-      <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/juanmoisesdelaserna/">juanmoisesdelaserna</a></td></tr>
-      <tr><td>Scopus</td><td><a href="https://www.scopus.com/authid/detail.uri?authorId=26632846700">26632846700</a></td></tr>
-      <tr><td>ResearcherID</td><td><a href="https://www.webofscience.com/wos/author/record/M-8296-2019">M-8296-2019</a></td></tr>
-      <tr><td>ResearchGate</td><td><a href="https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya">Profile</a></td></tr>
-      <tr><td>Institution</td><td><a href="https://www.unir.net">Universidad Internacional de La Rioja (UNIR)</a></td></tr>
-    </table>
-    <p>290+ scientific works · 500+ DOIs · 90+ open datasets · Top 1% Academia.edu</p>
+<main>
+
+  <div class="collection-doi">
+    <h3>📦 Master Collection DOI</h3>
+    <div class="doi"><a href="https://doi.org/10.5281/zenodo.19145316">https://doi.org/10.5281/zenodo.19145316</a></div>
+    <p>Cite ALL datasets at once with a single DOI — indexed in Zenodo, DataCite, OpenAIRE & Google Scholar</p>
+    <p style="margin-top:0.75rem">
+      <strong>APA:</strong> De la Serna Tuya, J. M. (2025). <em>Open Research Collection</em>. Zenodo. https://doi.org/10.5281/zenodo.19145316
+    </p>
   </div>
 
-  <section>
-    <h2>📚 Cite This Dataset</h2>
-    <div class="citation-block">
-      <strong>APA 7:</strong><br>
-      De la Serna Tuya, J. M. (2025). <em>juanmoisesd.github.io</em> [Dataset]. GitHub. https://github.com/juanmoisesd/juanmoisesd.github.io
+  
+  <section class="category" id="---Neurociencia---Neuroscience">
+    <h2>🧠 Neurociencia / Neuroscience <span class="count">14</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="alzheimer cc0 citation cognitive-decline dashboard dataset dementia epidemiology fair-data harvard-dataverse juan-moises-de-la-serna latin-america neurodegeneration open-data open-science orcid projections public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/alzheimer-latinamerica-dashboard/" target="_blank">alzheimer-latinamerica-dashboard</a></h3>
+      <p>Interactive dashboard: Alzheimer's Disease in Latin America (2000-2050). 8 countries, projections, policy index, caregiv...</p>
+      <div class="tags"><span class="tag">alzheimer</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-decline</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/alzheimer-latinamerica-dashboard/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/alzheimer-latinamerica-dashboard" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/alzheimer-latinamerica-dashboard/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
     </div>
-    <pre>@dataset{delaserna2025_juanmoisesd.github.io,
-  author    = {De la Serna Tuya, Juan Moisés},
-  title     = {juanmoisesd.github.io},
-  year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/juanmoisesd/juanmoisesd.github.io},
-  note      = {ORCID: 0000-0002-8401-8018}
-}</pre>
+    <div class="card" data-topics="alzheimer cc0 citation cognitive-decline dataset dementia epidemiology fair-data global-health infectious-diseases juan-moises-de-la-serna latin-america neurodegeneration neurology open-data open-science orcid public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/alzheimer-latinoamerica-dashboard/" target="_blank">alzheimer-latinoamerica-dashboard</a></h3>
+      <p>ARCHIVED — See alzheimer-latinamerica-dashboard</p>
+      <div class="tags"><span class="tag">alzheimer</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-decline</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/alzheimer-latinoamerica-dashboard/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/alzheimer-latinoamerica-dashboard" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/alzheimer-latinoamerica-dashboard/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience dataset fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona/" target="_blank">conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona</a></h3>
+      <p>Repositorio de bases de datos sobre conectómica cerebral humana: conectividad estructural (DTI, tractografía) y funciona...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america mental-health open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/" target="_blank">especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica</a></h3>
+      <p>Base de datos longitudinal (2000-2026) sobre la densidad de especialistas en salud mental y neurología por cada 100.000 ...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america mental-health open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/especialistas-salud-mental-neurologia-latam/" target="_blank">especialistas-salud-mental-neurologia-latam</a></h3>
+      <p>Mental health and neurology specialists per 100,000 in Ibero-America. CC0 1.0</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/especialistas-salud-mental-neurologia-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/especialistas-salud-mental-neurologia-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/especialistas-salud-mental-neurologia-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience dataset fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/human-brain-connectomics-structural-and-functional-connectivity-database/" target="_blank">human-brain-connectomics-structural-and-functional-connectivity-database</a></h3>
+      <p>Repository of databases on human brain connectomics: structural connectivity (DTI, tractography) and functional connecti...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/human-brain-connectomics-structural-and-functional-connectivity-database/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/human-brain-connectomics-structural-and-functional-connectivity-database" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/human-brain-connectomics-structural-and-functional-connectivity-database/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data ibero-america juan-moises-de-la-serna longitudinal-dataset mental-health mental-health-specialists open-data open-science orcid psychiatrists psychiatry psychology research wellbeing who-mental-health-atlas zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/" target="_blank">mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri</a></h3>
+      <p>Longitudinal dataset (2000-2026) on the density of mental health and neurology specialists per 100,000 inhabitants in 16...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="bdnf brain-development cc0 citation dataset fair-data juan-moises-de-la-serna maduracion-cortical neurociencia-del-desarrollo neuroplasticity neuroscience open-data open-science orcid periodos-criticos plasticidad-cerebral poda-sinaptica research synaptic-pruning zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in/" target="_blank">neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in</a></h3>
+      <p>Base de datos longitudinal sobre neurociencia del desarrollo y plasticidad cerebral (0-32 a&ntilde;os). Contiene 13 modu...</p>
+      <div class="tags"><span class="tag">bdnf</span><span class="tag">brain-development</span><span class="tag">cc0</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity brain-development cc0 citation cognitive-neuroscience cortical-thickness dataset fair-data gray-matter juan-moises-de-la-serna longitudinal-study mri neuromodulation neuroplasticity neuroscience open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neurociencia-del-desarrollo-y-plasticidad-cerebral-datos-longitudinales-0-30-ano/" target="_blank">neurociencia-del-desarrollo-y-plasticidad-cerebral-datos-longitudinales-0-30-ano</a></h3>
+      <p>Dataset longitudinal con métricas normativas de desarrollo cerebral desde el nacimiento hasta la edad adulta (0-30 años)...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">brain-development</span><span class="tag">cc0</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neurociencia-del-desarrollo-y-plasticidad-cerebral-datos-longitudinales-0-30-ano/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neurociencia-del-desarrollo-y-plasticidad-cerebral-datos-longitudinales-0-30-ano" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neurociencia-del-desarrollo-y-plasticidad-cerebral-datos-longitudinales-0-30-ano/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="alzheimer cc0 citation cognitive-decline dashboard dataset dementia fair-data juan-moises-de-la-serna multiple-sclerosis neurodegeneration neuroinflammation neurology neuroscience open-data open-science orcid parkinson research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neuroinflammation-neurodegenerative/" target="_blank">neuroinflammation-neurodegenerative</a></h3>
+      <p>Interactive dashboard: Neuroinflammation in Alzheimer's, Parkinson's and Multiple Sclerosis. DOI: 10.7910/DVN/X2TQQA</p>
+      <div class="tags"><span class="tag">alzheimer</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-decline</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neuroinflammation-neurodegenerative/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neuroinflammation-neurodegenerative" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neuroinflammation-neurodegenerative/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/NeuroKit/" target="_blank">NeuroKit</a></h3>
+      <p>NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/NeuroKit/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/NeuroKit" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/NeuroKit/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience cyberaddiction dataset digital-health fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research tech-adoption technology zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/" target="_blank">neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter</a></h3>
+      <p>Repositorio de bases de datos, registros y repositorios sobre neuromodulación y neurotecnologías emergentes: estimulació...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience dataset fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neuromodulation-and-emerging-neurotechnologies-tms-tdcs-dbs-and-brain-computer-i/" target="_blank">neuromodulation-and-emerging-neurotechnologies-tms-tdcs-dbs-and-brain-computer-i</a></h3>
+      <p>Repository of databases, records, and repositories on neuromodulation and emerging neurotechnologies: transcranial magne...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neuromodulation-and-emerging-neurotechnologies-tms-tdcs-dbs-and-brain-computer-i/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neuromodulation-and-emerging-neurotechnologies-tms-tdcs-dbs-and-brain-computer-i" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neuromodulation-and-emerging-neurotechnologies-tms-tdcs-dbs-and-brain-computer-i/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience dataset fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neuroscience-of-development-and-brain-plasticity-longitudinal-dataset-ages-032/" target="_blank">neuroscience-of-development-and-brain-plasticity-longitudinal-dataset-ages-032</a></h3>
+      <p>Open research dataset</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neuroscience-of-development-and-brain-plasticity-longitudinal-dataset-ages-032/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neuroscience-of-development-and-brain-plasticity-longitudinal-dataset-ages-032" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neuroscience-of-development-and-brain-plasticity-longitudinal-dataset-ages-032/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Econom-a-Conductual---Behavioral-Economics">
+    <h2>💹 Economía Conductual / Behavioral Economics <span class="count">3</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="behavioral-economics cc0 citation cognitive-bias criptomonedas dataset decision-making economia-del-comportamiento fair-data gamificacion juan-moises-de-la-serna migracion-latinoamerica neuroeconomics open-data open-science orcid politicas-publicas research subsidios-verdes zenodo">
+      <h3><a href="https://juanmoisesd.github.io/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-/" target="_blank">base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-</a></h3>
+      <p>Base de datos en formato CSV sobre comportamiento y pol&iacute;ticas p&uacute;blicas, compilada desde fuentes secundaria...</p>
+      <div class="tags"><span class="tag">behavioral-economics</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-bias</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="behavioral-economics cc0 citation cognitive-bias dataset decision-making delay-discounting economics fair-data iowa-gambling-task juan-moises-de-la-serna macroeconomics neuroeconomics nudge-theory open-data open-science orcid research ultimatum-game zenodo">
+      <h3><a href="https://juanmoisesd.github.io/global-behavioral-economics-experiments-dataset/" target="_blank">global-behavioral-economics-experiments-dataset</a></h3>
+      <p>This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. ...</p>
+      <div class="tags"><span class="tag">behavioral-economics</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-bias</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/global-behavioral-economics-experiments-dataset/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="behavioral-economics cc0 citation cognitive-bias cognitive-biases cognitive-heuristics confirmation-bias dataset decision-making fair-data juan-moises-de-la-serna neuroeconomics nudge-theory open-data open-science orcid research risk-aversion temporal-discounting zenodo">
+      <h3><a href="https://juanmoisesd.github.io/psychological-drivers-of-economic-decision-making-dataset/" target="_blank">psychological-drivers-of-economic-decision-making-dataset</a></h3>
+      <p>This dataset compiles global evidence on psychological factors that drive economic decision-making, spanning behavioral ...</p>
+      <div class="tags"><span class="tag">behavioral-economics</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-bias</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/psychological-drivers-of-economic-decision-making-dataset/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/psychological-drivers-of-economic-decision-making-dataset" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/psychological-drivers-of-economic-decision-making-dataset/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Salud-Mental---Mental-Health">
+    <h2>🧘 Salud Mental / Mental Health <span class="count">10</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="burnout cc0 citation clinical-psychology dashboard dataset education fair-data human-capital juan-moises-de-la-serna mental-health open-data open-science orcid psychiatry psychology research university wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/bienestar-psicologico-universitarios/" target="_blank">bienestar-psicologico-universitarios</a></h3>
+      <p>Interactive dashboard: Psychological wellbeing in researchers and university students (2019-2024). DOI: 10.7910/DVN/EZP0...</p>
+      <div class="tags"><span class="tag">burnout</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/bienestar-psicologico-universitarios/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/bienestar-psicologico-universitarios" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/bienestar-psicologico-universitarios/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america mental-health open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/" target="_blank">especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica</a></h3>
+      <p>Base de datos longitudinal (2000-2026) sobre la densidad de especialistas en salud mental y neurología por cada 100.000 ...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america mental-health open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/especialistas-salud-mental-neurologia-latam/" target="_blank">especialistas-salud-mental-neurologia-latam</a></h3>
+      <p>Mental health and neurology specialists per 100,000 in Ibero-America. CC0 1.0</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/especialistas-salud-mental-neurologia-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/especialistas-salud-mental-neurologia-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/especialistas-salud-mental-neurologia-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset development-economics economics fair-data gdp juan-moises-de-la-serna latin-america macroeconomics mental-health open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025/" target="_blank">estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025</a></h3>
+      <p>Dataset longitudinal (2000-2025) que examina la relación entre indicadores de estrés económico y salud mental en 21 país...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset fair-data ibero-america juan-moises-de-la-serna longitudinal-dataset mental-health mental-health-specialists open-data open-science orcid psychiatrists psychiatry psychology research wellbeing who-mental-health-atlas zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/" target="_blank">mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri</a></h3>
+      <p>Longitudinal dataset (2000-2026) on the density of mental health and neurology specialists per 100,000 inhabitants in 16...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="academic-stress anxiety cc0 citation dataset depression fair-data juan-moises-de-la-serna latin-america mental-health open-data open-science orcid protective-variables psychology research risk-factors university-students wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/" target="_blank">mental-health-disorders-in-latin-american-university-population-prevalence-risk-</a></h3>
+      <p>Statistical database on the prevalence of mental health disorders, risk factors, and protective variables in Latin Ameri...</p>
+      <div class="tags"><span class="tag">academic-stress</span><span class="tag">anxiety</span><span class="tag">cc0</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mental-health-disorders-in-latin-american-university-population-prevalence-risk-" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dashboard dataset fair-data ibero-america juan-moises-de-la-serna latin-america mental-health open-data open-science orcid psychiatry psychology public-health research specialists wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mental-health-specialists-iberoamerica/" target="_blank">mental-health-specialists-iberoamerica</a></h3>
+      <p>Interactive dashboard: Mental health and neurology specialists per 100k in Ibero-America (2000-2026). DOI: 10.5281/zenod...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dashboard</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mental-health-specialists-iberoamerica/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mental-health-specialists-iberoamerica" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mental-health-specialists-iberoamerica/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="anxiety cc0 citation clinical-psychology dashboard dataset demography fair-data juan-moises-de-la-serna latin-america mental-health mindfulness open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mindfulness-ansiedad-latam/" target="_blank">mindfulness-ansiedad-latam</a></h3>
+      <p>Interactive dashboard: Mindfulness-based interventions and anxiety reduction in Latin America. DOI: 10.7910/DVN/BR5HUF</p>
+      <div class="tags"><span class="tag">anxiety</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mindfulness-ansiedad-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mindfulness-ansiedad-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mindfulness-ansiedad-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology covid19 dashboard dataset epidemiology fair-data juan-moises-de-la-serna mental-health open-data open-science orcid psychiatry psychology research spain suicide wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/suicidio-espana-covid19-analysis/" target="_blank">suicidio-espana-covid19-analysis</a></h3>
+      <p>Interactive mini-papers: Historical suicide statistics in Spain before and after COVID-19. DOI: 10.17632/cwm4r6ywsc.1</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">covid19</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/suicidio-espana-covid19-analysis/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/suicidio-espana-covid19-analysis" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/suicidio-espana-covid19-analysis/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation clinical-psychology dataset demographic-transition demography fair-data juan-moises-de-la-serna latin-america mental-health open-data open-science orcid population-data psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/" target="_blank">trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci</a></h3>
+      <p>Open research dataset</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Epidemiolog-a---Epidemiology">
+    <h2>🦟 Epidemiología / Epidemiology <span class="count">11</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="americas cc0 cholera citation dashboard dataset epidemiology fair-data global-health infectious-diseases juan-moises-de-la-serna latin-america open-data open-science orcid paho public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/cholera-americas-paho/" target="_blank">cholera-americas-paho</a></h3>
+      <p>Interactive data portal: Cholera cases in the Americas. Country profiles, comparisons. Source: PAHO.</p>
+      <div class="tags"><span class="tag">americas</span><span class="tag">cc0</span><span class="tag">cholera</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/cholera-americas-paho/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/cholera-americas-paho" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/cholera-americas-paho/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset epidemiology fair-data global-health infectious-diseases juan-moises-de-la-serna latin-america open-data open-science orcid public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/dengue-global-base-de-datos-de-casos-por-pais-1995-2024/" target="_blank">dengue-global-base-de-datos-de-casos-por-pais-1995-2024</a></h3>
+      <p>Base de datos de casos confirmados y reportados de dengue en 31 países de América Latina, Asia del Sur y Asia del Surest...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">epidemiology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/dengue-global-base-de-datos-de-casos-por-pais-1995-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/dengue-global-base-de-datos-de-casos-por-pais-1995-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/dengue-global-base-de-datos-de-casos-por-pais-1995-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography epidemiology fair-data global-health infectious-diseases juan-moises-de-la-serna latin-america open-data open-science orcid population-data public-health research vector-borne-diseases zenodo">
+      <h3><a href="https://juanmoisesd.github.io/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/" target="_blank">evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202</a></h3>
+      <p>Open research dataset</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation covid-19 dataset dengue epidemiology fair-data global-health iberoamerica infectious-diseases juan-moises-de-la-serna latam latin-america open-data open-science orcid public-health research zenodo zika">
+      <h3><a href="https://juanmoisesd.github.io/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun/" target="_blank">evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun</a></h3>
+      <p>Dataset on the evolution of mosquito-borne diseases in Latin America and the Caribbean 2015-2024. Includes data on Dengu...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">covid-19</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset epidemiology fair-data global-health iberoamerica infectious-diseases juan-moises-de-la-serna latam latin-america open-data open-science orcid public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/global-dengue-case-database-by-country-1995-2024/" target="_blank">global-dengue-case-database-by-country-1995-2024</a></h3>
+      <p>Database of confirmed and reported dengue cases in 31 countries across Latin America, South Asia, and Southeast Asia, wi...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">epidemiology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/global-dengue-case-database-by-country-1995-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/global-dengue-case-database-by-country-1995-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/global-dengue-case-database-by-country-1995-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology colombia dataset fair-data health-indicators infectious-disease juan-moises-de-la-serna longitudinal-dataset mental-health open-data open-science orcid paho psychology public-health research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data/" target="_blank">health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data</a></h3>
+      <p>Comprehensive dataset of key health indicators for Colombia (2020-2025). Includes mental health metrics (depression, anx...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">colombia</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data health-indicators healthcare-crisis juan-moises-de-la-serna longitudinal-dataset malaria mental-health open-data open-science orcid paho psychology public-health research venezuela wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data/" target="_blank">health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data</a></h3>
+      <p>Comprehensive dataset of key health indicators for Venezuela (2020-2025). Includes mental health metrics (depression, an...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="aids cc0 citation dashboard dataset epidemiology fair-data global-health hiv iberoamerica infectious-diseases juan-moises-de-la-serna latin-america open-data open-science orcid public-health research unaids zenodo">
+      <h3><a href="https://juanmoisesd.github.io/hiv-aids-latinamerica-dashboard/" target="_blank">hiv-aids-latinamerica-dashboard</a></h3>
+      <p>Interactive dashboard: HIV/AIDS epidemiological data in Latin America (2000-2020). DOI: 10.7910/DVN/99WRWQ</p>
+      <div class="tags"><span class="tag">aids</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dashboard</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/hiv-aids-latinamerica-dashboard/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/hiv-aids-latinamerica-dashboard" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/hiv-aids-latinamerica-dashboard/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography fair-data juan-moises-de-la-serna latin-america open-data open-science orcid population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf/" target="_blank">impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf</a></h3>
+      <p>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography fair-data juan-moises-de-la-serna latin-america open-data open-science orcid population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/" target="_blank">impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en</a></h3>
+      <p>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dashboard dataset fair-data harvard-dataverse health israel juan-moises-de-la-serna middle-east oecd open-data open-science orcid public-health research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/israel-health-impact-2020-2025/" target="_blank">israel-health-impact-2020-2025</a></h3>
+      <p>Interactive dashboard: Israel Health Impact Database (2020-2025). Key indices and OECD comparisons. DOI: 10.7910/DVN/PL3...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dashboard</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/israel-health-impact-2020-2025/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/israel-health-impact-2020-2025" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/israel-health-impact-2020-2025/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Demograf-a---Demography">
+    <h2>👥 Demografía / Demography <span class="count">11</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="age-structure cc0 citation cyberaddiction dataset demographic-transition demography digital-health fair-data iberoamerica juan-moises-de-la-serna latin-america open-data open-science orcid population-data research tech-adoption technology zenodo">
+      <h3><a href="https://juanmoisesd.github.io/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/" target="_blank">ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024</a></h3>
+      <p>Base de datos sobre ciberadicción (adicción a internet, redes sociales y videojuegos) en América Latina, con estadística...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cyberaddiction</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024/" target="_blank">cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024</a></h3>
+      <p>Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography epidemiology fair-data global-health infectious-diseases juan-moises-de-la-serna latin-america open-data open-science orcid population-data public-health research vector-borne-diseases zenodo">
+      <h3><a href="https://juanmoisesd.github.io/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/" target="_blank">evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202</a></h3>
+      <p>Open research dataset</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/evolucion-poblacional-edad-latam/" target="_blank">evolucion-poblacional-edad-latam</a></h3>
+      <p>Population evolution by age groups in Latin America. CC0 1.0</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolucion-poblacional-edad-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolucion-poblacional-edad-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolucion-poblacional-edad-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure america-latina cc0 cepal citation dataset demografia demography envejecimiento-poblacional estructura-de-edad fair-data juan-moises-de-la-serna latin-america open-data open-science orcid poblacion population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem/" target="_blank">evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem</a></h3>
+      <p>Dataset demografico longitudinal con estructura de edad de la poblacion para 11 paises de America Latina en 4 cortes tem...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">america-latina</span><span class="tag">cc0</span><span class="tag">cepal</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation dataset demographic-transition demography fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/indicadores-demograficos-latam-2000-2023/" target="_blank">indicadores-demograficos-latam-2000-2023</a></h3>
+      <p>Derived demographic indicators for Latin America (2000-2023). CC0 1.0</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/indicadores-demograficos-latam-2000-2023/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/indicadores-demograficos-latam-2000-2023" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/indicadores-demograficos-latam-2000-2023/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 cepal citation dataset demographic-transition demographics demography fair-data github-pages iberoamerica juan-moises-de-la-serna latin-america open-data open-science orcid population population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/latin-america-population-age-structure-dataset/" target="_blank">latin-america-population-age-structure-dataset</a></h3>
+      <p>Demographic dataset: Population age structure in Latin America (11 countries, 2000-2023). Static microsite with 907 page...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">cepal</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/latin-america-population-age-structure-dataset/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/latin-america-population-age-structure-dataset" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/latin-america-population-age-structure-dataset/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="academic-stress anxiety cc0 citation dataset depression fair-data juan-moises-de-la-serna latin-america mental-health open-data open-science orcid protective-variables psychology research risk-factors university-students wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/" target="_blank">mental-health-disorders-in-latin-american-university-population-prevalence-risk-</a></h3>
+      <p>Statistical database on the prevalence of mental health disorders, risk factors, and protective variables in Latin Ameri...</p>
+      <div class="tags"><span class="tag">academic-stress</span><span class="tag">anxiety</span><span class="tag">cc0</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mental-health-disorders-in-latin-american-university-population-prevalence-risk-" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="anxiety cc0 citation clinical-psychology dashboard dataset demography fair-data juan-moises-de-la-serna latin-america mental-health mindfulness open-data open-science orcid psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/mindfulness-ansiedad-latam/" target="_blank">mindfulness-ansiedad-latam</a></h3>
+      <p>Interactive dashboard: Mindfulness-based interventions and anxiety reduction in Latin America. DOI: 10.7910/DVN/BR5HUF</p>
+      <div class="tags"><span class="tag">anxiety</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/mindfulness-ansiedad-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/mindfulness-ansiedad-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/mindfulness-ansiedad-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 cepal citation dataset demographic-transition demographics demography fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid population population-data research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/population-evolution-by-age-groups-in-latin-america-2000-2023-dataset-by-country/" target="_blank">population-evolution-by-age-groups-in-latin-america-2000-2023-dataset-by-country</a></h3>
+      <p>This dataset contains data on the population evolution by age groups in 11 Latin American countries for the years 2000, ...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">cepal</span><span class="tag">citation</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/population-evolution-by-age-groups-in-latin-america-2000-2023-dataset-by-country/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/population-evolution-by-age-groups-in-latin-america-2000-2023-dataset-by-country" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/population-evolution-by-age-groups-in-latin-america-2000-2023-dataset-by-country/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="age-structure cc0 citation clinical-psychology dataset demographic-transition demography fair-data juan-moises-de-la-serna latin-america mental-health open-data open-science orcid population-data psychiatry psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/" target="_blank">trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci</a></h3>
+      <p>Open research dataset</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/trastornos-de-salud-mental-en-poblacion-universitaria-latinoamericana-prevalenci/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Econom-a---Economics">
+    <h2>📈 Economía / Economics <span class="count">8</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="cc0 citation dataset development-economics economics europe fair-data gdp juan-moises-de-la-serna latin-america macroeconomics open-data open-science orcid research spain zenodo">
+      <h3><a href="https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-espana-2020-2024/" target="_blank">base-de-datos-de-impacto-economico-de-espana-2020-2024</a></h3>
+      <p>Este dataset recopila indicadores macroecon&oacute;micos y financieros clave de Espa&ntilde;a para el per&iacute;odo 202...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">development-economics</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-espana-2020-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-espana-2020-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-espana-2020-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset development-economics economics fair-data gdp israel juan-moises-de-la-serna latin-america macroeconomics middle-east open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore/" target="_blank">base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore</a></h3>
+      <p>Este dataset proporciona una visi&oacute;n completa del impacto econ&oacute;mico de Israel durante los &uacute;ltimos ci...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">development-economics</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation corruption crime-data criminology dashboard dataset economic-crimes economics fair-data harvard-dataverse juan-moises-de-la-serna latin-america macroeconomics open-data open-science orcid research security zenodo">
+      <h3><a href="https://juanmoisesd.github.io/economic-crimes-latam/" target="_blank">economic-crimes-latam</a></h3>
+      <p>Interactive dashboard: Economic crimes in Latin America (2020-2023). Corruption, Money Laundering, Tax Evasion, Fraud, O...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">corruption</span><span class="tag">crime-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/economic-crimes-latam/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/economic-crimes-latam" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/economic-crimes-latam/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dashboard dataset development-economics economics fair-data gdp harvard-dataverse iberoamerica juan-moises-de-la-serna latam latin-america macroeconomics open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/gdp-latam-2000-2024/" target="_blank">gdp-latam-2000-2024</a></h3>
+      <p>Interactive dashboard: GDP evolution in Latin America (2000-2024). 11 countries. DOI: 10.7910/DVN/KAAUOR</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dashboard</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/gdp-latam-2000-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/gdp-latam-2000-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/gdp-latam-2000-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset defense-spending economic-impact economics fair-data gdp geopolitical-risk inflation israel juan-moises-de-la-serna macroeconomics middle-east-economy open-data open-science orcid research tech-sector zenodo">
+      <h3><a href="https://juanmoisesd.github.io/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ/" target="_blank">israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ</a></h3>
+      <p>This dataset provides a comprehensive overview of Israel's economic impact over the last five years (2020&ndash;2024), c...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">defense-spending</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset development-economics economics fair-data gini-coefficient global-poverty hdi juan-moises-de-la-serna longitudinal-dataset macroeconomics multidimensional-poverty open-data open-science orcid poverty-rates research world-bank zenodo">
+      <h3><a href="https://juanmoisesd.github.io/poverty-rates-by-country-1995-2023-global-longitudinal-dataset/" target="_blank">poverty-rates-by-country-1995-2023-global-longitudinal-dataset</a></h3>
+      <p>Comprehensive longitudinal dataset (1995-2023) on poverty rates across 30 countries in Sub-Saharan Africa, South Asia, E...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">development-economics</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/poverty-rates-by-country-1995-2023-global-longitudinal-dataset/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/poverty-rates-by-country-1995-2023-global-longitudinal-dataset" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/poverty-rates-by-country-1995-2023-global-longitudinal-dataset/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset development-economics economic-indicators economics fair-data financial-markets gdp inflation juan-moises-de-la-serna macroeconomics open-data open-science orcid research spain tourism unemployment zenodo">
+      <h3><a href="https://juanmoisesd.github.io/spain-economic-impact-database-2020-2024/" target="_blank">spain-economic-impact-database-2020-2024</a></h3>
+      <p>This dataset compiles key macroeconomic and financial indicators for Spain covering the period 2020&ndash;2024. It inclu...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">development-economics</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/spain-economic-impact-database-2020-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/spain-economic-impact-database-2020-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/spain-economic-impact-database-2020-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology covid19 dashboard dataset epidemiology fair-data juan-moises-de-la-serna mental-health open-data open-science orcid psychiatry psychology research spain suicide wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/suicidio-espana-covid19-analysis/" target="_blank">suicidio-espana-covid19-analysis</a></h3>
+      <p>Interactive mini-papers: Historical suicide statistics in Spain before and after COVID-19. DOI: 10.17632/cwm4r6ywsc.1</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">covid19</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/suicidio-espana-covid19-analysis/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/suicidio-espana-covid19-analysis" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/suicidio-espana-covid19-analysis/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Educaci-n---Education">
+    <h2>🎓 Educación / Education <span class="count">1</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="cc0 citation dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20/" target="_blank">base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20</a></h3>
+      <p>Base de datos sobre el n&uacute;mero de estudiantes seg&uacute;n nivel educativo en Am&eacute;rica Latina, con evoluci&o...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---IA-y-Tecnolog-a---AI---Technology">
+    <h2>🤖 IA y Tecnología / AI & Technology <span class="count">5</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="age-structure cc0 citation cyberaddiction dataset demographic-transition demography digital-health fair-data iberoamerica juan-moises-de-la-serna latin-america open-data open-science orcid population-data research tech-adoption technology zenodo">
+      <h3><a href="https://juanmoisesd.github.io/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/" target="_blank">ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024</a></h3>
+      <p>Base de datos sobre ciberadicción (adicción a internet, redes sociales y videojuegos) en América Latina, con estadística...</p>
+      <div class="tags"><span class="tag">age-structure</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cyberaddiction</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="artificial-intelligence cc0 citation data-science dataset edtech education fair-data generative-ai human-capital iberoamerica juan-moises-de-la-serna latin-america machine-learning nlp open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/" target="_blank">generative-ai-in-academic-research-database-on-usage-perception-and-productivity</a></h3>
+      <p>Structured database on the use of generative artificial intelligence (GAI) in academic research and university teaching ...</p>
+      <div class="tags"><span class="tag">artificial-intelligence</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">data-science</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/generative-ai-in-academic-research-database-on-usage-perception-and-productivity" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="artificial-intelligence cc0 citation data-science dataset fair-data generative-ai juan-moises-de-la-serna machine-learning nlp open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc/" target="_blank">ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc</a></h3>
+      <p>Base de datos estructurada sobre el uso de inteligencia artificial generativa (IAG) en investigación académica y docenci...</p>
+      <div class="tags"><span class="tag">artificial-intelligence</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">data-science</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation cyberaddiction dataset digital-health fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid research tech-adoption technology zenodo">
+      <h3><a href="https://juanmoisesd.github.io/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal/" target="_blank">incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal</a></h3>
+      <p>Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Ib...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cyberaddiction</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="brain-connectivity cc0 citation cognitive-neuroscience cyberaddiction dataset digital-health fair-data juan-moises-de-la-serna neuromodulation neuroplasticity neuroscience open-data open-science orcid research tech-adoption technology zenodo">
+      <h3><a href="https://juanmoisesd.github.io/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/" target="_blank">neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter</a></h3>
+      <p>Repositorio de bases de datos, registros y repositorios sobre neuromodulación y neurotecnologías emergentes: estimulació...</p>
+      <div class="tags"><span class="tag">brain-connectivity</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cognitive-neuroscience</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/neuromodulacion-y-neurotecnologias-emergentes-base-de-datos-tms-tdcs-dbs-e-inter/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Ciencia-Abierta---Open-Science">
+    <h2>🔬 Ciencia Abierta / Open Science <span class="count">8</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="cc0 citation dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/actitudes-ciencia-abierta-iberoamerica/" target="_blank">actitudes-ciencia-abierta-iberoamerica</a></h3>
+      <p>Attitudes towards Open Science and Data Sharing. Global dataset. CC0 1.0</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/actitudes-ciencia-abierta-iberoamerica/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/actitudes-ciencia-abierta-iberoamerica" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/actitudes-ciencia-abierta-iberoamerica/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation data-sharing dataset development-economics economics fair-data gdp juan-moises-de-la-serna latin-america macroeconomics open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur/" target="_blank">attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur</a></h3>
+      <p>This dataset compiles quantitative data from international surveys (2018-2024) on attitudes of academic researchers towa...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">data-sharing</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/NeuroKit/" target="_blank">NeuroKit</a></h3>
+      <p>NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/NeuroKit/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/NeuroKit" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/NeuroKit/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset development-economics economics fair-data gdp juan-moises-de-la-serna latin-america macroeconomics open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/QuantEcon.py/" target="_blank">QuantEcon.py</a></h3>
+      <p>A community based Python library for quantitative economics</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">development-economics</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/QuantEcon.py/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/QuantEcon.py" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/QuantEcon.py/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/research-hub/" target="_blank">research-hub</a></h3>
+      <p>Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Data...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/research-hub/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/research-hub" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/research-hub/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="">
+      <h3><a href="https://juanmoisesd.github.io/research-hub-en/" target="_blank">research-hub-en</a></h3>
+      <p>🇬🇧 Open Research Datasets — de la Serna Tuya, Juan Moisés</p>
+      <div class="tags"></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/research-hub-en/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/research-hub-en" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/research-hub-en/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="">
+      <h3><a href="https://juanmoisesd.github.io/research-hub-es/" target="_blank">research-hub-es</a></h3>
+      <p>🇪🇸 Datasets de Investigación Abierta — de la Serna Tuya, Juan Moisés</p>
+      <div class="tags"></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/research-hub-es/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/research-hub-es" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/research-hub-es/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/research-hub-tr/" target="_blank">research-hub-tr</a></h3>
+      <p>🇹🇷 Açık Araştırma Veri Setleri — de la Serna Tuya, Juan Moisés</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/research-hub-tr/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/research-hub-tr" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/research-hub-tr/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
+  </section>
+  <section class="category" id="---Otros---Other">
+    <h2>📦 Otros / Other <span class="count">11</span></h2>
+    <div class="cards">
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica/" target="_blank">adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica</a></h3>
+      <p>This dataset is a recoded version of the publicly available data from P&eacute;rez-Chada et al. ("Screen use, sleep dura...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation crime crime-data criminology dataset drug-trafficking fair-data homicides iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid research security zenodo">
+      <h3><a href="https://juanmoisesd.github.io/crime-evolution-in-latin-america-2015-2024-database-by-categories/" target="_blank">crime-evolution-in-latin-america-2015-2024-database-by-categories</a></h3>
+      <p>Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from seconda...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">crime</span><span class="tag">crime-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/crime-evolution-in-latin-america-2015-2024-database-by-categories/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation clinical-psychology dataset economic-stress fair-data inequality juan-moises-de-la-serna latin-america longitudinal-dataset mental-health open-data open-science orcid poverty psychological-well-being psychology research wellbeing zenodo">
+      <h3><a href="https://juanmoisesd.github.io/economic-stress-and-psychological-well-being-in-latin-america-2000-2025/" target="_blank">economic-stress-and-psychological-well-being-in-latin-america-2000-2025</a></h3>
+      <p>Longitudinal dataset (2000-2025) examining the relationship between economic stress indicators and mental health outcome...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">clinical-psychology</span><span class="tag">dataset</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/economic-stress-and-psychological-well-being-in-latin-america-2000-2025/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/economic-stress-and-psychological-well-being-in-latin-america-2000-2025" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/economic-stress-and-psychological-well-being-in-latin-america-2000-2025/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation crime-data criminology dataset fair-data iberoamerica juan-moises-de-la-serna latam latin-america open-data open-science orcid research security zenodo">
+      <h3><a href="https://juanmoisesd.github.io/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias/" target="_blank">evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias</a></h3>
+      <p>Base de datos sobre la evoluci&oacute;n del crimen en Am&eacute;rica Latina y el Caribe durante el per&iacute;odo 2015-2...</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">crime-data</span><span class="tag">criminology</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/glossary-en/" target="_blank">glossary-en</a></h3>
+      <p>🇬🇧 Scientific Glossary — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/glossary-en/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/glossary-en" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/glossary-en/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/glossary-es/" target="_blank">glossary-es</a></h3>
+      <p>🇪🇸 Glosario Científico — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/glossary-es/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/glossary-es" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/glossary-es/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/glossary-zh/" target="_blank">glossary-zh</a></h3>
+      <p>🇨🇳 科学术语词典 — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/glossary-zh/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/glossary-zh" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/glossary-zh/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="ai-adoption cc0 citation cyberaddiction dataset digital-health digital-transformation fair-data internet-penetration juan-moises-de-la-serna latin-america longitudinal-dataset open-data open-science orcid research smartphone technology technology-adoption zenodo">
+      <h3><a href="https://juanmoisesd.github.io/technology-adoption-in-latin-america-2000-2025-longitudinal-dataset/" target="_blank">technology-adoption-in-latin-america-2000-2025-longitudinal-dataset</a></h3>
+      <p>Longitudinal dataset (2000-2025) on digital technology adoption indicators across 21 Latin American and Iberian countrie...</p>
+      <div class="tags"><span class="tag">ai-adoption</span><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">cyberaddiction</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/technology-adoption-in-latin-america-2000-2025-longitudinal-dataset/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/technology-adoption-in-latin-america-2000-2025-longitudinal-dataset" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/technology-adoption-in-latin-america-2000-2025-longitudinal-dataset/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/wiki-en/" target="_blank">wiki-en</a></h3>
+      <p>🇬🇧 Research Wiki — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/wiki-en/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/wiki-en" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/wiki-en/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/wiki-es/" target="_blank">wiki-es</a></h3>
+      <p>🇪🇸 Wiki de Investigación — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/wiki-es/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/wiki-es" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/wiki-es/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div>
+    <div class="card" data-topics="cc0 citation dataset fair-data juan-moises-de-la-serna open-data open-science orcid research zenodo">
+      <h3><a href="https://juanmoisesd.github.io/wiki-zh/" target="_blank">wiki-zh</a></h3>
+      <p>🇨🇳 研究百科 — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018</p>
+      <div class="tags"><span class="tag">cc0</span><span class="tag">citation</span><span class="tag">dataset</span><span class="tag">fair-data</span></div>
+      <div class="links">
+        <a href="https://juanmoisesd.github.io/wiki-zh/" target="_blank">🌐 Microsite</a>
+        <a href="https://github.com/juanmoisesd/wiki-zh" target="_blank">📁 GitHub</a>
+        <a href="https://github.com/juanmoisesd/wiki-zh/blob/main/GLOSSARY.md" target="_blank">📖 Glossary</a>
+      </div>
+    </div></div>
   </section>
 
-  <section>
-    <h2>🔗 All Research Repositories</h2>
-    <p>Explore the full collection of 71+ open research datasets:<br>
-    <a href="https://github.com/juanmoisesd" target="_blank">→ github.com/juanmoisesd</a></p>
-  </section>
+  <div class="author-section">
+    <h2>👤 About the Author</h2>
+    <p><strong>Juan Moisés de la Serna Tuya</strong> — Neuroeconomista forense de élite | IA antifraude + sesgos en decisiones económicas | Gobiernos · Bancos centrales · Big Four · Fortune 500</p>
+    <p style="margin-top:0.5rem">PhD in Basic Psychology (University of Seville) · MSc in Neuroscience (University Pablo de Olavide) · Affiliated with Universidad Internacional de La Rioja (UNIR)</p>
+    <div class="id-grid">
+      <div class="id-card"><div class="platform">ORCID</div><a href="https://orcid.org/0000-0002-8401-8018">0000-0002-8401-8018</a></div>
+      <div class="id-card"><div class="platform">LinkedIn</div><a href="https://www.linkedin.com/in/juanmoisesdelaserna/">juanmoisesdelaserna</a></div>
+      <div class="id-card"><div class="platform">Scopus</div><a href="https://www.scopus.com/authid/detail.uri?authorId=26632846700">26632846700</a></div>
+      <div class="id-card"><div class="platform">Web of Science / ResearcherID</div><a href="https://www.webofscience.com/wos/author/record/M-8296-2019">M-8296-2019</a></div>
+      <div class="id-card"><div class="platform">ResearchGate</div><a href="https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya">Juan_De_La_Serna_Tuya</a></div>
+      <div class="id-card"><div class="platform">ISNI</div><a href="https://isni.org/isni/0000000136898471">0000000136898471</a></div>
+      <div class="id-card"><div class="platform">Loop (Frontiers)</div><a href="https://loop.frontiersin.org/people/107568">107568</a></div>
+      <div class="id-card"><div class="platform">Academia.edu</div><a href="https://unir.academia.edu/JuanMoisésDeLaSernaTuya">Top 1% globally</a></div>
+      <div class="id-card"><div class="platform">Zenodo Collection</div><a href="https://doi.org/10.5281/zenodo.19145316">10.5281/zenodo.19145316</a></div>
+      <div class="id-card"><div class="platform">GitHub</div><a href="https://github.com/juanmoisesd">juanmoisesd</a></div>
+    </div>
+  </div>
+
 </main>
 
 <footer>
-  <p>© 2025 Juan Moisés de la Serna Tuya · <a href="https://orcid.org/0000-0002-8401-8018">ORCID: 0000-0002-8401-8018</a> · License: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p>
-  <p><a href="https://github.com/juanmoisesd/juanmoisesd.github.io/blob/main/ABOUT_THE_AUTHOR.md">About the Author</a> · <a href="https://github.com/juanmoisesd/juanmoisesd.github.io/blob/main/GLOSSARY.md">Glossary</a> · <a href="https://github.com/juanmoisesd/juanmoisesd.github.io/blob/main/CITATION_GUIDE.md">Citation Guide</a></p>
+  <p>© 2025 Juan Moisés de la Serna Tuya · <a href="https://orcid.org/0000-0002-8401-8018">ORCID: 0000-0002-8401-8018</a> · All datasets: CC0 1.0 Universal</p>
+  <p style="margin-top:0.5rem"><a href="https://github.com/juanmoisesd">GitHub</a> · <a href="https://www.linkedin.com/in/juanmoisesdelaserna/">LinkedIn</a> · <a href="https://doi.org/10.5281/zenodo.19145316">Zenodo Collection</a> · <a href="https://www.scopus.com/authid/detail.uri?authorId=26632846700">Scopus</a></p>
 </footer>
+
+<script>
+const searchInput = document.getElementById('search');
+const cards = document.querySelectorAll('.card');
+const sections = document.querySelectorAll('.category');
+
+searchInput.addEventListener('input', function() {
+  const q = this.value.toLowerCase().trim();
+  cards.forEach(card => {
+    const text = (card.querySelector('h3').textContent + ' ' + card.querySelector('p').textContent + ' ' + card.dataset.topics).toLowerCase();
+    card.classList.toggle('hidden', q.length > 0 && !text.includes(q));
+  });
+  sections.forEach(section => {
+    const visibleCards = section.querySelectorAll('.card:not(.hidden)');
+    section.classList.toggle('hidden', q.length > 0 && visibleCards.length === 0);
+  });
+});
+</script>
 
 </body>
 </html>
