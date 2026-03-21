@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <channel>
+    <title>Repositorios de Datos Abiertos — Juan Moisés de la Serna</title>
+    <link>https://juanmoisesd.github.io/</link>
+    <description>Colección de más de 80 repositorios de datos abiertos en neurociencia, economía del comportamiento, salud pública y demografía en América Latina. Autor: Juan Moisés de la Serna, UNIR.</description>
+    <language>es</language>
+    <copyright>CC0 1.0 Universal</copyright>
+    <managingEditor>juanmoises.delaserna@unir.net (Juan Moisés de la Serna)</managingEditor>
+    <webMaster>juanmoises.delaserna@unir.net (Juan Moisés de la Serna)</webMaster>
+    <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <category>Research Data</category>
+    <category>Open Science</category>
+    <category>Neuroscience</category>
+    <generator>GitHub Pages + Juan Moisés de la Serna Open Data Portal</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://juanmoisesd.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <dc:creator>De la Serna Tuya, Juan Moisés</dc:creator>
+    <dcterms:license>https://creativecommons.org/publicdomain/zero/1.0/</dcterms:license>
+    
+    <item>
+      <title>Open Research Collection — Juan Moisés de la Serna Tuya (Zenodo DOI)</title>
+      <link>https://zenodo.org/records/19145316</link>
+      <description>Colección maestra de todos los repositorios de datos abiertos de Juan Moisés de la Serna. DOI: 10.5281/zenodo.19145316</description>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://doi.org/10.5281/zenodo.19145316</guid>
+      <dc:creator>De la Serna Tuya, Juan Moisés</dc:creator>
+      <category>Dataset Collection</category>
+    </item>
+    
+    <item>
+      <title>Portal de Datos Abiertos — juanmoisesd.github.io</title>
+      <link>https://juanmoisesd.github.io/</link>
+      <description>Portal principal con acceso a más de 80 datasets de neurociencia, economía del comportamiento, salud pública y demografía en América Latina.</description>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://juanmoisesd.github.io/</guid>
+      <dc:creator>De la Serna Tuya, Juan Moisés</dc:creator>
+      <category>Open Data Portal</category>
+    </item>
+    
+    <item>
+      <title>ORCID Profile — 0000-0002-8401-8018</title>
+      <link>https://orcid.org/0000-0002-8401-8018</link>
+      <description>Perfil ORCID de Juan Moisés de la Serna con todas sus publicaciones académicas y datasets registrados.</description>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://orcid.org/0000-0002-8401-8018</guid>
+      <dc:creator>De la Serna Tuya, Juan Moisés</dc:creator>
+      <category>Author Profile</category>
+    </item>
+  </channel>
+</rss>
