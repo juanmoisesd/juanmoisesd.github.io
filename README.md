@@ -1,46 +1,49 @@
-# juanmoisesd.github.io
-
-[![Collection DOI](https://img.shields.io/badge/Collection_DOI-10.5281%2Fzenodo.19145316-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19145316) [![Author](https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid)](https://orcid.org/0000-0002-8401-8018)
-
-> Part of the **[Open Research Collection by Juan Moisés de la Serna Tuya](https://doi.org/10.5281/zenodo.19145316)** — 1,273+ datasets | DOI: 10.5281/zenodo.19145316
-
----
-
-## Citation / Cite This Repository
+# 🧠 Portal de Datos Abiertos — Juan Moisés de la Serna
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid)](https://orcid.org/0000-0002-8401-8018)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-juanmoisesdelaserna-blue?logo=linkedin)](https://www.linkedin.com/in/juanmoisesdelaserna/)
-[![Scopus](https://img.shields.io/badge/Scopus-26632846700-orange)](https://www.scopus.com/authid/detail.uri?authorId=26632846700)
+[![DOI Colección](https://img.shields.io/badge/DOI%20Colección-10.5281%2Fzenodo.19145316-blue?logo=zenodo)](https://zenodo.org/records/19145316)
+[![Zenodo Community](https://img.shields.io/badge/Zenodo%20Community-1300%2B%20datasets-blue?logo=zenodo)](https://zenodo.org/communities/juanmoisesd-open-data/)
+[![GitHub Pages](https://img.shields.io/badge/Portal-juanmoisesd.github.io-orange)](https://juanmoisesd.github.io/)
+[![BASE](https://img.shields.io/badge/BASE-796%2B%20hits-yellow)](https://www.base-search.net/Search/Results?lookfor=juan+moises+de+la+serna&field=au)
+[![DataCite](https://img.shields.io/badge/DataCite-2660%2B%20DOIs-red)](https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A0000-0002-8401-8018)
 
-If you use this repository in your research, please cite:
+**Dr. Juan Moisés de la Serna** | Neuroeconomista Forense | IA Antifraude | UNIR
 
-**APA 7**
-> De la Serna Tuya, J. M. (2025). *Research dataset and analysis* [Dataset]. GitHub. https://github.com/juanmoisesd/juanmoisesd.github.io
+## 🔗 Perfil en plataformas académicas
 
-**BibTeX**
-```bibtex
-@dataset{delaserna2025_juanmoisesd.github.io,
-  author    = {De la Serna Tuya, Juan Moisés},
-  title     = {Research dataset and analysis},
-  year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/juanmoisesd/juanmoisesd.github.io},
-  note      = {ORCID: 0000-0002-8401-8018}
-}
+| Plataforma | URL |
+|-----------|-----|
+| 🌐 **Portal** | https://juanmoisesd.github.io/ |
+| 🆔 **ORCID** | https://orcid.org/0000-0002-8401-8018 |
+| 📦 **Zenodo Colección** | https://zenodo.org/records/19145316 |
+| 🏘️ **Zenodo Community** | https://zenodo.org/communities/juanmoisesd-open-data/ |
+| 🔬 **Semantic Scholar** | https://www.semanticscholar.org/author/2026416053 |
+| 🔍 **BASE Search** | https://www.base-search.net (796+ resultados) |
+| 📊 **DataCite** | 2,660+ DOIs registrados |
+| 🗂️ **OpenAIRE** | https://explore.openaire.eu/search/result?pid=10.5281/zenodo.19145316 |
+| 🔍 **Google Dataset Search** | 9+ datasets indexados |
+| 🔎 **ISNI** | https://isni.org/isni/0000000136898471 |
+
+## 📊 Estadísticas del repositorio
+
+- **80+ repositorios GitHub** con metadatos científicos completos
+- **1,300+ depósitos Zenodo** con DOIs individuales
+- **1 DOI de colección** : 10.5281/zenodo.19145316
+- **1 Comunidad Zenodo** con 1,300+ datasets
+- **2,660+ DOIs en DataCite** (indexados globalmente)
+- **216 URLs en sitemap** para Google y Bing
+- **Google Search Console verificado** ✅
+- **Bing Webmaster Tools** con sitemap enviado ✅
+- **re3data.org** - solicitud enviada ✅
+- **OpenDOAR** - formulario enviado ✅
+
+## 📖 Citar este portal
+
+```
+De la Serna Tuya, J. M. (2025). Open Research Collection — Juan Moisés de la Serna Tuya: 
+Neurociencia, Economía Conductual, Salud Pública y Demografía en América Latina (2024-2025). 
+Zenodo. https://doi.org/10.5281/zenodo.19145316
 ```
 
-### About the Author
-
-**Juan Moisés de la Serna Tuya** | Neuroeconomista forense | IA antifraude | UNIR
-
-| ID | Link |
-|----|------|
-| ORCID | [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) |
-| LinkedIn | [juanmoisesdelaserna](https://www.linkedin.com/in/juanmoisesdelaserna/) |
-| Scopus | [26632846700](https://www.scopus.com/authid/detail.uri?authorId=26632846700) |
-| ResearcherID | [M-8296-2019](https://www.webofscience.com/wos/author/record/M-8296-2019) |
-| ResearchGate | [Juan_De_La_Serna_Tuya](https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya) |
-
-> 290+ scientific works · 500+ DOIs · 90+ open datasets · Top 1% Academia.edu
-
-See also: [ABOUT_THE_AUTHOR.md](./ABOUT_THE_AUTHOR.md) · [CITATION_GUIDE.md](./CITATION_GUIDE.md) · [GLOSSARY.md](./GLOSSARY.md)
+---
+**ORCID:** 0000-0002-8401-8018 | **ISNI:** 0000000136898471 | **Scopus:** 26632846700
