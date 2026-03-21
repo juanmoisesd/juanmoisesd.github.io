@@ -1,0 +1,381 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Open Research Collection — Juan Moisés de la Serna Tuya",
+  "description": "71+ open research datasets in Neuroscience, Behavioral Economics, Epidemiology, Mental Health, and more",
+  "url": "https://juanmoisesd.github.io",
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.19145316",
+    "https://github.com/juanmoisesd"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "name": "Juan Moisés de la Serna Tuya",
+    "identifier": "https://orcid.org/0000-0002-8401-8018",
+    "sameAs": [
+      "https://orcid.org/0000-0002-8401-8018",
+      "https://www.linkedin.com/in/juanmoisesdelaserna/",
+      "https://www.scopus.com/authid/detail.uri?authorId=26632846700",
+      "https://isni.org/isni/0000000136898471",
+      "https://github.com/juanmoisesd"
+    ],
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Universidad Internacional de La Rioja (UNIR)"
+    }
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "actitudes-ciencia-abierta-iberoamerica",
+      "description": "Attitudes towards Open Science and Data Sharing. Global dataset. CC0 1.0",
+      "url": "https://juanmoisesd.github.io/actitudes-ciencia-abierta-iberoamerica/",
+      "sameAs": "https://github.com/juanmoisesd/actitudes-ciencia-abierta-iberoamerica"
+    },
+    {
+      "@type": "Dataset",
+      "name": "adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica",
+      "description": "This dataset is a recoded version of the publicly available data from P&eacute;rez-Chada et al. (\"Screen use, sleep duration, daytime somnolence, and academic performance in school-aged adolescents\", Mendeley Data / PLOS ONE). It includes 1,257 adole",
+      "url": "https://juanmoisesd.github.io/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica/",
+      "sameAs": "https://github.com/juanmoisesd/adolescentes-argentina-uso-de-redes-sociales-sueno-y-somnolencia-base-recodifica"
+    },
+    {
+      "@type": "Dataset",
+      "name": "alzheimer-latinamerica-dashboard",
+      "description": "Interactive dashboard: Alzheimer's Disease in Latin America (2000-2050). 8 countries, projections, policy index, caregiver burden. DOI: 10.7910/DVN/UVHABW",
+      "url": "https://juanmoisesd.github.io/alzheimer-latinamerica-dashboard/",
+      "sameAs": "https://github.com/juanmoisesd/alzheimer-latinamerica-dashboard"
+    },
+    {
+      "@type": "Dataset",
+      "name": "alzheimer-latinoamerica-dashboard",
+      "description": "ARCHIVED — See alzheimer-latinamerica-dashboard",
+      "url": "https://juanmoisesd.github.io/alzheimer-latinoamerica-dashboard/",
+      "sameAs": "https://github.com/juanmoisesd/alzheimer-latinoamerica-dashboard"
+    },
+    {
+      "@type": "Dataset",
+      "name": "attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur",
+      "description": "This dataset compiles quantitative data from international surveys (2018-2024) on attitudes of academic researchers towards open science and data sharing. Includes five key analytical dimensions: (1) Willingness to share data by discipline; (2) Repos",
+      "url": "https://juanmoisesd.github.io/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur/",
+      "sameAs": "https://github.com/juanmoisesd/attitudes-towards-open-science-and-data-sharing-global-dataset-of-researcher-sur"
+    },
+    {
+      "@type": "Dataset",
+      "name": "base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-",
+      "description": "Base de datos en formato CSV sobre comportamiento y pol&iacute;ticas p&uacute;blicas, compilada desde fuentes secundarias v&iacute;a Perplexity AI (marzo 2026). Contiene tres m&oacute;dulos: (1) Gamificaci&oacute;n y adopci&oacute;n de criptomonedas ",
+      "url": "https://juanmoisesd.github.io/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-/",
+      "sameAs": "https://github.com/juanmoisesd/base-de-datos-comportamiento-y-politicas-publicas-gamificacion-cripto-sesgos-de-"
+    },
+    {
+      "@type": "Dataset",
+      "name": "base-de-datos-de-impacto-economico-de-espana-2020-2024",
+      "description": "Este dataset recopila indicadores macroecon&oacute;micos y financieros clave de Espa&ntilde;a para el per&iacute;odo 2020&ndash;2024. Incluye cinco tablas estructuradas: (1) Indicadores Macroecon&oacute;micos (crecimiento del PIB, inflaci&oacute;n, d",
+      "url": "https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-espana-2020-2024/",
+      "sameAs": "https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-espana-2020-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore",
+      "description": "Este dataset proporciona una visi&oacute;n completa del impacto econ&oacute;mico de Israel durante los &uacute;ltimos cinco a&ntilde;os (2020&ndash;2024), compilado a partir de Perplexity AI agregando datos de TradingEconomics, World Bank, FMI, Bank ",
+      "url": "https://juanmoisesd.github.io/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore/",
+      "sameAs": "https://github.com/juanmoisesd/base-de-datos-de-impacto-economico-de-israel-2020-2024-indicadores-clave-factore"
+    },
+    {
+      "@type": "Dataset",
+      "name": "base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20",
+      "description": "Base de datos sobre el n&uacute;mero de estudiantes seg&uacute;n nivel educativo en Am&eacute;rica Latina, con evoluci&oacute;n desde el a&ntilde;o 2000 hasta 2020 (de 5 en 5 a&ntilde;os), separada por pa&iacute;ses. Incluye 18 pa&iacute;ses de la re",
+      "url": "https://juanmoisesd.github.io/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20/",
+      "sameAs": "https://github.com/juanmoisesd/base-de-datos-numero-de-estudiantes-por-nivel-educativo-en-latinoamerica-2000-20"
+    },
+    {
+      "@type": "Dataset",
+      "name": "bienestar-psicologico-universitarios",
+      "description": "Interactive dashboard: Psychological wellbeing in researchers and university students (2019-2024). DOI: 10.7910/DVN/EZP0YO",
+      "url": "https://juanmoisesd.github.io/bienestar-psicologico-universitarios/",
+      "sameAs": "https://github.com/juanmoisesd/bienestar-psicologico-universitarios"
+    },
+    {
+      "@type": "Dataset",
+      "name": "cholera-americas-paho",
+      "description": "Interactive data portal: Cholera cases in the Americas. Country profiles, comparisons. Source: PAHO.",
+      "url": "https://juanmoisesd.github.io/cholera-americas-paho/",
+      "sameAs": "https://github.com/juanmoisesd/cholera-americas-paho"
+    },
+    {
+      "@type": "Dataset",
+      "name": "ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024",
+      "description": "Base de datos sobre ciberadicción (adicción a internet, redes sociales y videojuegos) en América Latina, con estadísticas organizadas por grupos de edad (niños, adolescentes, adultos jóvenes, adultos, adultos mayores) y por países (México, Brasil, Ar",
+      "url": "https://juanmoisesd.github.io/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024/",
+      "sameAs": "https://github.com/juanmoisesd/ciberadiccion-en-america-latina-base-de-datos-por-edades-y-paises-2018-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona",
+      "description": "Repositorio de bases de datos sobre conectómica cerebral humana: conectividad estructural (DTI, tractografía) y funcional (fMRI), incluyendo mapas de redes cerebrales y variabilidad interindividual. Datos compilados y organizados para investigación e",
+      "url": "https://juanmoisesd.github.io/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona/",
+      "sameAs": "https://github.com/juanmoisesd/conectomica-cerebral-humana-base-de-datos-de-conectividad-estructural-y-funciona"
+    },
+    {
+      "@type": "Dataset",
+      "name": "crime-evolution-in-latin-america-2015-2024-database-by-categories",
+      "description": "Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record",
+      "url": "https://juanmoisesd.github.io/crime-evolution-in-latin-america-2015-2024-database-by-categories/",
+      "sameAs": "https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories"
+    },
+    {
+      "@type": "Dataset",
+      "name": "cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",
+      "description": "Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+      "url": "https://juanmoisesd.github.io/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024/",
+      "sameAs": "https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "dengue-global-base-de-datos-de-casos-por-pais-1995-2024",
+      "description": "Base de datos de casos confirmados y reportados de dengue en 31 países de América Latina, Asia del Sur y Asia del Sureste, con series temporales desde 1995 hasta 2024. Datos recopilados de PAHO/OMS y ministerios de salud nacionales.",
+      "url": "https://juanmoisesd.github.io/dengue-global-base-de-datos-de-casos-por-pais-1995-2024/",
+      "sameAs": "https://github.com/juanmoisesd/dengue-global-base-de-datos-de-casos-por-pais-1995-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "economic-crimes-latam",
+      "description": "Interactive dashboard: Economic crimes in Latin America (2020-2023). Corruption, Money Laundering, Tax Evasion, Fraud, Organized Crime. 20 countries. DOI: 10.7910/DVN/8FXZOJ",
+      "url": "https://juanmoisesd.github.io/economic-crimes-latam/",
+      "sameAs": "https://github.com/juanmoisesd/economic-crimes-latam"
+    },
+    {
+      "@type": "Dataset",
+      "name": "economic-stress-and-psychological-well-being-in-latin-america-2000-2025",
+      "description": "Longitudinal dataset (2000-2025) examining the relationship between economic stress indicators and mental health outcomes across 19 Latin American countries. Variables: GDP per capita, unemployment rate, inflation, Gini coefficient, poverty rate, eco",
+      "url": "https://juanmoisesd.github.io/economic-stress-and-psychological-well-being-in-latin-america-2000-2025/",
+      "sameAs": "https://github.com/juanmoisesd/economic-stress-and-psychological-well-being-in-latin-america-2000-2025"
+    },
+    {
+      "@type": "Dataset",
+      "name": "especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica",
+      "description": "Base de datos longitudinal (2000-2026) sobre la densidad de especialistas en salud mental y neurología por cada 100.000 habitantes en 16 países iberoamericanos, incluyendo promedios OCDE y ALC. Variables: psiquiatras, psicólogos clínicos, neurólogos,",
+      "url": "https://juanmoisesd.github.io/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica/",
+      "sameAs": "https://github.com/juanmoisesd/especialistas-en-salud-mental-y-neurologia-por-100000-habitantes-en-iberoamerica"
+    },
+    {
+      "@type": "Dataset",
+      "name": "especialistas-salud-mental-neurologia-latam",
+      "description": "Mental health and neurology specialists per 100,000 in Ibero-America. CC0 1.0",
+      "url": "https://juanmoisesd.github.io/especialistas-salud-mental-neurologia-latam/",
+      "sameAs": "https://github.com/juanmoisesd/especialistas-salud-mental-neurologia-latam"
+    },
+    {
+      "@type": "Dataset",
+      "name": "estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025",
+      "description": "Dataset longitudinal (2000-2025) que examina la relación entre indicadores de estrés económico y salud mental en 21 países de América Latina e Iberia. Variables: PIB per cápita, tasa de desempleo, inflación, coeficiente Gini, tasa de pobreza, índice ",
+      "url": "https://juanmoisesd.github.io/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025/",
+      "sameAs": "https://github.com/juanmoisesd/estres-economico-y-bienestar-psicologico-en-latinoamerica-2000-2025"
+    },
+    {
+      "@type": "Dataset",
+      "name": "evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202",
+      "description": "",
+      "url": "https://juanmoisesd.github.io/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202/",
+      "sameAs": "https://github.com/juanmoisesd/evolucion-de-enfermedades-de-transmision-por-mosquitos-en-latinoamerica-2015-202"
+    },
+    {
+      "@type": "Dataset",
+      "name": "evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias",
+      "description": "Base de datos sobre la evoluci&oacute;n del crimen en Am&eacute;rica Latina y el Caribe durante el per&iacute;odo 2015-2024, compilada a partir de fuentes secundarias (UNODC, Insight Crime, Prosegur Research, Banco Mundial, CEPAL, ONU Mujeres e Infos",
+      "url": "https://juanmoisesd.github.io/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias/",
+      "sameAs": "https://github.com/juanmoisesd/evolucion-del-crimen-en-latinoamerica-2015-2024-base-de-datos-por-categorias"
+    },
+    {
+      "@type": "Dataset",
+      "name": "evolucion-poblacional-edad-latam",
+      "description": "Population evolution by age groups in Latin America. CC0 1.0",
+      "url": "https://juanmoisesd.github.io/evolucion-poblacional-edad-latam/",
+      "sameAs": "https://github.com/juanmoisesd/evolucion-poblacional-edad-latam"
+    },
+    {
+      "@type": "Dataset",
+      "name": "evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem",
+      "description": "Dataset demografico longitudinal con estructura de edad de la poblacion para 11 paises de America Latina en 4 cortes temporales (2000, 2010, 2020, 2023). 14 variables. Fuente: CEPALSTAT (CEPAL / ECLAC, Naciones Unidas).",
+      "url": "https://juanmoisesd.github.io/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem/",
+      "sameAs": "https://github.com/juanmoisesd/evolucion-poblacional-por-grupos-de-edad-en-america-latina-2000-2023-dataset-dem"
+    },
+    {
+      "@type": "Dataset",
+      "name": "evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun",
+      "description": "Dataset on the evolution of mosquito-borne diseases in Latin America and the Caribbean 2015-2024. Includes data on Dengue, Zika, Chikungunya, and Malaria by country (Brazil, Colombia, Mexico, Peru, Argentina, Venezuela and others), with reported case",
+      "url": "https://juanmoisesd.github.io/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun/",
+      "sameAs": "https://github.com/juanmoisesd/evolution-of-mosquito-borne-diseases-in-latin-america-2015-2024-database-by-coun"
+    },
+    {
+      "@type": "Dataset",
+      "name": "gdp-latam-2000-2024",
+      "description": "Interactive dashboard: GDP evolution in Latin America (2000-2024). 11 countries. DOI: 10.7910/DVN/KAAUOR",
+      "url": "https://juanmoisesd.github.io/gdp-latam-2000-2024/",
+      "sameAs": "https://github.com/juanmoisesd/gdp-latam-2000-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "generative-ai-in-academic-research-database-on-usage-perception-and-productivity",
+      "description": "Structured database on the use of generative artificial intelligence (GAI) in academic research and university teaching in Latin America (2022-2025). Includes data on: frequency of use by students and researchers, areas of application (writing, data ",
+      "url": "https://juanmoisesd.github.io/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/",
+      "sameAs": "https://github.com/juanmoisesd/generative-ai-in-academic-research-database-on-usage-perception-and-productivity"
+    },
+    {
+      "@type": "Dataset",
+      "name": "global-behavioral-economics-experiments-dataset",
+      "description": "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta",
+      "url": "https://juanmoisesd.github.io/global-behavioral-economics-experiments-dataset/",
+      "sameAs": "https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset"
+    },
+    {
+      "@type": "Dataset",
+      "name": "global-dengue-case-database-by-country-1995-2024",
+      "description": "Database of confirmed and reported dengue cases in 31 countries across Latin America, South Asia, and Southeast Asia, with time series from 1995 to 2024. Data compiled from PAHO/WHO and national health ministries.",
+      "url": "https://juanmoisesd.github.io/global-dengue-case-database-by-country-1995-2024/",
+      "sameAs": "https://github.com/juanmoisesd/global-dengue-case-database-by-country-1995-2024"
+    },
+    {
+      "@type": "Dataset",
+      "name": "glossary-en",
+      "description": "🇬🇧 Scientific Glossary — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018",
+      "url": "https://juanmoisesd.github.io/glossary-en/",
+      "sameAs": "https://github.com/juanmoisesd/glossary-en"
+    },
+    {
+      "@type": "Dataset",
+      "name": "glossary-es",
+      "description": "🇪🇸 Glosario Científico — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018",
+      "url": "https://juanmoisesd.github.io/glossary-es/",
+      "sameAs": "https://github.com/juanmoisesd/glossary-es"
+    },
+    {
+      "@type": "Dataset",
+      "name": "glossary-zh",
+      "description": "🇨🇳 科学术语词典 — de la Serna Tuya, Juan Moisés · ORCID 0000-0002-8401-8018",
+      "url": "https://juanmoisesd.github.io/glossary-zh/",
+      "sameAs": "https://github.com/juanmoisesd/glossary-zh"
+    },
+    {
+      "@type": "Dataset",
+      "name": "health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data",
+      "description": "Comprehensive dataset of key health indicators for Colombia (2020-2025). Includes mental health metrics (depression, anxiety, suicide rates), healthcare workforce data, infectious disease surveillance (COVID-19, dengue, malaria, HIV), non-communicabl",
+      "url": "https://juanmoisesd.github.io/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data/",
+      "sameAs": "https://github.com/juanmoisesd/health-impact-in-colombia-20242025-key-indicators-factors-and-disease-data"
+    },
+    {
+      "@type": "Dataset",
+      "name": "health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data",
+      "description": "Comprehensive dataset of key health indicators for Venezuela (2020-2025). Includes mental health metrics (depression, anxiety, suicide rates), healthcare workforce decline, infectious disease burden (malaria, dengue, HIV, measles), non-communicable d",
+      "url": "https://juanmoisesd.github.io/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data/",
+      "sameAs": "https://github.com/juanmoisesd/health-impact-in-venezuela-20242025-key-indicators-factors-and-disease-data"
+    },
+    {
+      "@type": "Dataset",
+      "name": "hiv-aids-latinamerica-dashboard",
+      "description": "Interactive dashboard: HIV/AIDS epidemiological data in Latin America (2000-2020). DOI: 10.7910/DVN/99WRWQ",
+      "url": "https://juanmoisesd.github.io/hiv-aids-latinamerica-dashboard/",
+      "sameAs": "https://github.com/juanmoisesd/hiv-aids-latinamerica-dashboard"
+    },
+    {
+      "@type": "Dataset",
+      "name": "human-brain-connectomics-structural-and-functional-connectivity-database",
+      "description": "Repository of databases on human brain connectomics: structural connectivity (DTI, tractography) and functional connectivity (fMRI), including brain network maps and interindividual variability. Data compiled and organized for neuroscience research. ",
+      "url": "https://juanmoisesd.github.io/human-brain-connectomics-structural-and-functional-connectivity-database/",
+      "sameAs": "https://github.com/juanmoisesd/human-brain-connectomics-structural-and-functional-connectivity-database"
+    },
+    {
+      "@type": "Dataset",
+      "name": "ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc",
+      "description": "Base de datos estructurada sobre el uso de inteligencia artificial generativa (IAG) en investigación académica y docencia universitaria en América Latina (2022-2025). Incluye datos sobre: frecuencia de uso por estudiantes e investigadores, áreas de a",
+      "url": "https://juanmoisesd.github.io/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc/",
+      "sameAs": "https://github.com/juanmoisesd/ia-generativa-en-investigacion-academica-base-de-datos-por-variables-de-uso-perc"
+    },
+    {
+      "@type": "Dataset",
+      "name": "impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf",
+      "description": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Colombia durante 2024–2025",
+      "url": "https://juanmoisesd.github.io/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf/",
+      "sameAs": "https://github.com/juanmoisesd/impacto-sanitario-en-colombia-20242025-indicadores-clave-factores-y-datos-de-enf"
+    },
+    {
+      "@type": "Dataset",
+      "name": "impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+      "description": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202",
+      "url": "https://juanmoisesd.github.io/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/",
+      "sameAs": "https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en"
+    },
+    {
+      "@type": "Dataset",
+      "name": "incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal",
+      "description": "Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Iberia. Variables: penetración de internet, suscripciones móviles, adopción de smartphones, usuarios de redes sociales, e-commerce, ",
+      "url": "https://juanmoisesd.github.io/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal/",
+      "sameAs": "https://github.com/juanmoisesd/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal"
+    },
+    {
+      "@type": "Dataset",
+      "name": "indicadores-demograficos-latam-2000-2023",
+      "description": "Derived demographic indicators for Latin America (2000-2023). CC0 1.0",
+      "url": "https://juanmoisesd.github.io/indicadores-demograficos-latam-2000-2023/",
+      "sameAs": "https://github.com/juanmoisesd/indicadores-demograficos-latam-2000-2023"
+    },
+    {
+      "@type": "Dataset",
+      "name": "israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ",
+      "description": "This dataset provides a comprehensive overview of Israel's economic impact over the last five years (2020&ndash;2024), compiled from Perplexity AI aggregating data from TradingEconomics, World Bank, IMF, Bank of Israel, Jefferies, Wikipedia, Times of",
+      "url": "https://juanmoisesd.github.io/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ/",
+      "sameAs": "https://github.com/juanmoisesd/israel-economic-impact-database-2020-2024-key-indicators-main-factors-and-financ"
+    },
+    {
+      "@type": "Dataset",
+      "name": "israel-health-impact-2020-2025",
+      "description": "Interactive dashboard: Israel Health Impact Database (2020-2025). Key indices and OECD comparisons. DOI: 10.7910/DVN/PL3G1E",
+      "url": "https://juanmoisesd.github.io/israel-health-impact-2020-2025/",
+      "sameAs": "https://github.com/juanmoisesd/israel-health-impact-2020-2025"
+    },
+    {
+      "@type": "Dataset",
+      "name": "latin-america-population-age-structure-dataset",
+      "description": "Demographic dataset: Population age structure in Latin America (11 countries, 2000-2023). Static microsite with 907 pages. DOI: 10.17632/ygkmshr5fv.1",
+      "url": "https://juanmoisesd.github.io/latin-america-population-age-structure-dataset/",
+      "sameAs": "https://github.com/juanmoisesd/latin-america-population-age-structure-dataset"
+    },
+    {
+      "@type": "Dataset",
+      "name": "mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri",
+      "description": "Longitudinal dataset (2000-2026) on the density of mental health and neurology specialists per 100,000 inhabitants in 16 Ibero-American countries, including OECD and LAC averages. Variables: psychiatrists, clinical psychologists, neurologists, neurop",
+      "url": "https://juanmoisesd.github.io/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri/",
+      "sameAs": "https://github.com/juanmoisesd/mental-health-and-neurological-specialists-per-100000-inhabitants-in-ibero-ameri"
+    },
+    {
+      "@type": "Dataset",
+      "name": "mental-health-disorders-in-latin-american-university-population-prevalence-risk-",
+      "description": "Statistical database on the prevalence of mental health disorders, risk factors, and protective variables in Latin American university populations. Compiled through systematic search using Perplexity AI, synthesizing indexed academic literature from ",
+      "url": "https://juanmoisesd.github.io/mental-health-disorders-in-latin-american-university-population-prevalence-risk-/",
+      "sameAs": "https://github.com/juanmoisesd/mental-health-disorders-in-latin-american-university-population-prevalence-risk-"
+    },
+    {
+      "@type": "Dataset",
+      "name": "mental-health-specialists-iberoamerica",
+      "description": "Interactive dashboard: Mental health and neurology specialists per 100k in Ibero-America (2000-2026). DOI: 10.5281/zenodo.18984813",
+      "url": "https://juanmoisesd.github.io/mental-health-specialists-iberoamerica/",
+      "sameAs": "https://github.com/juanmoisesd/mental-health-specialists-iberoamerica"
+    },
+    {
+      "@type": "Dataset",
+      "name": "mindfulness-ansiedad-latam",
+      "description": "Interactive dashboard: Mindfulness-based interventions and anxiety reduction in Latin America. DOI: 10.7910/DVN/BR5HUF",
+      "url": "https://juanmoisesd.github.io/mindfulness-ansiedad-latam/",
+      "sameAs": "https://github.com/juanmoisesd/mindfulness-ansiedad-latam"
+    },
+    {
+      "@type": "Dataset",
+      "name": "neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in",
+      "description": "Base de datos longitudinal sobre neurociencia del desarrollo y plasticidad cerebral (0-32 a&ntilde;os). Contiene 13 modulos: (1) volumen cerebral por edad; (2) grosor cortical por region en mm; (3) poda sinaptica por edad; (4) periodos criticos de pl",
+      "url": "https://juanmoisesd.github.io/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in/",
+      "sameAs": "https://github.com/juanmoisesd/neurociencia-del-desarrollo-y-plasticidad-cerebral-base-de-datos-longitudinal-in"
+    }
+  ]
+}
