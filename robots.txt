@@ -1,9 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://juanmoisesd.github.io/juanmoisesd.github.io/sitemap.xml
+Sitemap: https://juanmoisesd.github.io/sitemap.xml
 
-# Research dataset by Juan Moisés de la Serna Tuya
+# Open Research Portal — Juan Moisés de la Serna Tuya
 # ORCID: 0000-0002-8401-8018
-# https://www.linkedin.com/in/juanmoisesdelaserna/
-# Universidad Internacional de La Rioja (UNIR)
+# Collection DOI: https://doi.org/10.5281/zenodo.19145316
+# LinkedIn: https://www.linkedin.com/in/juanmoisesdelaserna/
+# Institution: Universidad Internacional de La Rioja (UNIR)
