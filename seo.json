@@ -1,0 +1,19 @@
+{
+  "title": "juanmoisesd.github.io",
+  "description": "juanmoisesd.github.io",
+  "keywords": "open-data, dataset, research",
+  "author": "Juan Moisés de la Serna Tuya",
+  "orcid": "https://orcid.org/0000-0002-8401-8018",
+  "canonical": "https://juanmoisesd.github.io/juanmoisesd.github.io/",
+  "og:title": "juanmoisesd.github.io",
+  "og:description": "juanmoisesd.github.io",
+  "og:url": "https://juanmoisesd.github.io/juanmoisesd.github.io/",
+  "og:type": "dataset",
+  "twitter:card": "summary",
+  "twitter:title": "juanmoisesd.github.io",
+  "twitter:description": "juanmoisesd.github.io",
+  "schema_type": "Dataset",
+  "license": "CC0-1.0",
+  "datePublished": "2026-03-20",
+  "language": "es, en"
+}
