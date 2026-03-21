@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-8401-8018",
+  "name": "Juan Moisés de la Serna",
+  "alternateName": [
+    "Juan Moises de la Serna",
+    "De la Serna Tuya, Juan Moisés",
+    "Tuya, Juan Moisés de la Serna"
+  ],
+  "givenName": "Juan Moisés",
+  "familyName": "De la Serna Tuya",
+  "description": "Neuroeconomista forense de élite. Especialista en IA antifraude y sesgos en decisiones económicas. Investigador y profesor en la Universidad Internacional de La Rioja (UNIR). Asesor de gobiernos, bancos centrales, Big Four y Fortune 500.",
+  "jobTitle": "Professor & Researcher in Neuroscience",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "url": "https://www.unir.net",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madrid",
+      "addressCountry": "ES"
+    }
+  },
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Universidad Internacional de La Rioja (UNIR)"
+  },
+  "url": "https://juanmoisesd.github.io/",
+  "sameAs": [
+    "https://orcid.org/0000-0002-8401-8018",
+    "https://www.linkedin.com/in/juanmoisesdelaserna/",
+    "https://github.com/juanmoisesd",
+    "https://zenodo.org/search?q=Juan+Mois%C3%A9s+de+la+Serna&l=list&p=1&s=bestmatch&sort=bestmatch",
+    "https://www.semanticscholar.org/author/Juan-Mois%C3%A9s-de-la-Serna/2026416053",
+    "https://scholar.google.com/citations?user=juanmoisesdelaserna",
+    "https://isni.org/isni/0000000136898471"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0002-8401-8018",
+      "url": "https://orcid.org/0000-0002-8401-8018"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISNI",
+      "value": "0000000136898471",
+      "url": "https://isni.org/isni/0000000136898471"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Scopus",
+      "value": "26632846700"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ResearcherID",
+      "value": "M-8296-2019"
+    }
+  ],
+  "knowsAbout": [
+    "Neuroeconomics",
+    "Forensic Neuroeconomics",
+    "Anti-fraud AI",
+    "Cognitive Biases",
+    "Behavioral Economics",
+    "Neuroscience",
+    "Public Health",
+    "Latin American Demographics",
+    "Open Science",
+    "Open Data"
+  ],
+  "knowsLanguage": [
+    "Spanish",
+    "English"
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Neuroeconomista Forense",
+    "occupationLocation": {
+      "@type": "Country",
+      "name": "Spain"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://juanmoisesd.github.io/"
+  },
+  "image": "https://orcid.org/0000-0002-8401-8018",
+  "email": "juanmoises.delaserna@unir.net",
+  "award": [
+    "ISNI: 0000000136898471",
+    "Scopus Author ID: 26632846700",
+    "h-index: 7 (Semantic Scholar)"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Universidad Internacional de La Rioja (UNIR)"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "PhD",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Universidad Internacional de La Rioja (UNIR)"
+      }
+    }
+  ]
+}
