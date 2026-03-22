@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/definindo-el-maltrato/
+permalink: /biblioteca-cientifica-es/capitulos/definindo-el-maltrato/
 citation: 'Juan Moisés de la Serna (2017). Definindo el Maltrato. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/definindo-el-maltrato/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
