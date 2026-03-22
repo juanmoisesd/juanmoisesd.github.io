@@ -13,7 +13,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/caracteristicas-de-la-persona-altamente-sensible/
+permalink: /bibliotheque-scientifique-fr/capitulos/caracteristicas-de-la-persona-altamente-sensible/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). Características de la persona altamente sensible. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/caracteristicas-de-la-persona-altamente-sensible/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
