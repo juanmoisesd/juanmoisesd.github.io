@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/maltraitance-chez-les-personnes-agees/
+permalink: /bibliotheque-scientifique-fr/capitulos/maltraitance-chez-les-personnes-agees/
 citation: 'Juan Moisés de la Serna (2018). Maltraitance chez les personnes agees. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/maltraitance-chez-les-personnes-agees/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
