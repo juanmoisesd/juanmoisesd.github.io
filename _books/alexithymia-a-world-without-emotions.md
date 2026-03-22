@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /libros/alexithymia-a-world-without-emotions/
+permalink: /scientific-library-en/libros/alexithymia-a-world-without-emotions/
 citation: 'Juan Moisés de la Serna (2017). *Alexithymia, A World Without Emotions*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/alexithymia-a-world-without-emotions/'
 last_updated: "2026-03-21"
 schema_type: "Book"
