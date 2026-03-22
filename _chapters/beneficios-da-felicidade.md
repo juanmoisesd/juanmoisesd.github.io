@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/beneficios-da-felicidade/
+permalink: /biblioteca-cientifica-pt/capitulos/beneficios-da-felicidade/
 citation: 'Juan Moisés de la Serna (2017). Benefícios da Felicidade. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/beneficios-da-felicidade/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
