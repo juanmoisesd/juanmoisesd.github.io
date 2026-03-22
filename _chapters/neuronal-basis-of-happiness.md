@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/neuronal-basis-of-happiness/
+permalink: /scientific-library-en/capitulos/neuronal-basis-of-happiness/
 citation: 'Juan Moisés de la Serna (2019). Neuronal Basis Of Happiness. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/neuronal-basis-of-happiness/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
