@@ -12,7 +12,7 @@ authors:
   - "Marcos Altable"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/emociones-en-pacientes-con-enfermedad-de-parkinson-ante-el-covid-19/
+permalink: /biblioteca-cientifica-es/capitulos/emociones-en-pacientes-con-enfermedad-de-parkinson-ante-el-covid-19/
 citation: 'Juan Moisés de la Serna; Marcos Altable (2020). Emociones en pacientes con Enfermedad de Parkinson ante el COVID-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/emociones-en-pacientes-con-enfermedad-de-parkinson-ante-el-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
