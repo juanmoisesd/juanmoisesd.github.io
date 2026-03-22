@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/origem-da-depressao/
+permalink: /biblioteca-cientifica-pt/capitulos/origem-da-depressao/
 citation: 'Juan Moisés de la Serna (2018). Origem da Depressão. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/origem-da-depressao/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
