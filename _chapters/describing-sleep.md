@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/describing-sleep/
+permalink: /biblioteca-cientifica-es/capitulos/describing-sleep/
 citation: 'Juan Moisés de la Serna (2019). Describing sleep. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/describing-sleep/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
