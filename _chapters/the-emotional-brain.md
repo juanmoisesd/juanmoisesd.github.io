@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-emotional-brain/
+permalink: /scientific-library-en/capitulos/the-emotional-brain/
 citation: 'Juan Moisés de la Serna (2017). The Emotional Brain. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-emotional-brain/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
