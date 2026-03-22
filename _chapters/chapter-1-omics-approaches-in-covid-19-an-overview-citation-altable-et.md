@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/chapter-1-omics-approaches-in-covid-19-an-overview-citation-altable-et/
+permalink: /bibliotheque-scientifique-fr/capitulos/chapter-1-omics-approaches-in-covid-19-an-overview-citation-altable-et/
 citation: 'Marcos Altable; Juan Moisés de la Serna (2023). Chapter 1 - Omics approaches in COVID-19: An overview (Citation: Altable et al. Cerebrovascular Disease in COVID-19: Is There a Higher Risk of Stroke? Behavior & Immunity - Health). [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/chapter-1-omics-approaches-in-covid-19-an-overview-citation-altable-et/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
