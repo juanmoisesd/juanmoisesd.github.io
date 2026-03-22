@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-theorie-de-lesprit/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-theorie-de-lesprit/
 citation: 'Juan Moisés de la Serna (2017). La Théorie de l’Esprit. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-theorie-de-lesprit/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
