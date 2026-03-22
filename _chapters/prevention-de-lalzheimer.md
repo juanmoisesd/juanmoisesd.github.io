@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/prevention-de-lalzheimer/
+permalink: /bibliotheque-scientifique-fr/capitulos/prevention-de-lalzheimer/
 citation: 'Juan Moisés de la Serna (2019). Prévention de l’Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/prevention-de-lalzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
