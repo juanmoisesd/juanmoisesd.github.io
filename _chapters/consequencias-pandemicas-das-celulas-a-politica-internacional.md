@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/consequencias-pandemicas-das-celulas-a-politica-internacional/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/consequencias-pandemicas-das-celulas-a-politica-internacional/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Consequências Pandêmicas: Das Células à Política Internacional. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/consequencias-pandemicas-das-celulas-a-politica-internacional/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
