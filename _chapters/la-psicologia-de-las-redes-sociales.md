@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-psicologia-de-las-redes-sociales/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-psicologia-de-las-redes-sociales/
 citation: 'Juan Moisés de la Serna (2018). La Psicología de Las Redes Sociales. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-psicologia-de-las-redes-sociales/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
