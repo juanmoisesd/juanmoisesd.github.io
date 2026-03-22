@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/capitulo-126/
+permalink: /biblioteca-ar/capitulos/capitulo-126/
 citation: 'Juan Moisés de la Serna (2020). الاضطراب الاكتئابي واضطراب القلق. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/capitulo-126/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
