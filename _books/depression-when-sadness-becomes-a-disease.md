@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/depression-when-sadness-becomes-a-disease/
+permalink: /scientific-library-en/libros/depression-when-sadness-becomes-a-disease/
 citation: 'Juan Moisés de la Serna (2019). *Depression When sadness becomes a disease*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/depression-when-sadness-becomes-a-disease/'
 last_updated: "2026-03-21"
 schema_type: "Book"
