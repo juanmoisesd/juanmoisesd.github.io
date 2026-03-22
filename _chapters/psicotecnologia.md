@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/psicotecnologia/
+permalink: /biblioteca-cientifica-es/capitulos/psicotecnologia/
 citation: 'Juan Moisés de la Serna (2018). Psicotecnología. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psicotecnologia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
