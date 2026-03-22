@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/introducao-ao-estudo-do-cerebro/
+permalink: /biblioteca-cientifica-pt/capitulos/introducao-ao-estudo-do-cerebro/
 citation: 'Juan Moisés de la Serna (2020). Introdução ao estudo do Cérebro. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/introducao-ao-estudo-do-cerebro/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
