@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/psicopatologia-asociada-a-los-trastornos-del-sueno/
+permalink: /biblioteca-cientifica-pt/capitulos/psicopatologia-asociada-a-los-trastornos-del-sueno/
 citation: 'Juan Moisés de la Serna (2018). Psicopatología asociada a los trastornos del sueño. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psicopatologia-asociada-a-los-trastornos-del-sueno/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
