@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /libros/habilidades-basicas-del-psicologo-clinico/
+permalink: /biblioteca-cientifica-es/libros/habilidades-basicas-del-psicologo-clinico/
 citation: 'Juan Moisés de la Serna (2018). *Habilidades basicas del Psicologo Clinico*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/habilidades-basicas-del-psicologo-clinico/'
 last_updated: "2026-03-21"
 schema_type: "Book"
