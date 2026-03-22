@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/es-posible-prevenir-el-ciberacoso/
+permalink: /bibliotheque-scientifique-fr/capitulos/es-posible-prevenir-el-ciberacoso/
 citation: 'Juan Moisés de la Serna (2017). ¿Es Posible Prevenir el Ciberacoso?. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/es-posible-prevenir-el-ciberacoso/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
