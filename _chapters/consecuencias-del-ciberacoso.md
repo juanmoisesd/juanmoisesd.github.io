@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/consecuencias-del-ciberacoso/
+permalink: /biblioteca-cientifica-es/capitulos/consecuencias-del-ciberacoso/
 citation: 'Juan Moisés de la Serna (2017). Consecuencias del Ciberacoso. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/consecuencias-del-ciberacoso/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
