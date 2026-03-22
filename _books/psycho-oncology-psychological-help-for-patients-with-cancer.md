@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/psycho-oncology-psychological-help-for-patients-with-cancer/
+permalink: /scientific-library-en/libros/psycho-oncology-psychological-help-for-patients-with-cancer/
 citation: 'Juan Moisés de la Serna (2017). *Psycho-oncology: Psychological Help for Patients with Cancer*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/psycho-oncology-psychological-help-for-patients-with-cancer/'
 last_updated: "2026-03-21"
 schema_type: "Book"
