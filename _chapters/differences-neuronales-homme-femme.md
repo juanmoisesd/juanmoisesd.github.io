@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/differences-neuronales-homme-femme/
+permalink: /bibliotheque-scientifique-fr/capitulos/differences-neuronales-homme-femme/
 citation: 'Juan Moisés de la Serna (2018). Differences neuronales homme-femme. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/differences-neuronales-homme-femme/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
