@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/etiopatogenia-y-tratamiento-de-los-trastornos-en-psicologia-clinica/
+permalink: /biblioteca-cientifica-es/capitulos/etiopatogenia-y-tratamiento-de-los-trastornos-en-psicologia-clinica/
 citation: 'Juan Moisés de la Serna (2018). Etiopatogenia y tratamiento de los trastornos en Psicología Clínica. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/etiopatogenia-y-tratamiento-de-los-trastornos-en-psicologia-clinica/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
