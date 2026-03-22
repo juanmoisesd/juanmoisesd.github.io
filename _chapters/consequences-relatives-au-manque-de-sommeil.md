@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/consequences-relatives-au-manque-de-sommeil/
+permalink: /biblioteca-cientifica-es/capitulos/consequences-relatives-au-manque-de-sommeil/
 citation: 'Juan Moisés de la Serna (2018). Conséquences relatives au manque de sommeil. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/consequences-relatives-au-manque-de-sommeil/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
