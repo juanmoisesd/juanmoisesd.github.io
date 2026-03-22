@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/lavatar-et-lidentite-digitale/
+permalink: /bibliotheque-scientifique-fr/capitulos/lavatar-et-lidentite-digitale/
 citation: 'Juan Moisés de la Serna (2018). L avatar et l identite digitale. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/lavatar-et-lidentite-digitale/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
