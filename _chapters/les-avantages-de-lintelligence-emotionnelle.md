@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/les-avantages-de-lintelligence-emotionnelle/
+permalink: /bibliotheque-scientifique-fr/capitulos/les-avantages-de-lintelligence-emotionnelle/
 citation: 'Juan Moisés de la Serna (2019). Les avantages de l Intelligence Émotionnelle. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/les-avantages-de-lintelligence-emotionnelle/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
