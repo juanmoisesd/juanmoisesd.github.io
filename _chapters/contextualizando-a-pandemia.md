@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/contextualizando-a-pandemia/
+permalink: /biblioteca-cientifica-es/capitulos/contextualizando-a-pandemia/
 citation: 'Juan Moisés de la Serna (2020). Contextualizando a Pandemia.. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/contextualizando-a-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
