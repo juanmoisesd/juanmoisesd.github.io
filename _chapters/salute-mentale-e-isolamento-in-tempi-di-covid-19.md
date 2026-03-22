@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/salute-mentale-e-isolamento-in-tempi-di-covid-19/
+permalink: /bibliotheque-scientifique-fr/capitulos/salute-mentale-e-isolamento-in-tempi-di-covid-19/
 citation: 'Juan Moisés de la Serna (2020). Salute mentale e isolamento in tempi di Covid-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/salute-mentale-e-isolamento-in-tempi-di-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
