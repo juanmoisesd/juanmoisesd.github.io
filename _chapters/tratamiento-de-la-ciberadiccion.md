@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/tratamiento-de-la-ciberadiccion/
+permalink: /bibliotheque-scientifique-fr/capitulos/tratamiento-de-la-ciberadiccion/
 citation: 'Juan Moisés de la Serna (2017). Tratamiento de la Ciberadicción. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/tratamiento-de-la-ciberadiccion/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
