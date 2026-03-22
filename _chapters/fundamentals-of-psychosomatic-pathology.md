@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/fundamentals-of-psychosomatic-pathology/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/fundamentals-of-psychosomatic-pathology/
 citation: 'Juan Moisés de la Serna (2017). Fundamentals of Psychosomatic Pathology. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/fundamentals-of-psychosomatic-pathology/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
