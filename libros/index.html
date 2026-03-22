@@ -1,0 +1,124 @@
+---
+layout: default
+title: "Catálogo de Libros"
+permalink: /libros/
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>Catálogo de Libros</h1>
+    <p class="hero-sub">Juan Moisés de la Serna · Neurocientífico · Doctor en Psicología</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <strong>{{ site.books | size }}</strong>
+        <span>Libros</span>
+      </div>
+      <div class="stat-item">
+        <strong>9+</strong>
+        <span>Idiomas</span>
+      </div>
+      <div class="stat-item">
+        <strong>2017–{{ "now" | date: "%Y" }}</strong>
+        <span>Trayectoria</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="filters-bar">
+  <div class="container">
+    <button class="filter-btn active" onclick="filtrar('todos', this)">Todos</button>
+    <button class="filter-btn" onclick="filtrar('es', this)">Español</button>
+    <button class="filter-btn" onclick="filtrar('en', this)">English</button>
+    <button class="filter-btn" onclick="filtrar('fr', this)">Français</button>
+    <button class="filter-btn" onclick="filtrar('de', this)">Deutsch</button>
+    <button class="filter-btn" onclick="filtrar('it', this)">Italiano</button>
+    <button class="filter-btn" onclick="filtrar('pt', this)">Português</button>
+    <button class="filter-btn" onclick="filtrar('oa', this)">Acceso Abierto</button>
+    <input type="text" class="search-input" placeholder="Buscar libro..." oninput="buscar(this.value)">
+  </div>
+</div>
+
+<section class="books-section">
+  <div class="container">
+    <div class="books-grid" id="books-grid">
+      {% assign books_sorted = site.books | sort: "date" | reverse %}
+      {% for book in books_sorted %}
+      <article class="book-card"
+               data-lang="{{ book.lang }}"
+               data-oa="{{ book.is_open_access }}"
+               data-title="{{ book.title | downcase }}">
+
+        <div class="card-top">
+          <span class="card-year">{{ book.year }}</span>
+          <div class="card-badges">
+            <span class="badge badge-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
+            {% if book.is_open_access == true %}
+            <span class="badge badge-oa">OA</span>
+            {% else %}
+            <span class="badge badge-private">RG</span>
+            {% endif %}
+          </div>
+        </div>
+
+        <h2 class="card-title">
+          <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+        </h2>
+
+        <p class="card-authors">
+          {% for author in book.authors %}
+            {{ author }}{% unless forloop.last %} · {% endunless %}
+          {% endfor %}
+        </p>
+
+      </article>
+      {% endfor %}
+    </div>
+
+    <p class="no-results" id="no-results" style="display:none; text-align:center; padding:40px; color:#8a8578; font-style:italic;">
+      No se encontraron libros con ese criterio.
+    </p>
+  </div>
+</section>
+
+<script>
+let filtroActivo = 'todos';
+
+function filtrar(lang, btn) {
+  filtroActivo = lang;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  aplicarFiltros();
+}
+
+function buscar(query) {
+  aplicarFiltros(query.toLowerCase());
+}
+
+function aplicarFiltros(query = '') {
+  const cards = document.querySelectorAll('.book-card');
+  let visibles = 0;
+
+  cards.forEach(card => {
+    const lang  = card.dataset.lang;
+    const oa    = card.dataset.oa === 'true';
+    const title = card.dataset.title;
+
+    const pasaFiltro =
+      filtroActivo === 'todos' ||
+      (filtroActivo === 'oa' && oa) ||
+      lang === filtroActivo;
+
+    const pasaBusqueda = query === '' || title.includes(query);
+
+    if (pasaFiltro && pasaBusqueda) {
+      card.style.display = '';
+      visibles++;
+    } else {
+      card.style.display = 'none';
+    }
+  });
+
+  document.getElementById('no-results').style.display = visibles === 0 ? '' : 'none';
+}
+</script>
