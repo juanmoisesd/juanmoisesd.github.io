@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "private"
-permalink: /capitulos/rotacion-laboral-en-el-ambito-de-las-universidades-online/
+permalink: /biblioteca-cientifica-es/capitulos/rotacion-laboral-en-el-ambito-de-las-universidades-online/
 citation: 'Juan Moisés de la Serna (2023). Rotación Laboral en el ámbito de las Universidades Online. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/rotacion-laboral-en-el-ambito-de-las-universidades-online/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
