@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-realidad-del-suicidio-en-el-ambito-policial/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-realidad-del-suicidio-en-el-ambito-policial/
 citation: 'Juan Moisés de la Serna (2021). La realidad del Suicidio en el ámbito Policial. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-realidad-del-suicidio-en-el-ambito-policial/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
