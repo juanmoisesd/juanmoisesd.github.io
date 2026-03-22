@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/traumatic-habitus/
+permalink: /biblioteca-cientifica-es/capitulos/traumatic-habitus/
 citation: 'Juan Moisés de la Serna (2017). Traumatic habitus. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/traumatic-habitus/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
