@@ -8,36 +8,42 @@ author:
   name: "Juan Moisés de la Serna"
   orcid: "https://orcid.org/0000-0002-8401-8018"
   researchgate: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
-  google_scholar: "https://scholar.google.com/citations?user=TU_ID_AQUI"
+  google_scholar: "https://scholar.google.com/scholar?q=Juan+Moises+de+la+Serna"
 
 languages:
-  es: {name: "Español",    flag: "🇪🇸", dir: "ltr"}
-  en: {name: "English",    flag: "🇬🇧", dir: "ltr"}
-  fr: {name: "Français",   flag: "🇫🇷", dir: "ltr"}
-  de: {name: "Deutsch",    flag: "🇩🇪", dir: "ltr"}
-  pt: {name: "Português",  flag: "🇵🇹", dir: "ltr"}
-  ar: {name: "العربية",    flag: "🇸🇦", dir: "rtl"}
-  it: {name: "Italiano",   flag: "🇮🇹", dir: "ltr"}
-  id: {name: "Indonesia",  flag: "🇮🇩", dir: "ltr"}
-  ro: {name: "Română",     flag: "🇷🇴", dir: "ltr"}
+  es: {name: "Español", flag: "🇪🇸", dir: "ltr"}
+  en: {name: "English", flag: "🇬🇧", dir: "ltr"}
+  fr: {name: "Français", flag: "🇫🇷", dir: "ltr"}
+  de: {name: "Deutsch", flag: "🇩🇪", dir: "ltr"}
+  pt: {name: "Português", flag: "🇵🇹", dir: "ltr"}
+  ar: {name: "العربية", flag: "🇸🇦", dir: "rtl"}
+  it: {name: "Italiano", flag: "🇮🇹", dir: "ltr"}
+  id: {name: "Indonesia", flag: "🇮🇩", dir: "ltr"}
+  ro: {name: "Română", flag: "🇷🇴", dir: "ltr"}
 
 collections:
   books:
     output: true
-    permalink: /:lang/libros/:slug/
+    permalink: /books/:path/
   chapters:
     output: true
-    permalink: /:lang/capitulos/:slug/
+    permalink: /chapters/:path/
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 defaults:
-  - scope: {path: "", type: "books"}
-    values: {layout: "book"}
-  - scope: {path: "", type: "chapters"}
-    values: {layout: "chapter"}
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
 
 markdown: kramdown
 encoding: utf-8
@@ -50,3 +56,4 @@ exclude:
   - "*.csv"
   - README.md
   - node_modules
+  - vendor
