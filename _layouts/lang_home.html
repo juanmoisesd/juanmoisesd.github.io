@@ -1,0 +1,192 @@
+---
+layout: default
+---
+{% assign lang     = page.lang %}
+{% assign lang_url = page.lang_url %}
+{% assign ui_lib   = page.ui_libros %}
+{% assign ui_cap   = page.ui_capitulos %}
+{% assign ui_tod   = page.ui_todos %}
+{% assign ui_oa    = page.ui_oa %}
+{% assign ui_bus   = page.ui_buscar %}
+{% assign ui_sin   = page.ui_sin_res %}
+{% assign ui_vol   = page.ui_volver %}
+{% assign pg_dir   = page.lang_dir | default: "ltr" %}
+
+{% assign books_lang    = site.books    | where: "lang", lang %}
+{% assign chapters_lang = site.chapters | where: "lang", lang %}
+
+<div dir="{{ pg_dir }}">
+
+<section class="lang-hero">
+  <div class="container">
+    <a href="/" class="lang-back">{{ ui_vol }}</a>
+    <div class="lang-hero-title">
+      <span class="lang-flag-hero">{{ page.lang_flag }}</span>
+      <h1>{{ page.lang_name }}</h1>
+    </div>
+    <p class="lang-hero-author">Juan Moisés de la Serna</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <strong>{{ books_lang | size }}</strong>
+        <span>{{ ui_lib }}</span>
+      </div>
+      <div class="stat-item">
+        <strong>{{ chapters_lang | size }}</strong>
+        <span>{{ ui_cap }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lang-tabs">
+  <div class="container">
+    <button class="lang-tab active" onclick="cambiarTab('libros',this)">
+      {{ ui_lib }} <span class="tab-count">{{ books_lang | size }}</span>
+    </button>
+    <button class="lang-tab" onclick="cambiarTab('capitulos',this)">
+      {{ ui_cap }} <span class="tab-count">{{ chapters_lang | size }}</span>
+    </button>
+  </div>
+</div>
+
+<!-- LIBROS -->
+<section id="tab-libros" class="tab-section">
+  <div class="container">
+    <div class="filters-row">
+      <button class="filter-btn active" onclick="filtrar('libros','todos',this)">{{ ui_tod }}</button>
+      <button class="filter-btn" onclick="filtrar('libros','oa',this)">{{ ui_oa }}</button>
+      <input type="text" class="search-input" placeholder="{{ ui_bus }}" oninput="buscar('libros',this.value)">
+    </div>
+    <div class="books-grid" id="grid-libros">
+      {% assign books_sorted = books_lang | sort: "date" | reverse %}
+      {% for book in books_sorted %}
+      <article class="book-card" data-oa="{{ book.is_open_access }}" data-title="{{ book.title | downcase }}">
+        <div class="card-top">
+          <span class="card-year">{{ book.year }}</span>
+          <div class="card-badges">
+            {% if book.is_open_access == true %}<span class="badge badge-oa">OA</span>
+            {% else %}<span class="badge badge-private">RG</span>{% endif %}
+          </div>
+        </div>
+        <h2 class="card-title"><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h2>
+        <p class="card-authors">{% for a in book.authors %}{{ a }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+      </article>
+      {% endfor %}
+    </div>
+    <p id="no-libros" class="no-results" style="display:none">{{ ui_sin }}</p>
+  </div>
+</section>
+
+<!-- CAPÍTULOS -->
+<section id="tab-capitulos" class="tab-section" style="display:none">
+  <div class="container">
+    <div class="filters-row">
+      <button class="filter-btn active" onclick="filtrar('capitulos','todos',this)">{{ ui_tod }}</button>
+      <button class="filter-btn" onclick="filtrar('capitulos','oa',this)">{{ ui_oa }}</button>
+      <input type="text" class="search-input" placeholder="{{ ui_bus }}" oninput="buscar('capitulos',this.value)">
+    </div>
+    <div class="books-grid" id="grid-capitulos">
+      {% assign chaps_sorted = chapters_lang | sort: "date" | reverse %}
+      {% for ch in chaps_sorted %}
+      <article class="book-card chapter-card" data-oa="{{ ch.is_open_access }}" data-title="{{ ch.title | downcase }}">
+        <div class="card-top">
+          <span class="card-year">{{ ch.year }}</span>
+          {% if ch.is_open_access == true %}<span class="badge badge-oa">OA</span>
+          {% else %}<span class="badge badge-private">RG</span>{% endif %}
+        </div>
+        <h2 class="card-title"><a href="{{ ch.url | relative_url }}">{{ ch.title }}</a></h2>
+        {% if ch.book_title %}<p class="card-book-ref">📚 {{ ch.book_title | truncate: 55 }}</p>{% endif %}
+        <p class="card-authors">{% for a in ch.authors %}{{ a }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+      </article>
+      {% endfor %}
+    </div>
+    <p id="no-capitulos" class="no-results" style="display:none">{{ ui_sin }}</p>
+  </div>
+</section>
+
+</div>
+
+<style>
+.lang-hero {
+  background: linear-gradient(135deg, var(--color-ink) 0%, #2c2c54 100%);
+  color: white; padding: 56px 0 44px;
+}
+.lang-back {
+  display: inline-block; color: rgba(255,255,255,0.45);
+  font-size: 0.85rem; margin-bottom: 20px;
+  text-decoration: none; transition: color 0.2s;
+}
+.lang-back:hover { color: white; text-decoration: none; }
+.lang-hero-title {
+  display: flex; align-items: center; gap: 16px; margin-bottom: 8px;
+}
+.lang-flag-hero { font-size: 2.4rem; line-height: 1; }
+.lang-hero-title h1 {
+  font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900; color: white; line-height: 1.1;
+}
+.lang-hero-author { color: rgba(255,255,255,0.55); font-style: italic; margin-bottom: 28px; }
+
+.lang-tabs {
+  background: white; border-bottom: 2px solid var(--color-border);
+  position: sticky; top: 64px; z-index: 50;
+}
+.lang-tabs .container { display: flex; }
+.lang-tab {
+  padding: 14px 28px; border: none; background: transparent;
+  font-family: var(--font-body); font-size: 0.95rem; font-weight: 600;
+  cursor: pointer; color: var(--color-muted);
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+  transition: all 0.2s; display: flex; align-items: center; gap: 8px;
+}
+.lang-tab.active { color: var(--color-accent); border-bottom-color: var(--color-accent); }
+.lang-tab:hover { color: var(--color-ink); }
+.tab-count {
+  background: var(--color-border); color: var(--color-muted);
+  font-size: 0.75rem; padding: 1px 7px; border-radius: 10px;
+}
+.lang-tab.active .tab-count { background: rgba(192,57,43,0.12); color: var(--color-accent); }
+
+.tab-section { padding: 36px 0 60px; }
+.filters-row {
+  display: flex; gap: 10px; align-items: center;
+  flex-wrap: wrap; margin-bottom: 28px;
+}
+.chapter-card::before { background: var(--color-accent-2); }
+.card-book-ref {
+  font-size: 0.78rem; color: var(--color-muted);
+  margin-top: auto; padding-top: 8px; font-style: italic;
+}
+.no-results {
+  text-align: center; padding: 40px;
+  color: var(--color-muted); font-style: italic;
+}
+</style>
+
+<script>
+let filtros = {libros:'todos', capitulos:'todos'};
+function cambiarTab(tab, btn) {
+  document.querySelectorAll('.tab-section').forEach(s=>s.style.display='none');
+  document.querySelectorAll('.lang-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+tab).style.display='';
+  btn.classList.add('active');
+}
+function filtrar(tipo,valor,btn) {
+  filtros[tipo]=valor;
+  btn.closest('.filters-row').querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  aplicar(tipo);
+}
+function buscar(tipo,q){ aplicar(tipo,q.toLowerCase()); }
+function aplicar(tipo,query='') {
+  let v=0;
+  document.querySelectorAll('#grid-'+tipo+' .book-card').forEach(card=>{
+    const oa=card.dataset.oa==='true';
+    const title=card.dataset.title||'';
+    const ok=(filtros[tipo]==='todos'||(filtros[tipo]==='oa'&&oa))&&(query===''||title.includes(query));
+    card.style.display=ok?'':'none';
+    if(ok)v++;
+  });
+  document.getElementById('no-'+tipo).style.display=v===0?'':'none';
+}
+</script>
