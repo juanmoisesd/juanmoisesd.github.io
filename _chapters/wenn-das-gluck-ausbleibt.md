@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/wenn-das-gluck-ausbleibt/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/wenn-das-gluck-ausbleibt/
 citation: 'Juan Moisés de la Serna (2020). Wenn das glück ausbleibt. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/wenn-das-gluck-ausbleibt/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
