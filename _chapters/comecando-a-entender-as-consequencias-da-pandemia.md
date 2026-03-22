@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/comecando-a-entender-as-consequencias-da-pandemia/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/comecando-a-entender-as-consequencias-da-pandemia/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Começando a Entender as Consequências da Pandemia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/comecando-a-entender-as-consequencias-da-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
