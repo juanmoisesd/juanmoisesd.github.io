@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign book = page %}
+{% assign citation_url = site.url | append: page.url %}
 
 <!-- Schema.org Book -->
 <script type="application/ld+json">
@@ -36,20 +37,17 @@ layout: default
     <nav class="breadcrumb" aria-label="Ubicación">
       <a href="{{ '/' | relative_url }}">Inicio</a>
       <span>›</span>
-      {% if book.lang %}
-      {% assign lang_path = book.lang %}
-      {% if lang_path == "es" %}<a href="/biblioteca-cientifica-es/">Biblioteca ES</a>
-      {% elsif lang_path == "en" %}<a href="/scientific-library-en/">Library EN</a>
-      {% elsif lang_path == "fr" %}<a href="/bibliotheque-scientifique-fr/">Bibliothèque FR</a>
-      {% elsif lang_path == "de" %}<a href="/wissenschaftliche-bibliothek-de/">Bibliothek DE</a>
-      {% elsif lang_path == "pt" %}<a href="/biblioteca-cientifica-pt/">Biblioteca PT</a>
-      {% elsif lang_path == "ar" %}<a href="/biblioteca-ar/">المكتبة AR</a>
-      {% elsif lang_path == "it" %}<a href="/biblioteca-scientifica-it/">Biblioteca IT</a>
-      {% elsif lang_path == "id" %}<a href="/perpustakaan-ilmiah-id/">Perpustakaan ID</a>
-      {% elsif lang_path == "ro" %}<a href="/biblioteca-stiintifica-ro/">Biblioteca RO</a>
+      {% if book.lang == "es" %}<a href="/biblioteca-cientifica-es/">Biblioteca ES</a>
+      {% elsif book.lang == "en" %}<a href="/scientific-library-en/">Library EN</a>
+      {% elsif book.lang == "fr" %}<a href="/bibliotheque-scientifique-fr/">Bibliothèque FR</a>
+      {% elsif book.lang == "de" %}<a href="/wissenschaftliche-bibliothek-de/">Bibliothek DE</a>
+      {% elsif book.lang == "pt" %}<a href="/biblioteca-cientifica-pt/">Biblioteca PT</a>
+      {% elsif book.lang == "ar" %}<a href="/biblioteca-ar/">المكتبة AR</a>
+      {% elsif book.lang == "it" %}<a href="/biblioteca-scientifica-it/">Biblioteca IT</a>
+      {% elsif book.lang == "id" %}<a href="/perpustakaan-ilmiah-id/">Perpustakaan ID</a>
+      {% elsif book.lang == "ro" %}<a href="/biblioteca-stiintifica-ro/">Biblioteca RO</a>
       {% endif %}
       <span>›</span>
-      {% endif %}
       <span>{{ book.title | truncate: 50 }}</span>
     </nav>
 
@@ -91,10 +89,14 @@ layout: default
       <button class="btn btn-outline" onclick="copiarCita()">Copiar cita</button>
     </div>
 
-    <!-- Cita recomendada -->
+    <!-- Cita recomendada (generada dinámicamente con URL correcta) -->
     <div class="citation-box" id="citation-box">
       <p class="citation-label">Cita recomendada (APA)</p>
-      <p class="citation-text" id="citation-text">{{ book.citation }}</p>
+      <p class="citation-text" id="citation-text">
+        {% for author in book.authors %}{{ author }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+        ({{ book.year }}). <em>{{ book.title }}</em>. ResearchGate.
+        <a href="{{ citation_url }}" target="_blank">{{ citation_url }}</a>
+      </p>
     </div>
 
     <!-- Descripción del libro -->
@@ -157,6 +159,13 @@ function copiarCita() {
     const btn = document.querySelector('[onclick="copiarCita()"]');
     btn.textContent = '✓ Copiado';
     setTimeout(() => btn.textContent = 'Copiar cita', 2000);
+  }).catch(() => {
+    // Fallback para navegadores sin clipboard API
+    const range = document.createRange();
+    range.selectNode(document.getElementById('citation-text'));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
   });
 }
-</script>
+        </script>
