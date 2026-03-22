@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+{% assign ch = page %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Chapter",
+  "@id": "{{ site.url }}{{ page.url }}",
+  "name": "{{ ch.title | jsonify }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "identifier": "{{ site.author.orcid }}"
+  },
+  "isPartOf": {
+    "@type": "Book",
+    "name": "{{ ch.book_title | jsonify }}",
+    "url": "{{ site.url }}/libros/{{ ch.book_slug }}/"
+  },
+  "datePublished": "{{ ch.date | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ ch.last_updated | default: ch.date | date: '%Y-%m-%d' }}",
+  "inLanguage": "{{ ch.lang | default: 'es' }}"
+}
+</script>
+
+<article class="chapter-page">
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <span>›</span>
+      <a href="{{ '/libros/' | relative_url }}">Libros</a>
+      <span>›</span>
+      <a href="{{ '/libros/' | relative_url }}{{ ch.book_slug }}/">{{ ch.book_title | truncate: 40 }}</a>
+      <span>›</span>
+      <span>{{ ch.title | truncate: 40 }}</span>
+    </nav>
+
+    <header class="chapter-header">
+      <p class="chapter-book-ref">
+        Capítulo de:
+        <a href="{{ '/libros/' | relative_url }}{{ ch.book_slug }}/">{{ ch.book_title }}</a>
+      </p>
+      <h1 class="chapter-title">{{ ch.title }}</h1>
+      <div class="chapter-meta">
+        <span>{{ ch.date | date: "%Y" }}</span>
+        {% if ch.last_updated %}
+        · <span>Actualizado: {{ ch.last_updated }}</span>
+        {% endif %}
+      </div>
+    </header>
+
+    <!-- Botón cita del capítulo -->
+    <div class="book-actions">
+      <button class="btn btn-outline" onclick="copiarCita()">Copiar cita del capítulo</button>
+      <a href="{{ '/libros/' | relative_url }}{{ ch.book_slug }}/" class="btn btn-secondary">← Volver al libro</a>
+    </div>
+
+    <div class="citation-box">
+      <p class="citation-label">Cita recomendada (APA)</p>
+      <p class="citation-text" id="citation-text">
+        {{ site.author.name }} ({{ ch.date | date: "%Y" }}). {{ ch.title }}.
+        En <em>{{ ch.book_title }}</em>. {{ site.url }}{{ page.url }}
+      </p>
+    </div>
+
+    <!-- Contenido del capítulo -->
+    <div class="chapter-content">
+      {{ content }}
+    </div>
+
+    <!-- Historial de versiones del capítulo -->
+    {% if ch.versions %}
+    <section class="versions-section">
+      <h3>Historial de actualizaciones</h3>
+      <ul class="versions-list">
+        {% for v in ch.versions %}
+        <li>
+          <span class="version-year">{{ v.year }}</span>
+          <span class="version-note">{{ v.changes }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+  </div>
+</article>
+
+<script>
+function copiarCita() {
+  const texto = document.getElementById('citation-text').innerText;
+  navigator.clipboard.writeText(texto).then(() => {
+    const btn = document.querySelector('[onclick="copiarCita()"]');
+    btn.textContent = '✓ Copiado';
+    setTimeout(() => btn.textContent = 'Copiar cita del capítulo', 2000);
+  });
+}
+</script>
