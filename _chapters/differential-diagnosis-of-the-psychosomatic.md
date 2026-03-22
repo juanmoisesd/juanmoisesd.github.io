@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/differential-diagnosis-of-the-psychosomatic/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/differential-diagnosis-of-the-psychosomatic/
 citation: 'Juan Moisés de la Serna (2019). Differential Diagnosis Of The Psychosomatic. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/differential-diagnosis-of-the-psychosomatic/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
