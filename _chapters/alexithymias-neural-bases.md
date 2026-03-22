@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/alexithymias-neural-bases/
+permalink: /biblioteca-cientifica-es/capitulos/alexithymias-neural-bases/
 citation: 'Juan Moisés de la Serna (2020). Alexithymia s Neural Bases. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/alexithymias-neural-bases/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
