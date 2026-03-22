@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/auf-der-suche-nach-dem-gluck/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/auf-der-suche-nach-dem-gluck/
 citation: 'Juan Moisés de la Serna (2020). Auf der suche nach dem glück. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/auf-der-suche-nach-dem-gluck/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
