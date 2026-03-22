@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/la-plus-grande-decouverte-de-lhumanite/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-plus-grande-decouverte-de-lhumanite/
 citation: 'Juan Moisés de la Serna (2020). La plus grande découverte de l humanité. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-plus-grande-decouverte-de-lhumanite/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
