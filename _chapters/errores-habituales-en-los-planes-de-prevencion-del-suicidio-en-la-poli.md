@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/errores-habituales-en-los-planes-de-prevencion-del-suicidio-en-la-poli/
+permalink: /bibliotheque-scientifique-fr/capitulos/errores-habituales-en-los-planes-de-prevencion-del-suicidio-en-la-poli/
 citation: 'Juan Moisés de la Serna (2021). Errores Habituales en los Planes De Prevención del Suicidio en la Policía. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/errores-habituales-en-los-planes-de-prevencion-del-suicidio-en-la-poli/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
