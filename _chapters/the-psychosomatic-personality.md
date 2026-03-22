@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-psychosomatic-personality/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/the-psychosomatic-personality/
 citation: 'Juan Moisés de la Serna (2019). The Psychosomatic Personality. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-psychosomatic-personality/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
