@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-benefits-of-sleep/
+permalink: /scientific-library-en/capitulos/the-benefits-of-sleep/
 citation: 'Juan Moisés de la Serna (2019). The benefits of sleep. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-benefits-of-sleep/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
