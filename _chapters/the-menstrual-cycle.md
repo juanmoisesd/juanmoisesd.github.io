@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-menstrual-cycle/
+permalink: /scientific-library-en/capitulos/the-menstrual-cycle/
 citation: 'Juan Moisés de la Serna (2018). The Menstrual Cycle. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-menstrual-cycle/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
