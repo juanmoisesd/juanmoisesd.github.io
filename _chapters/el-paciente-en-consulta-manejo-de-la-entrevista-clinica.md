@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/el-paciente-en-consulta-manejo-de-la-entrevista-clinica/
+permalink: /bibliotheque-scientifique-fr/capitulos/el-paciente-en-consulta-manejo-de-la-entrevista-clinica/
 citation: 'Juan Moisés de la Serna (2018). El paciente en consulta, manejo de la entrevista clínica. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/el-paciente-en-consulta-manejo-de-la-entrevista-clinica/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
