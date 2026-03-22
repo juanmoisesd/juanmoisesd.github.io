@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/emotional-intelligence-in-school/
+permalink: /scientific-library-en/libros/emotional-intelligence-in-school/
 citation: 'Juan Moisés de la Serna (2018). *Emotional Intelligence in School*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/emotional-intelligence-in-school/'
 last_updated: "2026-03-21"
 schema_type: "Book"
