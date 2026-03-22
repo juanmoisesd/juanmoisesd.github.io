@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/vorteile-des-glucks/
+permalink: /bibliotheque-scientifique-fr/capitulos/vorteile-des-glucks/
 citation: 'Juan Moisés de la Serna (2020). Vorteile des glücks. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/vorteile-des-glucks/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
