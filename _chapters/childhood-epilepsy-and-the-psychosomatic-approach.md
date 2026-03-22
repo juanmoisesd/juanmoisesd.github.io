@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/childhood-epilepsy-and-the-psychosomatic-approach/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/childhood-epilepsy-and-the-psychosomatic-approach/
 citation: 'Juan Moisés de la Serna (2019). Childhood Epilepsy And The Psychosomatic Approach. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/childhood-epilepsy-and-the-psychosomatic-approach/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
