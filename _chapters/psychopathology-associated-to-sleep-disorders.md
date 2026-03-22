@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/psychopathology-associated-to-sleep-disorders/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/psychopathology-associated-to-sleep-disorders/
 citation: 'Juan Moisés de la Serna (2019). Psychopathology associated to sleep disorders. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psychopathology-associated-to-sleep-disorders/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
