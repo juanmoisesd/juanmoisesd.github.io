@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/krebs-und-ihre-beziehung-zur-psychologie/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/krebs-und-ihre-beziehung-zur-psychologie/
 citation: 'Juan Moisés de la Serna (2017). Krebs und ihre Beziehung zur Psychologie. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/krebs-und-ihre-beziehung-zur-psychologie/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
