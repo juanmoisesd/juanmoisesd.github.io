@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/when-happiness-does-not-arrive/
+permalink: /biblioteca-cientifica-es/capitulos/when-happiness-does-not-arrive/
 citation: 'Juan Moisés de la Serna (2019). When Happiness Does Not Arrive. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/when-happiness-does-not-arrive/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
