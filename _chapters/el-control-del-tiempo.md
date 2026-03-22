@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/el-control-del-tiempo/
+permalink: /biblioteca-cientifica-es/capitulos/el-control-del-tiempo/
 citation: 'Juan Moisés de la Serna (2018). El Control del Tiempo. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/el-control-del-tiempo/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
