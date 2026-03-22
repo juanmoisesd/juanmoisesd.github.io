@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "private"
-permalink: /capitulos/la-salud-mental-el-proximo-reto-de-la-justicia/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-salud-mental-el-proximo-reto-de-la-justicia/
 citation: 'Juan Moisés de la Serna (2022). La salud mental: el próximo reto de la Justicia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-salud-mental-el-proximo-reto-de-la-justicia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
