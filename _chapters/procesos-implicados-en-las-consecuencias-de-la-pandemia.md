@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/procesos-implicados-en-las-consecuencias-de-la-pandemia/
+permalink: /bibliotheque-scientifique-fr/capitulos/procesos-implicados-en-las-consecuencias-de-la-pandemia/
 citation: 'Juan Moisés de la Serna (2021). Procesos implicados en las consecuencias de la pandemia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/procesos-implicados-en-las-consecuencias-de-la-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
