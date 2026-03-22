@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/le-cyber-harcelement-des-enseignants/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/le-cyber-harcelement-des-enseignants/
 citation: 'Juan Moisés de la Serna (2020). Le Cyber-Harcèlement Des Enseignants. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/le-cyber-harcelement-des-enseignants/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
