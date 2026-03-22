@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/les-consequences-dalzheimer/
+permalink: /bibliotheque-scientifique-fr/capitulos/les-consequences-dalzheimer/
 citation: 'Juan Moisés de la Serna (2018). Les consequences d’Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/les-consequences-dalzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
