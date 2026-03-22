@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/las-oportunidades-de-la-red/
+permalink: /bibliotheque-scientifique-fr/capitulos/las-oportunidades-de-la-red/
 citation: 'Juan Moisés de la Serna (2018). Las Oportunidades de la Red. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/las-oportunidades-de-la-red/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
