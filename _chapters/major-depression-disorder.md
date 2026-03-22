@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/major-depression-disorder/
+permalink: /biblioteca-cientifica-es/capitulos/major-depression-disorder/
 citation: 'Juan Moisés de la Serna (2019). Major Depression Disorder. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/major-depression-disorder/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
