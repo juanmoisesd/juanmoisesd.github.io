@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/spastic-colitis/
+permalink: /biblioteca-cientifica-es/capitulos/spastic-colitis/
 citation: 'Juan Moisés de la Serna (2019). Spastic Colitis. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/spastic-colitis/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
