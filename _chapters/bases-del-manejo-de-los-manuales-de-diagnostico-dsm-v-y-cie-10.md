@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/bases-del-manejo-de-los-manuales-de-diagnostico-dsm-v-y-cie-10/
+permalink: /bibliotheque-scientifique-fr/capitulos/bases-del-manejo-de-los-manuales-de-diagnostico-dsm-v-y-cie-10/
 citation: 'Juan Moisés de la Serna (2018). Bases del manejo de los manuales de diagnóstico D.S.M.-V y C.I.E.-10. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/bases-del-manejo-de-los-manuales-de-diagnostico-dsm-v-y-cie-10/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
