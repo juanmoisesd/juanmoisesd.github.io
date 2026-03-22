@@ -1,7 +1,7 @@
 title: "Juan Moisés de la Serna"
 subtitle: "Neurocientífico · Doctor en Psicología · Autor"
-description: "Catálogo completo de libros y publicaciones académicas de Juan Moisés de la Serna, neurocientífico y doctor en Psicología."
-url: "https://juanmoises-de-la-serna.github.io"
+description: "Catálogo completo de libros y capítulos académicos de Juan Moisés de la Serna, neurocientífico y doctor en Psicología."
+url: "https://juanmoisesd.github.io"
 baseurl: ""
 
 author:
@@ -10,58 +10,43 @@ author:
   researchgate: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
   google_scholar: "https://scholar.google.com/citations?user=TU_ID_AQUI"
 
-# Colecciones
+languages:
+  es: {name: "Español",    flag: "🇪🇸", dir: "ltr"}
+  en: {name: "English",    flag: "🇬🇧", dir: "ltr"}
+  fr: {name: "Français",   flag: "🇫🇷", dir: "ltr"}
+  de: {name: "Deutsch",    flag: "🇩🇪", dir: "ltr"}
+  pt: {name: "Português",  flag: "🇵🇹", dir: "ltr"}
+  ar: {name: "العربية",    flag: "🇸🇦", dir: "rtl"}
+  it: {name: "Italiano",   flag: "🇮🇹", dir: "ltr"}
+  id: {name: "Indonesia",  flag: "🇮🇩", dir: "ltr"}
+  ro: {name: "Română",     flag: "🇷🇴", dir: "ltr"}
+
 collections:
   books:
     output: true
-    permalink: /libros/:slug/
+    permalink: /:lang/libros/:slug/
   chapters:
     output: true
-    permalink: /capitulos/:slug/
+    permalink: /:lang/capitulos/:slug/
 
-# Paginación
-paginate: 20
-paginate_path: "/libros/pagina/:num/"
-
-# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
-# Defaults por tipo
 defaults:
-  - scope:
-      path: ""
-      type: "books"
-    values:
-      layout: "book"
-  - scope:
-      path: ""
-      type: "chapters"
-    values:
-      layout: "chapter"
+  - scope: {path: "", type: "books"}
+    values: {layout: "book"}
+  - scope: {path: "", type: "chapters"}
+    values: {layout: "chapter"}
 
-# Build
 markdown: kramdown
-highlighter: rouge
 encoding: utf-8
 lang: es
 
-# SEO
-twitter:
-  username: juanmoisesdelaserna
-social:
-  name: "Juan Moisés de la Serna"
-  links:
-    - "https://orcid.org/0000-0002-8401-8018"
-    - "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
-
-# Excluir de build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - generar_sitio.py
+  - "*.py"
   - "*.csv"
   - README.md
   - node_modules
