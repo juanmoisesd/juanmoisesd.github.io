@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/revision-historia-sobre-el-condicionamiento-evaluativo/
+permalink: /biblioteca-cientifica-es/capitulos/revision-historia-sobre-el-condicionamiento-evaluativo/
 citation: 'Juan Moisés de la Serna (2005). Revisión historia sobre el condicionamiento evaluativo. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/revision-historia-sobre-el-condicionamiento-evaluativo/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
