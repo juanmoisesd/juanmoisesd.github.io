@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/maltraitance-pendant-ladolescence/
+permalink: /bibliotheque-scientifique-fr/capitulos/maltraitance-pendant-ladolescence/
 citation: 'Juan Moisés de la Serna (2018). Maltraitance pendant l adolescence. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/maltraitance-pendant-ladolescence/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
