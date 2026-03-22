@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/inteligencia-emocional-e-felicidade/
+permalink: /biblioteca-cientifica-es/capitulos/inteligencia-emocional-e-felicidade/
 citation: 'Juan Moisés de la Serna (2019). Inteligência Emocional e Felicidade. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/inteligencia-emocional-e-felicidade/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
