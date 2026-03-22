@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/depressao-pos-parto/
+permalink: /biblioteca-cientifica-pt/capitulos/depressao-pos-parto/
 citation: 'Juan Moisés de la Serna (2018). Depressão Pós-Parto. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/depressao-pos-parto/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
