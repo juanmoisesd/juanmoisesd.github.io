@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/il-tasso-di-rigenerazione-cellulare/
+permalink: /biblioteca-scientifica-it/capitulos/il-tasso-di-rigenerazione-cellulare/
 citation: 'Juan Moisés de la Serna (2018). Il Tasso di Rigenerazione Cellulare. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/il-tasso-di-rigenerazione-cellulare/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
