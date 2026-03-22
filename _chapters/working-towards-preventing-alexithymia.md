@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/working-towards-preventing-alexithymia/
+permalink: /biblioteca-cientifica-es/capitulos/working-towards-preventing-alexithymia/
 citation: 'Juan Moisés de la Serna (2017). Working Towards Preventing Alexithymia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/working-towards-preventing-alexithymia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
