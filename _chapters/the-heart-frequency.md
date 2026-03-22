@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-heart-frequency/
+permalink: /scientific-library-en/capitulos/the-heart-frequency/
 citation: 'Juan Moisés de la Serna (2018). The Heart Frequency. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-heart-frequency/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
