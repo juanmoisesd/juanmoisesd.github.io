@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/signes-et-symptomes-de-la-maladie-dalzheimer/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/signes-et-symptomes-de-la-maladie-dalzheimer/
 citation: 'Juan Moisés de la Serna (2018). Signes et symptômes de la maladie d’Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/signes-et-symptomes-de-la-maladie-dalzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
