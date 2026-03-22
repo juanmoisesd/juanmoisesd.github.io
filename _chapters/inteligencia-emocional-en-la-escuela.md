@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/inteligencia-emocional-en-la-escuela/
+permalink: /bibliotheque-scientifique-fr/capitulos/inteligencia-emocional-en-la-escuela/
 citation: 'Juan Moisés de la Serna (2018). Inteligencia Emocional en la Escuela. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/inteligencia-emocional-en-la-escuela/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
