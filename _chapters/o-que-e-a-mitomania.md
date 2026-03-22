@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/o-que-e-a-mitomania/
+permalink: /biblioteca-cientifica-es/capitulos/o-que-e-a-mitomania/
 citation: 'Juan Moisés de la Serna (2017). O que é a mitomania. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/o-que-e-a-mitomania/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
