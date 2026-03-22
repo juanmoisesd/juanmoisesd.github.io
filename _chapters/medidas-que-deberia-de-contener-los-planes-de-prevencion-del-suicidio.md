@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/medidas-que-deberia-de-contener-los-planes-de-prevencion-del-suicidio/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/medidas-que-deberia-de-contener-los-planes-de-prevencion-del-suicidio/
 citation: 'Juan Moisés de la Serna (2021). Medidas que debería de contener los Planes de Prevención del Suicidio en la Policía. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/medidas-que-deberia-de-contener-los-planes-de-prevencion-del-suicidio/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
