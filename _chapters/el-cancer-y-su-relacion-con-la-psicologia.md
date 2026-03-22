@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/el-cancer-y-su-relacion-con-la-psicologia/
+permalink: /bibliotheque-scientifique-fr/capitulos/el-cancer-y-su-relacion-con-la-psicologia/
 citation: 'Juan Moisés de la Serna (2018). El Cáncer y su relación con la Psicología. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/el-cancer-y-su-relacion-con-la-psicologia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
