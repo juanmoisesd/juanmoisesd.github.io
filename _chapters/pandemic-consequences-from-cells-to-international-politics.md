@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/pandemic-consequences-from-cells-to-international-politics/
+permalink: /biblioteca-cientifica-es/capitulos/pandemic-consequences-from-cells-to-international-politics/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Pandemic Consequences From Cells to International Politics. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/pandemic-consequences-from-cells-to-international-politics/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
