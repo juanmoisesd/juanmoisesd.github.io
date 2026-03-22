@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/intelligence-emotionnelle-apprenez-a-tirer-le-meilleur-parti-de-vos-em/
+permalink: /bibliotheque-scientifique-fr/libros/intelligence-emotionnelle-apprenez-a-tirer-le-meilleur-parti-de-vos-em/
 citation: 'Juan Moisés de la Serna (2017). *Intelligence émotionnelle: Apprenez à tirer le meilleur parti de vos émotions*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/intelligence-emotionnelle-apprenez-a-tirer-le-meilleur-parti-de-vos-em/'
 last_updated: "2026-03-21"
 schema_type: "Book"
