@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/krebs-trigger-faktoren/
+permalink: /biblioteca-cientifica-es/capitulos/krebs-trigger-faktoren/
 citation: 'Juan Moisés de la Serna (2017). Krebs-Trigger Faktoren. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/krebs-trigger-faktoren/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
