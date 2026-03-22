@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/le-controle-du-temps/
+permalink: /bibliotheque-scientifique-fr/capitulos/le-controle-du-temps/
 citation: 'Juan Moisés de la Serna (2020). Le contrôle du temps. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/le-controle-du-temps/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
