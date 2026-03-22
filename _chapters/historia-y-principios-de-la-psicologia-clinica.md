@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/historia-y-principios-de-la-psicologia-clinica/
+permalink: /bibliotheque-scientifique-fr/capitulos/historia-y-principios-de-la-psicologia-clinica/
 citation: 'Juan Moisés de la Serna (2018). Historia y principios de la Psicología Clínica. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/historia-y-principios-de-la-psicologia-clinica/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
