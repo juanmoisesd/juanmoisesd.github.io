@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-current-global-health-crisis-is-the-pandemic-a-global-stress-and-t/
+permalink: /biblioteca-cientifica-pt/capitulos/the-current-global-health-crisis-is-the-pandemic-a-global-stress-and-t/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). The current Global Health Crisis is the pandemic a global stress and trauma situation. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-current-global-health-crisis-is-the-pandemic-a-global-stress-and-t/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
