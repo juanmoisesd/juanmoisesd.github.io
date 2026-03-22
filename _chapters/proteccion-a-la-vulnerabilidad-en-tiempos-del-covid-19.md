@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "private"
-permalink: /capitulos/proteccion-a-la-vulnerabilidad-en-tiempos-del-covid-19/
+permalink: /bibliotheque-scientifique-fr/capitulos/proteccion-a-la-vulnerabilidad-en-tiempos-del-covid-19/
 citation: 'Juan Moisés de la Serna (2022). Protección a la vulnerabilidad en tiempos del COVID-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/proteccion-a-la-vulnerabilidad-en-tiempos-del-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
