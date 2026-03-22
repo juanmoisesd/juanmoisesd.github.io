@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-emotional-world/
+permalink: /scientific-library-en/capitulos/the-emotional-world/
 citation: 'Juan Moisés de la Serna (2017). The Emotional World. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-emotional-world/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
