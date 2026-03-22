@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/introduzione-al-covid-19/
+permalink: /biblioteca-cientifica-es/capitulos/introduzione-al-covid-19/
 citation: 'Juan Moisés de la Serna (2020). Introduzione al COVID-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/introduzione-al-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
