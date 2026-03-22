@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/tratamiento-en-el-parkinson-avanzado/
+permalink: /biblioteca-cientifica-es/capitulos/tratamiento-en-el-parkinson-avanzado/
 citation: 'Juan Moisés de la Serna (2020). Tratamiento en el Párkinson Avanzado. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/tratamiento-en-el-parkinson-avanzado/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
