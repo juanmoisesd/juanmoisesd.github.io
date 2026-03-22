@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/terapia-con-animales/
+permalink: /biblioteca-cientifica-es/capitulos/terapia-con-animales/
 citation: 'Juan Moisés de la Serna (2017). Terapia con Animales. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/terapia-con-animales/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
