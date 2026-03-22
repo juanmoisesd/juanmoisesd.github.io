@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/krisis-kesehatan-global-saat-ini-apakah-pandemi-merupakan-situasi-stre/
+permalink: /biblioteca-cientifica-pt/capitulos/krisis-kesehatan-global-saat-ini-apakah-pandemi-merupakan-situasi-stre/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Krisis Kesehatan Global saat ini: apakah pandemi merupakan situasi stres dan trauma global?. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/krisis-kesehatan-global-saat-ini-apakah-pandemi-merupakan-situasi-stre/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
