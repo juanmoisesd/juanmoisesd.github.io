@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/muerte-y-resiliencia/
+permalink: /biblioteca-cientifica-es/capitulos/muerte-y-resiliencia/
 citation: 'Juan Moisés de la Serna (2021). Muerte y resiliencia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/muerte-y-resiliencia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
