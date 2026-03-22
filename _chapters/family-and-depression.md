@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/family-and-depression/
+permalink: /scientific-library-en/capitulos/family-and-depression/
 citation: 'Juan Moisés de la Serna (2019). Family and Depression. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/family-and-depression/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
