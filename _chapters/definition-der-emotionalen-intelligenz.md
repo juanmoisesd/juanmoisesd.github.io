@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/definition-der-emotionalen-intelligenz/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/definition-der-emotionalen-intelligenz/
 citation: 'Juan Moisés de la Serna (2019). Definition der emotionalen intelligenz. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/definition-der-emotionalen-intelligenz/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
