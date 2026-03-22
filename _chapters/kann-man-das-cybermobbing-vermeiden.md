@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/kann-man-das-cybermobbing-vermeiden/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/kann-man-das-cybermobbing-vermeiden/
 citation: 'Juan Moisés de la Serna (2019). Kann man das Cybermobbing vermeiden?. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/kann-man-das-cybermobbing-vermeiden/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
