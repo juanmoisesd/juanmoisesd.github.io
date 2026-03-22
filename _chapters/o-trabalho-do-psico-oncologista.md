@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/o-trabalho-do-psico-oncologista/
+permalink: /biblioteca-cientifica-es/capitulos/o-trabalho-do-psico-oncologista/
 citation: 'Juan Moisés de la Serna (2018). O trabalho do psico-oncologista. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/o-trabalho-do-psico-oncologista/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
