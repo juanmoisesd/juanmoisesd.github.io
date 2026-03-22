@@ -13,7 +13,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/caracteristicas-diferenciadores-de-las-personas-altamente-sensibles/
+permalink: /biblioteca-cientifica-es/capitulos/caracteristicas-diferenciadores-de-las-personas-altamente-sensibles/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). Características Diferenciadores de las Personas Altamente Sensibles. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/caracteristicas-diferenciadores-de-las-personas-altamente-sensibles/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
