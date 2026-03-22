@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/lattuale-crisi-sanitaria-globale-la-pandemia-e-una-situazione-globale/
+permalink: /bibliotheque-scientifique-fr/capitulos/lattuale-crisi-sanitaria-globale-la-pandemia-e-una-situazione-globale/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). L attuale crisi sanitaria globale la pandemia è una situazione globale di stress e trauma?. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/lattuale-crisi-sanitaria-globale-la-pandemia-e-una-situazione-globale/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
