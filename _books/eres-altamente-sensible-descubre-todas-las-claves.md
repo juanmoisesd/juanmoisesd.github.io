@@ -6,7 +6,7 @@ date: 2021-03-01
 year: "2021"
 month: "03"
 date_display: "marzo 2021"
-lang: "fr"
+lang: "es"
 authors:
   - "Manuela Pérez Chacón"
   - "Antonio Chacon"
@@ -16,7 +16,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /libros/eres-altamente-sensible-descubre-todas-las-claves/
+permalink: /biblioteca-cientifica-es/libros/eres-altamente-sensible-descubre-todas-las-claves/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). *¿Eres Altamente Sensible? Descubre todas las claves*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/eres-altamente-sensible-descubre-todas-las-claves/'
 last_updated: "2026-03-21"
 schema_type: "Book"
