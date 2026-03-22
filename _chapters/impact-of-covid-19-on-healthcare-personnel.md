@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/impact-of-covid-19-on-healthcare-personnel/
+permalink: /scientific-library-en/capitulos/impact-of-covid-19-on-healthcare-personnel/
 citation: 'Juan Moisés de la Serna (2020). Impact of COVID-19 on Healthcare Personnel.. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/impact-of-covid-19-on-healthcare-personnel/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
