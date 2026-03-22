@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/alteraciones-de-las-funciones-cognitivas-y-evaluacion/
+permalink: /biblioteca-cientifica-es/capitulos/alteraciones-de-las-funciones-cognitivas-y-evaluacion/
 citation: 'Juan Moisés de la Serna (2018). Alteraciones de las funciones cognitivas y evaluación. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/alteraciones-de-las-funciones-cognitivas-y-evaluacion/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
