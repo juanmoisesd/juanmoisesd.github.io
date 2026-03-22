@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/que-faire-face-au-cyber-harcelement/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/que-faire-face-au-cyber-harcelement/
 citation: 'Juan Moisés de la Serna (2020). Que faire face au Cyber-harcèlement. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/que-faire-face-au-cyber-harcelement/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
