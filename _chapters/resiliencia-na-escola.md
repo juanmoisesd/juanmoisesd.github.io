@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/resiliencia-na-escola/
+permalink: /biblioteca-cientifica-es/capitulos/resiliencia-na-escola/
 citation: 'Juan Moisés de la Serna (2019). Resiliência na Escola. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/resiliencia-na-escola/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
