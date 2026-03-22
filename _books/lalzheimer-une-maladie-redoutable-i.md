@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/lalzheimer-une-maladie-redoutable-i/
+permalink: /bibliotheque-scientifique-fr/libros/lalzheimer-une-maladie-redoutable-i/
 citation: 'Juan Moisés de la Serna (2018). *L'Alzheimer: une maladie redoutable I*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/lalzheimer-une-maladie-redoutable-i/'
 last_updated: "2026-03-21"
 schema_type: "Book"
