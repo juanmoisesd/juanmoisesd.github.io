@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}" dir="{{ page.lang_dir | default: 'ltr' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +11,23 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   <!-- Open Graph -->
-  <meta property="og:type" content="book">
+  <meta property="og:type" content="{% if page.layout == 'book' %}book{% else %}website{% endif %}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
-  <!-- Sitemap -->
+  <!-- Sitemap & feed -->
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-  <!-- Tipografía académica con carácter -->
+  <!-- Tipografía -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
+  <!-- CSS principal -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <!-- schema.org Person (global) -->
+  <!-- Schema.org Person (global) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,13 +42,19 @@
       "{{ site.author.google_scholar }}"
     ],
     "jobTitle": "Neurocientífico y Doctor en Psicología",
-    "knowsAbout": ["Neurociencia","Psicología clínica","Salud mental","Ciberpsicología","Comportamiento humano"]
+    "knowsAbout": ["Neurociencia","Psicología clínica","Salud mental","Ciberpsicología","Inteligencia emocional"]
   }
   </script>
 
+  <!-- Schema adicional por página -->
+  {% if page.layout == 'book' or page.layout == 'chapter' %}
   {{ content_for_head }}
+  {% endif %}
 </head>
 <body>
+
+  <!-- Skip to content (accesibilidad) -->
+  <a href="#main-content" class="skip-to-content">Saltar al contenido</a>
 
   <header class="site-header">
     <div class="container">
@@ -58,15 +65,15 @@
           <span>Neurocientífico · Doctor en Psicología</span>
         </div>
       </a>
-      <nav class="site-nav">
-        <a href="/" class="nav-home">🌐 Idiomas</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        {% if page.url != "/" %}<a href="/" class="nav-home">🌐 Idiomas</a>{% endif %}
         <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener">ResearchGate ↗</a>
         <a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID ↗</a>
       </nav>
     </div>
   </header>
 
-  <main class="site-main">
+  <main id="main-content" class="site-main">
     {{ content }}
   </main>
 
@@ -74,13 +81,13 @@
     <div class="container">
       <p>
         <strong>{{ site.author.name }}</strong> ·
-        <a href="{{ site.author.orcid }}" target="_blank">ORCID</a> ·
-        <a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a> ·
-        <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+        <a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a> ·
+        <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener">ResearchGate</a> ·
+        <a href="{{ site.author.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
       </p>
       <p class="footer-note">Catálogo académico actualizado · Datos verificados desde ResearchGate y OpenAlex</p>
     </div>
   </footer>
 
 </body>
-</html>
+  </html>
