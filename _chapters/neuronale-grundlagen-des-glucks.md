@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/neuronale-grundlagen-des-glucks/
+permalink: /bibliotheque-scientifique-fr/capitulos/neuronale-grundlagen-des-glucks/
 citation: 'Juan Moisés de la Serna (2020). Neuronale grundlagen des glücks. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/neuronale-grundlagen-des-glucks/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
