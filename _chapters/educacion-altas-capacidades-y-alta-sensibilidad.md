@@ -13,7 +13,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/educacion-altas-capacidades-y-alta-sensibilidad/
+permalink: /biblioteca-cientifica-es/capitulos/educacion-altas-capacidades-y-alta-sensibilidad/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). Educación, Altas Capacidades y Alta Sensibilidad. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/educacion-altas-capacidades-y-alta-sensibilidad/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
