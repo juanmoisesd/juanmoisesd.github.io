@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/iniziare-a-dare-un-senso-alle-conseguenze-della-pandemia/
+permalink: /bibliotheque-scientifique-fr/capitulos/iniziare-a-dare-un-senso-alle-conseguenze-della-pandemia/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Iniziare a dare un senso alle conseguenze della pandemia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/iniziare-a-dare-un-senso-alle-conseguenze-della-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
