@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/tecnicas-de-intervencao-nos-processos-psicologicos/
+permalink: /biblioteca-cientifica-pt/capitulos/tecnicas-de-intervencao-nos-processos-psicologicos/
 citation: 'Juan Moisés de la Serna (2019). Técnicas de intervenção nos processos psicológicos. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/tecnicas-de-intervencao-nos-processos-psicologicos/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
