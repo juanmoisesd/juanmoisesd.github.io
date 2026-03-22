@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/mejoras-para-incorporar-en-los-planes-de-prevencion-del-suicidio-en-la/
+permalink: /bibliotheque-scientifique-fr/capitulos/mejoras-para-incorporar-en-los-planes-de-prevencion-del-suicidio-en-la/
 citation: 'Juan Moisés de la Serna (2021). Mejoras para incorporar en los Planes de Prevención del Suicidio en la Policía. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/mejoras-para-incorporar-en-los-planes-de-prevencion-del-suicidio-en-la/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
