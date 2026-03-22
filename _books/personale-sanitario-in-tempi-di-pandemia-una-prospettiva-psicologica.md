@@ -6,7 +6,7 @@ date: 2020-05-01
 year: "2020"
 month: "05"
 date_display: "mayo 2020"
-lang: "fr"
+lang: "it"
 authors:
   - "Juan Moisés de la Serna"
 primary_author: "Juan Moisés de la Serna"
@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/personale-sanitario-in-tempi-di-pandemia-una-prospettiva-psicologica/
+permalink: /biblioteca-scientifica-it/libros/personale-sanitario-in-tempi-di-pandemia-una-prospettiva-psicologica/
 citation: 'Juan Moisés de la Serna (2020). *Personale sanitario in tempi di pandemia. Una prospettiva psicologica*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/personale-sanitario-in-tempi-di-pandemia-una-prospettiva-psicologica/'
 last_updated: "2026-03-21"
 schema_type: "Book"
