@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/diagnostic-de-la-maladie-dalzheimer/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/diagnostic-de-la-maladie-dalzheimer/
 citation: 'Juan Moisés de la Serna (2018). Diagnostic de la maladie d Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/diagnostic-de-la-maladie-dalzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
