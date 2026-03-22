@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/die-emotion-des-glucks/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/die-emotion-des-glucks/
 citation: 'Juan Moisés de la Serna (2020). Die emotion des glücks. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/die-emotion-des-glucks/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
