@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/les-causes-de-lalzheimer/
+permalink: /bibliotheque-scientifique-fr/capitulos/les-causes-de-lalzheimer/
 citation: 'Juan Moisés de la Serna (2018). Les causes de l’Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/les-causes-de-lalzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
