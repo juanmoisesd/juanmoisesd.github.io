@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/tipos-de-ciberdependencia/
+permalink: /biblioteca-cientifica-es/capitulos/tipos-de-ciberdependencia/
 citation: 'Juan Moisés de la Serna (2018). Tipos de ciberdependência. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/tipos-de-ciberdependencia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
