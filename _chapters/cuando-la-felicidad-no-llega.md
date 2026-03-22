@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/cuando-la-felicidad-no-llega/
+permalink: /bibliotheque-scientifique-fr/capitulos/cuando-la-felicidad-no-llega/
 citation: 'Juan Moisés de la Serna (2019). Cuando la Felicidad No Llega. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/cuando-la-felicidad-no-llega/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
