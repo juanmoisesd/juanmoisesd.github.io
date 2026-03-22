@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/inteligencia-emocional-e-desempenho-academico/
+permalink: /biblioteca-cientifica-es/capitulos/inteligencia-emocional-e-desempenho-academico/
 citation: 'Juan Moisés de la Serna (2019). Inteligência emocional e desempenho acadêmico. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/inteligencia-emocional-e-desempenho-academico/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
