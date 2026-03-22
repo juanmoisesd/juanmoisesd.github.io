@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-tristeza/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-tristeza/
 citation: 'Juan Moisés de la Serna (2017). La Tristeza. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-tristeza/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
