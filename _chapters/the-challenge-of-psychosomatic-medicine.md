@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-challenge-of-psychosomatic-medicine/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/the-challenge-of-psychosomatic-medicine/
 citation: 'Juan Moisés de la Serna (2017). The challenge of Psychosomatic Medicine. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-challenge-of-psychosomatic-medicine/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
