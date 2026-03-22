@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/el-ciberacoso-a-los-profesores/
+permalink: /biblioteca-cientifica-es/capitulos/el-ciberacoso-a-los-profesores/
 citation: 'Juan Moisés de la Serna (2017). El Ciberacoso a los Profesores. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/el-ciberacoso-a-los-profesores/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
