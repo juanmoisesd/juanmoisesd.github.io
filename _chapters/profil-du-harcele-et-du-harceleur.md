@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/profil-du-harcele-et-du-harceleur/
+permalink: /bibliotheque-scientifique-fr/capitulos/profil-du-harcele-et-du-harceleur/
 citation: 'Juan Moisés de la Serna (2020). Profil du harcelé et du Harceleur. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/profil-du-harcele-et-du-harceleur/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
