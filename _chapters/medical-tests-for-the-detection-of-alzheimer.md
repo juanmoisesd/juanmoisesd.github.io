@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/medical-tests-for-the-detection-of-alzheimer/
+permalink: /scientific-library-en/capitulos/medical-tests-for-the-detection-of-alzheimer/
 citation: 'Juan Moisés de la Serna (2017). Medical Tests for the Detection of Alzheimer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/medical-tests-for-the-detection-of-alzheimer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
