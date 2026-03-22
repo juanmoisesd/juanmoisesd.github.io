@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/seasonal-depression/
+permalink: /biblioteca-cientifica-es/capitulos/seasonal-depression/
 citation: 'Juan Moisés de la Serna (2019). Seasonal Depression. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/seasonal-depression/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
