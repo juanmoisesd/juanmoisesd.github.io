@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Depressionen und angstzustände — Juan Moisés de la Serna</title>
+<meta name="description" content="Depressionen und angstzustände. Juan Moisés de la Serna. mayo 2019.">
+<meta name="author" content="Juan Moisés de la Serna">
+<link rel="canonical" href="https://juanmoisesd.github.io/biblioteca-cientifica-es/capitulos/depressionen-und-angstzustande/">
+<meta property="og:title" content="Depressionen und angstzustände — Juan Moisés de la Serna">
+<meta property="og:description" content="Depressionen und angstzustände. Juan Moisés de la Serna. mayo 2019.">
+<meta property="og:url" content="https://juanmoisesd.github.io/biblioteca-cientifica-es/capitulos/depressionen-und-angstzustande/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1a2e;--ink-soft:#3d3d5c;--accent:#c0392b;--accent2:#2980b9;
+  --surface:#fafaf8;--card:#fff;--border:#e8e4dc;--muted:#8a8578;
+  --font-d:'Playfair Display',Georgia,serif;
+  --font-b:'Source Serif 4',Georgia,serif;
+  --font-m:'JetBrains Mono',monospace;
+  --r:4px;--sh:0 2px 12px rgba(26,26,46,.08);--shhov:0 6px 24px rgba(26,26,46,.14);
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-b);font-size:1.05rem;line-height:1.75;color:var(--ink);background:var(--surface)}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+/* HEADER */
+.site-header{background:var(--ink);color:white;border-bottom:3px solid var(--accent);position:sticky;top:0;z-index:100}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.site-logo{display:flex;align-items:center;gap:12px;color:white;text-decoration:none}
+.logo-init{width:40px;height:40px;background:var(--accent);color:white;font-family:var(--font-d);font-weight:900;display:flex;align-items:center;justify-content:center;border-radius:2px;flex-shrink:0}
+.logo-text strong{display:block;font-family:var(--font-d);font-size:.95rem;line-height:1.2}
+.logo-text span{display:block;font-size:.72rem;opacity:.65;font-style:italic}
+.site-nav{display:flex;gap:20px}
+.site-nav a{color:rgba(255,255,255,.75);font-size:.85rem;letter-spacing:.03em;text-transform:uppercase;transition:color .2s}
+.site-nav a:hover{color:white;text-decoration:none}
+/* HERO */
+.lang-hero{background:linear-gradient(135deg,var(--ink) 0%,#2c2c54 100%);color:white;padding:56px 0 44px}
+.lang-back{display:inline-block;color:rgba(255,255,255,.45);font-size:.85rem;margin-bottom:20px;text-decoration:none;transition:color .2s}
+.lang-back:hover{color:white;text-decoration:none}
+.lang-hero-title{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+.lang-flag-h{font-size:2.4rem;line-height:1}
+.lang-hero-title h1{font-family:var(--font-d);font-size:clamp(1.8rem,4vw,3rem);font-weight:900;color:white;line-height:1.1}
+.lang-hero-author{color:rgba(255,255,255,.55);font-style:italic;margin-bottom:28px}
+.hero-stats{display:flex;gap:32px;flex-wrap:wrap}
+.stat-item{text-align:center}
+.stat-item strong{display:block;font-family:var(--font-d);font-size:2rem;font-weight:900;color:var(--accent);line-height:1}
+.stat-item span{font-size:.78rem;opacity:.7;text-transform:uppercase;letter-spacing:.05em}
+/* TABS */
+.lang-tabs{background:white;border-bottom:2px solid var(--border);position:sticky;top:64px;z-index:50}
+.lang-tabs .container{display:flex}
+.lang-tab{padding:14px 28px;border:none;background:transparent;font-family:var(--font-b);font-size:.95rem;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;display:flex;align-items:center;gap:8px}
+.lang-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-count{background:var(--border);color:var(--muted);font-size:.75rem;padding:1px 7px;border-radius:10px}
+.lang-tab.active .tab-count{background:rgba(192,57,43,.12);color:var(--accent)}
+/* GRID */
+.tab-section{padding:36px 0 60px}
+.filters-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:28px}
+.filter-btn{padding:6px 16px;border:1px solid var(--border);background:white;border-radius:20px;font-family:var(--font-b);font-size:.85rem;cursor:pointer;transition:all .2s;color:var(--ink-soft)}
+.filter-btn:hover,.filter-btn.active{background:var(--ink);color:white;border-color:var(--ink)}
+.search-input{margin-left:auto;padding:6px 16px;border:1px solid var(--border);border-radius:20px;font-family:var(--font-b);font-size:.85rem;width:220px;outline:none;transition:border-color .2s}
+.search-input:focus{border-color:var(--accent2)}
+.books-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.book-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:24px;box-shadow:var(--sh);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.book-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--accent);transform:scaleY(0);transition:transform .2s;transform-origin:bottom}
+.book-card:hover{transform:translateY(-3px);box-shadow:var(--shhov)}
+.book-card:hover::before{transform:scaleY(1)}
+.chapter-card::before{background:var(--accent2)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;gap:8px}
+.card-year{font-family:var(--font-m);font-size:.8rem;color:var(--muted);background:#f0ede8;padding:2px 8px;border-radius:3px}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.72rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+.badge-oa{background:#d5f5e3;color:#1e8449}
+.badge-private{background:#fdebd0;color:#935116}
+.card-title{font-family:var(--font-d);font-size:1.05rem;font-weight:700;line-height:1.35;color:var(--ink);margin-bottom:10px;flex:1}
+.card-title a{color:inherit;text-decoration:none}
+.card-title a:hover{color:var(--accent)}
+.card-authors{font-size:.82rem;color:var(--muted);margin-top:auto;padding-top:12px;border-top:1px solid var(--border);font-style:italic}
+.card-book-ref{font-size:.78rem;color:var(--muted);padding-top:8px;font-style:italic}
+.no-results{text-align:center;padding:40px;color:var(--muted);font-style:italic;display:none}
+/* LIBRO PAGE */
+.book-page{padding:40px 0 80px}
+.breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:32px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.breadcrumb a{color:var(--accent2)}
+.book-header{margin-bottom:32px}
+.book-meta-top{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.book-title{font-family:var(--font-d);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;line-height:1.2;color:var(--ink);margin-bottom:16px}
+.book-authors{font-size:1rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.author-main{color:var(--accent);font-weight:600}
+.author-co{color:var(--ink-soft)}
+.book-date{font-size:.88rem;color:var(--muted);font-style:italic}
+.book-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.btn{display:inline-flex;align-items:center;padding:10px 22px;border-radius:var(--r);font-family:var(--font-b);font-size:.9rem;font-weight:600;cursor:pointer;transition:all .2s;border:2px solid transparent;text-decoration:none}
+.btn-primary{background:var(--accent);color:white}
+.btn-primary:hover{background:#a93226;color:white;text-decoration:none}
+.btn-secondary{background:var(--accent2);color:white}
+.btn-secondary:hover{background:#1a6fa3;color:white;text-decoration:none}
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--border)}
+.btn-outline:hover{border-color:var(--ink);text-decoration:none}
+.citation-box{background:#f5f3ef;border-left:4px solid var(--accent);padding:16px 20px;border-radius:0 var(--r) var(--r) 0;margin:24px 0}
+.citation-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px;font-family:var(--font-m)}
+.citation-text{font-size:.9rem;line-height:1.6;color:var(--ink-soft);font-style:italic}
+.chapters-section{margin-top:48px}
+.chapters-section h2{font-family:var(--font-d);font-size:1.4rem;font-weight:700;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid var(--border)}
+.chapters-list{list-style:none;counter-reset:chapters}
+.chapter-item{counter-increment:chapters;padding:14px 0;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:12px}
+.chapter-item::before{content:counter(chapters,decimal-leading-zero);font-family:var(--font-m);font-size:.78rem;color:var(--muted);flex-shrink:0;min-width:28px}
+.chapter-link{color:var(--ink);font-size:.97rem;flex:1}
+.chapter-link:hover{color:var(--accent)}
+.chapters-placeholder{color:var(--muted);font-style:italic;padding:20px 0}
+.related-section{margin-top:48px;padding-top:32px;border-top:2px solid var(--border)}
+.related-section h2{font-family:var(--font-d);font-size:1.2rem;font-weight:700;margin-bottom:16px}
+/* FOOTER */
+.site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;margin-top:80px;font-size:.85rem;text-align:center;line-height:2}
+.site-footer a{color:rgba(255,255,255,.8)}
+.site-footer a:hover{color:white}
+.footer-note{font-size:.75rem;opacity:.5;margin-top:4px}
+/* ENTRY */
+.entry-hero{min-height:calc(100vh - 64px);display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(160deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);text-align:center;padding:60px 20px;position:relative;overflow:hidden}
+.entry-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 50%,rgba(192,57,43,.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 50%,rgba(41,128,185,.15) 0%,transparent 60%)}
+.entry-author{position:relative;margin-bottom:48px}
+.entry-author h1{font-family:var(--font-d);font-size:clamp(2.4rem,6vw,4.2rem);font-weight:900;color:white;line-height:1.1;margin-bottom:14px}
+.entry-author p{color:rgba(255,255,255,.55);font-size:1.05rem;font-style:italic}
+.entry-tagline{position:relative;color:rgba(255,255,255,.35);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:48px}
+.lang-grid{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;max-width:960px;width:100%}
+.lang-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:24px 16px;text-decoration:none;color:white;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:10px}
+.lang-card:hover{background:rgba(192,57,43,.2);border-color:rgba(192,57,43,.5);transform:translateY(-5px);box-shadow:0 16px 40px rgba(0,0,0,.35);color:white;text-decoration:none}
+.lang-flag{font-size:2.2rem;line-height:1}
+.lang-card-name{font-family:var(--font-d);font-size:.95rem;font-weight:700;text-align:center}
+.lang-card-url{font-size:.65rem;color:rgba(255,255,255,.3);font-family:var(--font-m)}
+.lang-counts{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.lang-counts span{font-size:.7rem;color:rgba(255,255,255,.45);background:rgba(255,255,255,.07);padding:2px 8px;border-radius:10px}
+.entry-links{position:relative;margin-top:52px;display:flex;gap:20px;font-size:.82rem}
+.entry-links a{color:rgba(255,255,255,.4);transition:color .2s}
+.entry-links a:hover{color:white;text-decoration:none}
+@media(max-width:640px){
+  .site-header .container{height:auto;padding:12px 16px;flex-direction:column;gap:10px}
+  .books-grid{grid-template-columns:1fr}
+  .book-actions{flex-direction:column}
+  .search-input{width:100%;margin-left:0}
+}
+</style>
+<script type="application/ld+json">{
+"@context":"https://schema.org","@type":"Chapter",
+"@id":"https://juanmoisesd.github.io/biblioteca-cientifica-es/capitulos/depressionen-und-angstzustande/","name":"Depressionen und angstzustände",
+"author":{"@type":"Person","name":"Juan Moisés de la Serna","identifier":"https://orcid.org/0000-0002-8401-8018"},
+"datePublished":"2019","inLanguage":"es","url":"https://juanmoisesd.github.io/biblioteca-cientifica-es/capitulos/depressionen-und-angstzustande/"
+}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo">
+      <span class="logo-init">JM</span>
+      <div class="logo-text">
+        <strong>Juan Moisés de la Serna</strong>
+        <span>Neurocientífico · Doctor en Psicología</span>
+      </div>
+    </a>
+    <nav class="site-nav">
+      <a href="/">🌐 Idiomas</a>
+      <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank">ResearchGate ↗</a>
+      <a href="https://orcid.org/0000-0002-8401-8018" target="_blank">ORCID ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="book-page">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Inicio</a><span>›</span>
+      <a href="/biblioteca-cientifica-es/">Biblioteca Científica</a><span>›</span>
+      <span>Depressionen und angstzustände</span>
+    </nav>
+    <header class="book-header">
+      <div class="book-meta-top"><span class="card-year">2019</span></div>
+      
+      <h1 class="book-title">Depressionen und angstzustände</h1>
+      <p class="book-date">Publicado: mayo 2019 · Juan Moisés de la Serna</p>
+    </header>
+    <div class="book-actions">
+      <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank" class="btn btn-primary">Ver en ResearchGate ↗</a>
+      
+      <button class="btn btn-outline" onclick="copiarCita()" data-copiado="✓ Copiado">Copiar cita</button>
+    </div>
+    <div class="citation-box">
+      <p class="citation-label">Cita recomendada (APA)</p>
+      <p class="citation-text" id="citation-text"></p>
+    </div>
+    <div style="margin-top:32px">
+      <a href="/biblioteca-cientifica-es/" class="btn btn-outline">← Biblioteca Científica</a>
+    </div>
+  </div>
+</div></main>
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>Juan Moisés de la Serna</strong> · <a href="https://orcid.org/0000-0002-8401-8018" target="_blank">ORCID</a> · <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank">ResearchGate</a> · <a href="https://scholar.google.com/citations?user=TU_ID_AQUI" target="_blank">Google Scholar</a></p>
+    <p class="footer-note">Catálogo académico · Datos verificados desde ResearchGate y OpenAlex</p>
+  </div>
+</footer>
+<script>
+let filtros={libros:'todos',capitulos:'todos'};
+function cambiarTab(tab,btn){
+  document.querySelectorAll('.tab-section').forEach(s=>s.style.display='none');
+  document.querySelectorAll('.lang-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+tab).style.display='';
+  btn.classList.add('active');
+}
+function filtrar(tipo,valor,btn){
+  filtros[tipo]=valor;
+  btn.closest('.filters-row').querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  aplicar(tipo);
+}
+function buscar(tipo,q){aplicar(tipo,q.toLowerCase());}
+function aplicar(tipo,query=''){
+  let v=0;
+  document.querySelectorAll('#grid-'+tipo+' .book-card').forEach(card=>{
+    const oa=card.dataset.oa==='true';
+    const title=card.dataset.title||'';
+    const ok=(filtros[tipo]==='todos'||(filtros[tipo]==='oa'&&oa))&&(query===''||title.includes(query));
+    card.style.display=ok?'':'none';
+    if(ok)v++;
+  });
+  const nr=document.getElementById('no-'+tipo);
+  if(nr)nr.style.display=v===0?'block':'none';
+}
+function copiarCita(){
+  const t=document.getElementById('citation-text');
+  if(!t)return;
+  navigator.clipboard.writeText(t.innerText).then(()=>{
+    const btn=document.querySelector('[onclick="copiarCita()"]');
+    const orig=btn.textContent;
+    btn.textContent=btn.dataset.copiado||'✓ Copiado';
+    setTimeout(()=>btn.textContent=orig,2000);
+  });
+}
+</script>
+</body>
+</html>
