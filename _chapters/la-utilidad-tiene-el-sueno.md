@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-utilidad-tiene-el-sueno/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-utilidad-tiene-el-sueno/
 citation: 'Juan Moisés de la Serna (2018). La utilidad tiene el sueño. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-utilidad-tiene-el-sueno/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
