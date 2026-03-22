@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/il-lavoro-dello-psicooncologo/
+permalink: /biblioteca-scientifica-it/capitulos/il-lavoro-dello-psicooncologo/
 citation: 'Juan Moisés de la Serna (2018). Il lavoro dello Psicooncologo. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/il-lavoro-dello-psicooncologo/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
