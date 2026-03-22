@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/morte-e-resilienza/
+permalink: /biblioteca-cientifica-es/capitulos/morte-e-resilienza/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Morte e resilienza. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/morte-e-resilienza/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
