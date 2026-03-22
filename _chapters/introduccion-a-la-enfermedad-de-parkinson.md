@@ -12,7 +12,7 @@ authors:
   - "Marcos Altable"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/introduccion-a-la-enfermedad-de-parkinson/
+permalink: /bibliotheque-scientifique-fr/capitulos/introduccion-a-la-enfermedad-de-parkinson/
 citation: 'Juan Moisés de la Serna; Marcos Altable (2020). Introducción a la Enfermedad de Parkinson. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/introduccion-a-la-enfermedad-de-parkinson/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
