@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/traitement-des-troubles-du-sommeil/
+permalink: /bibliotheque-scientifique-fr/capitulos/traitement-des-troubles-du-sommeil/
 citation: 'Juan Moisés de la Serna (2018). Traitement des troubles du sommeil. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/traitement-des-troubles-du-sommeil/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
