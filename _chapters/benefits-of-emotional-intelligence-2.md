@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/benefits-of-emotional-intelligence-2/
+permalink: /scientific-library-en/capitulos/benefits-of-emotional-intelligence-2/
 citation: 'Juan Moisés de la Serna (2018). Benefits of Emotional Intelligence. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/benefits-of-emotional-intelligence-2/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
