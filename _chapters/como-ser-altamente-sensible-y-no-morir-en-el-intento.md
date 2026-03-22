@@ -13,7 +13,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/como-ser-altamente-sensible-y-no-morir-en-el-intento/
+permalink: /bibliotheque-scientifique-fr/capitulos/como-ser-altamente-sensible-y-no-morir-en-el-intento/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). Cómo ser Altamente Sensible y no morir en el intento. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/como-ser-altamente-sensible-y-no-morir-en-el-intento/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
