@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/diagnostico-de-la-mitomania/
+permalink: /bibliotheque-scientifique-fr/capitulos/diagnostico-de-la-mitomania/
 citation: 'Juan Moisés de la Serna (2018). Diagnóstico de la mitomanía. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/diagnostico-de-la-mitomania/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
