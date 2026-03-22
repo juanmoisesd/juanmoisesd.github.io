@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/classificacao-de-disturbios-psicossomaticos/
+permalink: /biblioteca-cientifica-pt/capitulos/classificacao-de-disturbios-psicossomaticos/
 citation: 'Juan Moisés de la Serna (2020). Classificação de Distúrbios Psicossomáticos. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/classificacao-de-disturbios-psicossomaticos/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
