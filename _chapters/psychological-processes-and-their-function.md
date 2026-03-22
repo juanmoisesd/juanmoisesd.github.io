@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/psychological-processes-and-their-function/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/psychological-processes-and-their-function/
 citation: 'Juan Moisés de la Serna (2018). Psychological Processes and their Function. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psychological-processes-and-their-function/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
