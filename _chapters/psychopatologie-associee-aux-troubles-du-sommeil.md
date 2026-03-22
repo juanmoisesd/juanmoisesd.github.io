@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/psychopatologie-associee-aux-troubles-du-sommeil/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/psychopatologie-associee-aux-troubles-du-sommeil/
 citation: 'Juan Moisés de la Serna (2018). Psychopatologie associée aux troubles du sommeil. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psychopatologie-associee-aux-troubles-du-sommeil/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
