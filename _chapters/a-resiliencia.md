@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/a-resiliencia/
+permalink: /biblioteca-cientifica-es/capitulos/a-resiliencia/
 citation: 'Juan Moisés de la Serna (2017). A resiliência. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/a-resiliencia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
