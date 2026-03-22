@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/hormonal-differences-between-men-and-women/
+permalink: /scientific-library-en/capitulos/hormonal-differences-between-men-and-women/
 citation: 'Juan Moisés de la Serna (2017). Hormonal differences between men and women. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/hormonal-differences-between-men-and-women/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
