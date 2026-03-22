@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/psychological-processes-therapy-techniques/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/psychological-processes-therapy-techniques/
 citation: 'Juan Moisés de la Serna (2018). Psychological Processes Therapy Techniques. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psychological-processes-therapy-techniques/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
