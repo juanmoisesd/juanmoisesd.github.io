@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/el-origen-de-las-diferencias-entre-mujeres-y-hombres/
+permalink: /biblioteca-cientifica-es/capitulos/el-origen-de-las-diferencias-entre-mujeres-y-hombres/
 citation: 'Juan Moisés de la Serna (2017). El origen de las diferencias entre mujeres y hombres. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/el-origen-de-las-diferencias-entre-mujeres-y-hombres/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
