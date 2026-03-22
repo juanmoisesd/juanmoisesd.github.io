@@ -6,7 +6,7 @@ date: 2021-02-01
 year: "2021"
 month: "02"
 date_display: "febrero 2021"
-lang: "en"
+lang: "pt"
 authors:
   - "Paul Valent"
   - "Juan Moisés de la Serna"
@@ -15,7 +15,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/estresse-e-trauma-em-tempos-de-pandemia/
+permalink: /biblioteca-cientifica-pt/libros/estresse-e-trauma-em-tempos-de-pandemia/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). *Estresse e Trauma Em Tempos De Pandemia*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/estresse-e-trauma-em-tempos-de-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Book"
