@@ -12,7 +12,7 @@ authors:
   - "Marcos Altable"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/cerebro-y-covid-19/
+permalink: /biblioteca-cientifica-es/capitulos/cerebro-y-covid-19/
 citation: 'Juan Moisés de la Serna; Marcos Altable (2020). Cerebro y COVID-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/cerebro-y-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
