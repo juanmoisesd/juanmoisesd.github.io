@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "private"
-permalink: /capitulos/las-especialidades-de-psicologia-en-espana-una-historia-inacabada/
+permalink: /biblioteca-scientifica-it/capitulos/las-especialidades-de-psicologia-en-espana-una-historia-inacabada/
 citation: 'Juan Moisés de la Serna (2023). Las especialidades de Psicología en España:: una historia inacabada. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/las-especialidades-de-psicologia-en-espana-una-historia-inacabada/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
