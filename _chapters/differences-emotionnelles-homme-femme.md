@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/differences-emotionnelles-homme-femme/
+permalink: /bibliotheque-scientifique-fr/capitulos/differences-emotionnelles-homme-femme/
 citation: 'Juan Moisés de la Serna (2018). Differences emotionnelles homme-femme. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/differences-emotionnelles-homme-femme/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
