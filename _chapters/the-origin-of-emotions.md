@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-origin-of-emotions/
+permalink: /scientific-library-en/capitulos/the-origin-of-emotions/
 citation: 'Juan Moisés de la Serna (2017). The Origin of Emotions. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-origin-of-emotions/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
