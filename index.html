@@ -1,60 +1,94 @@
 ---
 layout: default
-title: "Juan Moisés de la Serna — Neurocientífico y Doctor en Psicología"
+title: "Juan Moisés de la Serna"
 permalink: /
 ---
+<style>
+.site-main{padding:0}
+.entry-hero{min-height:calc(100vh - 64px);display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(160deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);text-align:center;padding:60px 20px;position:relative;overflow:hidden}
+.entry-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 50%,rgba(192,57,43,.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 50%,rgba(41,128,185,.15) 0%,transparent 60%)}
+.entry-author{position:relative;margin-bottom:48px}
+.entry-author h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.4rem,6vw,4.2rem);font-weight:900;color:white;line-height:1.1;margin-bottom:14px}
+.entry-author p{color:rgba(255,255,255,.55);font-size:1.05rem;font-style:italic}
+.entry-tagline{position:relative;color:rgba(255,255,255,.35);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:48px}
+.lang-grid{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;max-width:960px;width:100%}
+.lang-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:24px 16px;text-decoration:none;color:white;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:10px}
+.lang-card:hover{background:rgba(192,57,43,.2);border-color:rgba(192,57,43,.5);transform:translateY(-5px);box-shadow:0 16px 40px rgba(0,0,0,.35);color:white;text-decoration:none}
+.lang-flag{font-size:2.2rem;line-height:1}
+.lang-name{font-family:"Playfair Display",serif;font-size:.95rem;font-weight:700;text-align:center}
+.lang-url{font-size:.65rem;color:rgba(255,255,255,.3);font-family:"JetBrains Mono",monospace}
+.lang-counts{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.lang-counts span{font-size:.7rem;color:rgba(255,255,255,.45);background:rgba(255,255,255,.07);padding:2px 8px;border-radius:10px}
+.entry-links{position:relative;margin-top:52px;display:flex;gap:20px;font-size:.82rem}
+.entry-links a{color:rgba(255,255,255,.4);transition:color .2s}
+.entry-links a:hover{color:white;text-decoration:none}
+</style>
 
-<section class="hero">
-  <div class="container">
+<div class="entry-hero">
+  <div class="entry-author">
     <h1>Juan Moisés de la Serna</h1>
-    <p class="hero-sub">Neurocientífico · Doctor en Psicología · Autor de más de 130 libros</p>
-    <div class="hero-stats">
-      <div class="stat-item">
-        <strong>130+</strong>
-        <span>Libros</span>
-      </div>
-      <div class="stat-item">
-        <strong>600+</strong>
-        <span>Publicaciones</span>
-      </div>
-      <div class="stat-item">
-        <strong>9</strong>
-        <span>Idiomas</span>
-      </div>
-    </div>
+    <p>Neurocientífico · Doctor en Psicología · Autor</p>
   </div>
-</section>
-
-<section class="books-section">
-  <div class="container">
-    <h2 style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 8px;">Últimos libros publicados</h2>
-    <p style="color: var(--color-muted); margin-bottom: 32px;">
-      <a href="/libros/">Ver catálogo completo →</a>
-    </p>
-    <div class="books-grid">
-      {% assign libros_recientes = site.books | sort: "date" | reverse | limit: 6 %}
-      {% for book in libros_recientes %}
-      <article class="book-card" data-lang="{{ book.lang }}" data-oa="{{ book.is_open_access }}" data-title="{{ book.title | downcase }}">
-        <div class="card-top">
-          <span class="card-year">{{ book.year }}</span>
-          <div class="card-badges">
-            <span class="badge badge-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
-            {% if book.is_open_access == true %}
-            <span class="badge badge-oa">OA</span>
-            {% endif %}
-          </div>
-        </div>
-        <h2 class="card-title">
-          <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
-        </h2>
-        <p class="card-authors">
-          {% for author in book.authors %}{{ author }}{% unless forloop.last %} · {% endunless %}{% endfor %}
-        </p>
-      </article>
-      {% endfor %}
-    </div>
-    <div style="text-align:center; margin-top: 40px;">
-      <a href="/libros/" class="btn btn-primary">Ver todos los libros →</a>
-    </div>
+  <p class="entry-tagline">Selecciona tu idioma &middot; Choose your language &middot; Choisissez votre langue</p>
+  <div class="lang-grid">
+    <a href="/biblioteca-cientifica-es/" class="lang-card">
+      <span class="lang-flag">&#127466;&#127480;</span>
+      <span class="lang-name">Biblioteca Científica</span>
+      <span class="lang-url">/biblioteca-cientifica-es/</span>
+      <div class="lang-counts"><span>29 libros</span><span>184 caps.</span></div>
+    </a>
+    <a href="/scientific-library-en/" class="lang-card">
+      <span class="lang-flag">&#127468;&#127463;</span>
+      <span class="lang-name">Scientific Library</span>
+      <span class="lang-url">/scientific-library-en/</span>
+      <div class="lang-counts"><span>13 books</span><span>54 chaps.</span></div>
+    </a>
+    <a href="/bibliotheque-scientifique-fr/" class="lang-card">
+      <span class="lang-flag">&#127467;&#127479;</span>
+      <span class="lang-name">Bibliothèque Scientifique</span>
+      <span class="lang-url">/bibliotheque-scientifique-fr/</span>
+      <div class="lang-counts"><span>12 livres</span><span>130 chap.</span></div>
+    </a>
+    <a href="/wissenschaftliche-bibliothek-de/" class="lang-card">
+      <span class="lang-flag">&#127465;&#127466;</span>
+      <span class="lang-name">Wissenschaftliche Bibliothek</span>
+      <span class="lang-url">/wissenschaftliche-bibliothek-de/</span>
+      <div class="lang-counts"><span>4 Bücher</span><span>78 Kap.</span></div>
+    </a>
+    <a href="/biblioteca-cientifica-pt/" class="lang-card">
+      <span class="lang-flag">&#127477;&#127481;</span>
+      <span class="lang-name">Biblioteca Científica</span>
+      <span class="lang-url">/biblioteca-cientifica-pt/</span>
+      <div class="lang-counts"><span>8 livros</span><span>37 cap.</span></div>
+    </a>
+    <a href="/biblioteca-ar/" class="lang-card" dir="rtl">
+      <span class="lang-flag">&#127480;&#127462;</span>
+      <span class="lang-name">المكتبة العلمية</span>
+      <span class="lang-url">/biblioteca-ar/</span>
+      <div class="lang-counts"><span>3 كتب</span><span>17 فصل</span></div>
+    </a>
+    <a href="/biblioteca-scientifica-it/" class="lang-card">
+      <span class="lang-flag">&#127470;&#127481;</span>
+      <span class="lang-name">Biblioteca Scientifica</span>
+      <span class="lang-url">/biblioteca-scientifica-it/</span>
+      <div class="lang-counts"><span>5 libri</span><span>6 cap.</span></div>
+    </a>
+    <a href="/perpustakaan-ilmiah-id/" class="lang-card">
+      <span class="lang-flag">&#127470;&#127465;</span>
+      <span class="lang-name">Perpustakaan Ilmiah</span>
+      <span class="lang-url">/perpustakaan-ilmiah-id/</span>
+      <div class="lang-counts"><span>1 buku</span></div>
+    </a>
+    <a href="/biblioteca-stiintifica-ro/" class="lang-card">
+      <span class="lang-flag">&#127479;&#127476;</span>
+      <span class="lang-name">Biblioteca Științifică</span>
+      <span class="lang-url">/biblioteca-stiintifica-ro/</span>
+      <div class="lang-counts"><span>2 cap.</span></div>
+    </a>
   </div>
-</section>
+  <div class="entry-links">
+    <a href="https://orcid.org/0000-0002-8401-8018" target="_blank">ORCID</a>
+    <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank">ResearchGate</a>
+    <a href="https://scholar.google.com/citations?user=TU_ID_AQUI" target="_blank">Google Scholar</a>
+  </div>
+</div>
