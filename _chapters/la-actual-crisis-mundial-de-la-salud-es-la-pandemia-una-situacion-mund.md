@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-actual-crisis-mundial-de-la-salud-es-la-pandemia-una-situacion-mund/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-actual-crisis-mundial-de-la-salud-es-la-pandemia-una-situacion-mund/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). La actual crisis mundial de la salud ¿es la pandemia una situación mundial de estrés y trauma. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-actual-crisis-mundial-de-la-salud-es-la-pandemia-una-situacion-mund/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
