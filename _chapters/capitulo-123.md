@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/capitulo-123/
+permalink: /biblioteca-ar/capitulos/capitulo-123/
 citation: 'Juan Moisés de la Serna (2020). تثقيف الذكاء العاطفي. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/capitulo-123/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
