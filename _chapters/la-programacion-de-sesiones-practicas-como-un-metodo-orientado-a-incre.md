@@ -14,7 +14,7 @@ authors:
   - "Jose María León-Rubio"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-programacion-de-sesiones-practicas-como-un-metodo-orientado-a-incre/
+permalink: /bibliotheque-scientifique-fr/capitulos/la-programacion-de-sesiones-practicas-como-un-metodo-orientado-a-incre/
 citation: 'Samuel Rueda; Francisco Javier Cantero Sánchez; Isabel María Herrera Sánchez; Jose María León-Rubio (2005). La programación de sesiones prácticas como un método orientado a incrementar la motivación del alumnado universitario. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-programacion-de-sesiones-practicas-como-un-metodo-orientado-a-incre/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
