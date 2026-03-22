@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/le-cycle-du-sommeil/
+permalink: /bibliotheque-scientifique-fr/capitulos/le-cycle-du-sommeil/
 citation: 'Juan Moisés de la Serna (2020). Le cycle du sommeil. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/le-cycle-du-sommeil/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
