@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/konsekuensi-pandemi-dari-sel-hingga-politik-internasional/
+permalink: /biblioteca-cientifica-es/capitulos/konsekuensi-pandemi-dari-sel-hingga-politik-internasional/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Konsekuensi Pandemi: Dari Sel hingga Politik Internasional. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/konsekuensi-pandemi-dari-sel-hingga-politik-internasional/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
