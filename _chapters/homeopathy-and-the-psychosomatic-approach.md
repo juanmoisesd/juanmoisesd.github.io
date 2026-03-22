@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/homeopathy-and-the-psychosomatic-approach/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/homeopathy-and-the-psychosomatic-approach/
 citation: 'Juan Moisés de la Serna (2019). Homeopathy And The Psychosomatic Approach. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/homeopathy-and-the-psychosomatic-approach/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
