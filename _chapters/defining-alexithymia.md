@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/defining-alexithymia/
+permalink: /biblioteca-cientifica-es/capitulos/defining-alexithymia/
 citation: 'Juan Moisés de la Serna (2017). Defining Alexithymia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/defining-alexithymia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
