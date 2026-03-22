@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/kematian-dan-ketahanan/
+permalink: /biblioteca-cientifica-es/capitulos/kematian-dan-ketahanan/
 citation: 'Juan Moisés de la Serna (2021). Kematian dan Ketahanan. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/kematian-dan-ketahanan/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
