@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/approach-to-psychoneuroendocrinoimmunology/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/approach-to-psychoneuroendocrinoimmunology/
 citation: 'Juan Moisés de la Serna (2019). Approach To Psychoneuroendocrinoimmunology. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/approach-to-psychoneuroendocrinoimmunology/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
