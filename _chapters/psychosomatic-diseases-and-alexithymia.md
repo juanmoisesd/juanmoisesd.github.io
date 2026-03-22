@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/psychosomatic-diseases-and-alexithymia/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/psychosomatic-diseases-and-alexithymia/
 citation: 'Juan Moisés de la Serna (2017). Psychosomatic Diseases and Alexithymia. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/psychosomatic-diseases-and-alexithymia/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
