@@ -6,7 +6,7 @@ date: 2020-07-01
 year: "2020"
 month: "07"
 date_display: "julio 2020"
-lang: "fr"
+lang: "es"
 authors:
   - "Juan Moisés de la Serna"
   - "Mª Esther Gómez Rubio"
@@ -16,7 +16,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /libros/la-enfermedad-de-parkinson-en-tiempos-de-pandemia/
+permalink: /biblioteca-cientifica-es/libros/la-enfermedad-de-parkinson-en-tiempos-de-pandemia/
 citation: 'Juan Moisés de la Serna; Mª Esther Gómez Rubio; Marcos Altable (2020). *La Enfermedad de Parkinson en Tiempos de Pandemia*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/la-enfermedad-de-parkinson-en-tiempos-de-pandemia/'
 last_updated: "2026-03-21"
 schema_type: "Book"
