@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/taux-de-regeneration-cellulaire/
+permalink: /biblioteca-cientifica-es/capitulos/taux-de-regeneration-cellulaire/
 citation: 'Juan Moisés de la Serna (2020). Taux de régénération cellulaire. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/taux-de-regeneration-cellulaire/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
