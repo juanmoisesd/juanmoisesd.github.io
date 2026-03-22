@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/personality-development-and-types-of-personality/
+permalink: /scientific-library-en/capitulos/personality-development-and-types-of-personality/
 citation: 'Juan Moisés de la Serna (2019). Personality Development And Types Of Personality. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/personality-development-and-types-of-personality/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
