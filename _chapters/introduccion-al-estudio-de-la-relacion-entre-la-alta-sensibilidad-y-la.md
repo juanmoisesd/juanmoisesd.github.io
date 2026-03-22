@@ -13,7 +13,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/introduccion-al-estudio-de-la-relacion-entre-la-alta-sensibilidad-y-la/
+permalink: /bibliotheque-scientifique-fr/capitulos/introduccion-al-estudio-de-la-relacion-entre-la-alta-sensibilidad-y-la/
 citation: 'Manuela Pérez Chacón; Antonio Chacon; Juan Moisés de la Serna (2021). Introducción al estudio de la relación entre la Alta Sensibilidad y la Salud Mental. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/introduccion-al-estudio-de-la-relacion-entre-la-alta-sensibilidad-y-la/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
