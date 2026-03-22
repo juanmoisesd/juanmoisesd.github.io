@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/quest-ce-que-lintelligence-emotionnelle/
+permalink: /biblioteca-cientifica-es/capitulos/quest-ce-que-lintelligence-emotionnelle/
 citation: 'Juan Moisés de la Serna (2017). Qu’est-ce que l’intelligence émotionnelle. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/quest-ce-que-lintelligence-emotionnelle/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
