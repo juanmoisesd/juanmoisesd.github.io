@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/pasado-y-presente-de-los-estudios-de-psicologia-en-espana/
+permalink: /biblioteca-cientifica-es/capitulos/pasado-y-presente-de-los-estudios-de-psicologia-en-espana/
 citation: 'Juan Moisés de la Serna (2023). Pasado y presente de los estudios de Psicología en España. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/pasado-y-presente-de-los-estudios-de-psicologia-en-espana/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
