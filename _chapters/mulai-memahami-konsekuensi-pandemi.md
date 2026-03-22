@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/mulai-memahami-konsekuensi-pandemi/
+permalink: /biblioteca-cientifica-es/capitulos/mulai-memahami-konsekuensi-pandemi/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Mulai Memahami Konsekuensi Pandemi. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/mulai-memahami-konsekuensi-pandemi/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
