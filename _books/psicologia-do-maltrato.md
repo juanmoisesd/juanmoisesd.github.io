@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /libros/psicologia-do-maltrato/
+permalink: /biblioteca-cientifica-pt/libros/psicologia-do-maltrato/
 citation: 'Juan Moisés de la Serna (2017). *Psicologia do Maltrato*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/psicologia-do-maltrato/'
 last_updated: "2026-03-21"
 schema_type: "Book"
