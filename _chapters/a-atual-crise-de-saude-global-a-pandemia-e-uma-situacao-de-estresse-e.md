@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/a-atual-crise-de-saude-global-a-pandemia-e-uma-situacao-de-estresse-e/
+permalink: /biblioteca-cientifica-pt/capitulos/a-atual-crise-de-saude-global-a-pandemia-e-uma-situacao-de-estresse-e/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). A atual Crise de Saúde Global: a pandemia é uma situação de estresse e trauma global?. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/a-atual-crise-de-saude-global-a-pandemia-e-uma-situacao-de-estresse-e/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
