@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/diferenciacion-entre-signos-y-sintomas-en-psicologia-clinica/
+permalink: /biblioteca-cientifica-es/capitulos/diferenciacion-entre-signos-y-sintomas-en-psicologia-clinica/
 citation: 'Juan Moisés de la Serna (2018). Diferenciación entre signos y síntomas en Psicología Clínica. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/diferenciacion-entre-signos-y-sintomas-en-psicologia-clinica/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
