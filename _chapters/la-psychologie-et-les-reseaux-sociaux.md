@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/la-psychologie-et-les-reseaux-sociaux/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/la-psychologie-et-les-reseaux-sociaux/
 citation: 'Juan Moisés de la Serna (2018). La psychologie et les reseaux sociaux. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/la-psychologie-et-les-reseaux-sociaux/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
