@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/conseguenze-pandemiche-dalle-cellule-alla-politica-internazionale/
+permalink: /bibliotheque-scientifique-fr/capitulos/conseguenze-pandemiche-dalle-cellule-alla-politica-internazionale/
 citation: 'Juan Moisés de la Serna (2021). Conseguenze pandemiche dalle cellule alla politica internazionale. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/conseguenze-pandemiche-dalle-cellule-alla-politica-internazionale/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
