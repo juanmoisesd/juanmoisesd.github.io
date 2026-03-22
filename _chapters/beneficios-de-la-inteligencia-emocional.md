@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/beneficios-de-la-inteligencia-emocional/
+permalink: /bibliotheque-scientifique-fr/capitulos/beneficios-de-la-inteligencia-emocional/
 citation: 'Juan Moisés de la Serna (2018). Beneficios de la Inteligencia Emocional. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/beneficios-de-la-inteligencia-emocional/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
