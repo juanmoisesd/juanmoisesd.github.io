@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/abuse-in-adults/
+permalink: /scientific-library-en/capitulos/abuse-in-adults/
 citation: 'Juan Moisés de la Serna (2019). Abuse in Adults. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/abuse-in-adults/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
