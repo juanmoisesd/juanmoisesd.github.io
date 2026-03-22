@@ -1,32 +1,67 @@
-title: "Open Research Portal — Juan Moisés de la Serna Tuya"
-description: "71+ open datasets in Neuroscience, Behavioral Economics, Epidemiology, Mental Health, Demography & more. ORCID: 0000-0002-8401-8018"
-url: "https://juanmoisesd.github.io"
+title: "Juan Moisés de la Serna"
+subtitle: "Neurocientífico · Doctor en Psicología · Autor"
+description: "Catálogo completo de libros y publicaciones académicas de Juan Moisés de la Serna, neurocientífico y doctor en Psicología."
+url: "https://juanmoises-de-la-serna.github.io"
 baseurl: ""
 
 author:
-  name: "Juan Moisés de la Serna Tuya"
-  orcid: "0000-0002-8401-8018"
-  linkedin: "https://www.linkedin.com/in/juanmoisesdelaserna/"
-  scopus: "26632846700"
-  researcherid: "M-8296-2019"
-  isni: "0000000136898471"
-  institution: "Universidad Internacional de La Rioja (UNIR)"
-  email: "juanmoises.delaserna@unir.net"
-  collection_doi: "10.5281/zenodo.19145316"
+  name: "Juan Moisés de la Serna"
+  orcid: "https://orcid.org/0000-0002-8401-8018"
+  researchgate: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
+  google_scholar: "https://scholar.google.com/citations?user=TU_ID_AQUI"
 
-social:
-  - name: ORCID
-    url: https://orcid.org/0000-0002-8401-8018
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/juanmoisesdelaserna/
-  - name: GitHub
-    url: https://github.com/juanmoisesd
-  - name: Zenodo
-    url: https://doi.org/10.5281/zenodo.19145316
+# Colecciones
+collections:
+  books:
+    output: true
+    permalink: /libros/:slug/
+  chapters:
+    output: true
+    permalink: /capitulos/:slug/
 
+# Paginación
+paginate: 20
+paginate_path: "/libros/pagina/:num/"
+
+# Plugins
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
+  - jekyll-seo-tag
 
-lang: en
+
+# Defaults por tipo
+defaults:
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+encoding: utf-8
+lang: es
+
+# SEO
+twitter:
+  username: juanmoisesdelaserna
+social:
+  name: "Juan Moisés de la Serna"
+  links:
+    - "https://orcid.org/0000-0002-8401-8018"
+    - "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
+
+# Excluir de build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - generar_sitio.py
+  - "*.csv"
+  - README.md
+  - node_modules
