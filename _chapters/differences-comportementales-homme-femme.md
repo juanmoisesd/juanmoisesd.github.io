@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/differences-comportementales-homme-femme/
+permalink: /bibliotheque-scientifique-fr/capitulos/differences-comportementales-homme-femme/
 citation: 'Juan Moisés de la Serna (2018). Differences comportementales homme-femme. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/differences-comportementales-homme-femme/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
