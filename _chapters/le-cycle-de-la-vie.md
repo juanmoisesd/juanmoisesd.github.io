@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/le-cycle-de-la-vie/
+permalink: /bibliotheque-scientifique-fr/capitulos/le-cycle-de-la-vie/
 citation: 'Juan Moisés de la Serna (2020). Le cycle de la vie. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/le-cycle-de-la-vie/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
