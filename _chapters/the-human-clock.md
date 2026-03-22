@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-human-clock/
+permalink: /scientific-library-en/capitulos/the-human-clock/
 citation: 'Juan Moisés de la Serna (2018). The Human Clock. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-human-clock/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
