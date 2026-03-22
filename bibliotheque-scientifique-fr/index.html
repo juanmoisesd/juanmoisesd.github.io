@@ -1,17 +1,1100 @@
----
-layout: lang_home
-title: "Bibliothèque Scientifique — Juan Moisés de la Serna"
-lang: "fr"
-lang_name: "Bibliothèque Scientifique"
-lang_flag: "🇫🇷"
-lang_dir: "ltr"
-lang_url: "bibliotheque-scientifique-fr"
-permalink: /bibliotheque-scientifique-fr/
-ui_libros: "Livres"
-ui_capitulos: "Chapitres"
-ui_todos: "Tous"
-ui_oa: "Accès ouvert"
-ui_buscar: "Rechercher..."
-ui_sin_res: "Aucun résultat."
-ui_volver: "← Accueil"
----
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Bibliothèque Scientifique — Juan Moisés de la Serna</title>
+<meta name="description" content="Bibliothèque Scientifique de Juan Moisés de la Serna. 12 Livres, 130 Chapitres.">
+<meta name="author" content="Juan Moisés de la Serna">
+<link rel="canonical" href="https://juanmoisesd.github.io/bibliotheque-scientifique-fr/">
+<meta property="og:title" content="Bibliothèque Scientifique — Juan Moisés de la Serna">
+<meta property="og:description" content="Bibliothèque Scientifique de Juan Moisés de la Serna. 12 Livres, 130 Chapitres.">
+<meta property="og:url" content="https://juanmoisesd.github.io/bibliotheque-scientifique-fr/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1a2e;--ink-soft:#3d3d5c;--accent:#c0392b;--accent2:#2980b9;
+  --surface:#fafaf8;--card:#fff;--border:#e8e4dc;--muted:#8a8578;
+  --font-d:'Playfair Display',Georgia,serif;
+  --font-b:'Source Serif 4',Georgia,serif;
+  --font-m:'JetBrains Mono',monospace;
+  --r:4px;--sh:0 2px 12px rgba(26,26,46,.08);--shhov:0 6px 24px rgba(26,26,46,.14);
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-b);font-size:1.05rem;line-height:1.75;color:var(--ink);background:var(--surface)}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+/* HEADER */
+.site-header{background:var(--ink);color:white;border-bottom:3px solid var(--accent);position:sticky;top:0;z-index:100}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.site-logo{display:flex;align-items:center;gap:12px;color:white;text-decoration:none}
+.logo-init{width:40px;height:40px;background:var(--accent);color:white;font-family:var(--font-d);font-weight:900;display:flex;align-items:center;justify-content:center;border-radius:2px;flex-shrink:0}
+.logo-text strong{display:block;font-family:var(--font-d);font-size:.95rem;line-height:1.2}
+.logo-text span{display:block;font-size:.72rem;opacity:.65;font-style:italic}
+.site-nav{display:flex;gap:20px}
+.site-nav a{color:rgba(255,255,255,.75);font-size:.85rem;letter-spacing:.03em;text-transform:uppercase;transition:color .2s}
+.site-nav a:hover{color:white;text-decoration:none}
+/* HERO */
+.lang-hero{background:linear-gradient(135deg,var(--ink) 0%,#2c2c54 100%);color:white;padding:56px 0 44px}
+.lang-back{display:inline-block;color:rgba(255,255,255,.45);font-size:.85rem;margin-bottom:20px;text-decoration:none;transition:color .2s}
+.lang-back:hover{color:white;text-decoration:none}
+.lang-hero-title{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+.lang-flag-h{font-size:2.4rem;line-height:1}
+.lang-hero-title h1{font-family:var(--font-d);font-size:clamp(1.8rem,4vw,3rem);font-weight:900;color:white;line-height:1.1}
+.lang-hero-author{color:rgba(255,255,255,.55);font-style:italic;margin-bottom:28px}
+.hero-stats{display:flex;gap:32px;flex-wrap:wrap}
+.stat-item{text-align:center}
+.stat-item strong{display:block;font-family:var(--font-d);font-size:2rem;font-weight:900;color:var(--accent);line-height:1}
+.stat-item span{font-size:.78rem;opacity:.7;text-transform:uppercase;letter-spacing:.05em}
+/* TABS */
+.lang-tabs{background:white;border-bottom:2px solid var(--border);position:sticky;top:64px;z-index:50}
+.lang-tabs .container{display:flex}
+.lang-tab{padding:14px 28px;border:none;background:transparent;font-family:var(--font-b);font-size:.95rem;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;display:flex;align-items:center;gap:8px}
+.lang-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-count{background:var(--border);color:var(--muted);font-size:.75rem;padding:1px 7px;border-radius:10px}
+.lang-tab.active .tab-count{background:rgba(192,57,43,.12);color:var(--accent)}
+/* GRID */
+.tab-section{padding:36px 0 60px}
+.filters-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:28px}
+.filter-btn{padding:6px 16px;border:1px solid var(--border);background:white;border-radius:20px;font-family:var(--font-b);font-size:.85rem;cursor:pointer;transition:all .2s;color:var(--ink-soft)}
+.filter-btn:hover,.filter-btn.active{background:var(--ink);color:white;border-color:var(--ink)}
+.search-input{margin-left:auto;padding:6px 16px;border:1px solid var(--border);border-radius:20px;font-family:var(--font-b);font-size:.85rem;width:220px;outline:none;transition:border-color .2s}
+.search-input:focus{border-color:var(--accent2)}
+.books-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.book-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:24px;box-shadow:var(--sh);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.book-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--accent);transform:scaleY(0);transition:transform .2s;transform-origin:bottom}
+.book-card:hover{transform:translateY(-3px);box-shadow:var(--shhov)}
+.book-card:hover::before{transform:scaleY(1)}
+.chapter-card::before{background:var(--accent2)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;gap:8px}
+.card-year{font-family:var(--font-m);font-size:.8rem;color:var(--muted);background:#f0ede8;padding:2px 8px;border-radius:3px}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.72rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+.badge-oa{background:#d5f5e3;color:#1e8449}
+.badge-private{background:#fdebd0;color:#935116}
+.card-title{font-family:var(--font-d);font-size:1.05rem;font-weight:700;line-height:1.35;color:var(--ink);margin-bottom:10px;flex:1}
+.card-title a{color:inherit;text-decoration:none}
+.card-title a:hover{color:var(--accent)}
+.card-authors{font-size:.82rem;color:var(--muted);margin-top:auto;padding-top:12px;border-top:1px solid var(--border);font-style:italic}
+.card-book-ref{font-size:.78rem;color:var(--muted);padding-top:8px;font-style:italic}
+.no-results{text-align:center;padding:40px;color:var(--muted);font-style:italic;display:none}
+/* LIBRO PAGE */
+.book-page{padding:40px 0 80px}
+.breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:32px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.breadcrumb a{color:var(--accent2)}
+.book-header{margin-bottom:32px}
+.book-meta-top{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.book-title{font-family:var(--font-d);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;line-height:1.2;color:var(--ink);margin-bottom:16px}
+.book-authors{font-size:1rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.author-main{color:var(--accent);font-weight:600}
+.author-co{color:var(--ink-soft)}
+.book-date{font-size:.88rem;color:var(--muted);font-style:italic}
+.book-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.btn{display:inline-flex;align-items:center;padding:10px 22px;border-radius:var(--r);font-family:var(--font-b);font-size:.9rem;font-weight:600;cursor:pointer;transition:all .2s;border:2px solid transparent;text-decoration:none}
+.btn-primary{background:var(--accent);color:white}
+.btn-primary:hover{background:#a93226;color:white;text-decoration:none}
+.btn-secondary{background:var(--accent2);color:white}
+.btn-secondary:hover{background:#1a6fa3;color:white;text-decoration:none}
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--border)}
+.btn-outline:hover{border-color:var(--ink);text-decoration:none}
+.citation-box{background:#f5f3ef;border-left:4px solid var(--accent);padding:16px 20px;border-radius:0 var(--r) var(--r) 0;margin:24px 0}
+.citation-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px;font-family:var(--font-m)}
+.citation-text{font-size:.9rem;line-height:1.6;color:var(--ink-soft);font-style:italic}
+.chapters-section{margin-top:48px}
+.chapters-section h2{font-family:var(--font-d);font-size:1.4rem;font-weight:700;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid var(--border)}
+.chapters-list{list-style:none;counter-reset:chapters}
+.chapter-item{counter-increment:chapters;padding:14px 0;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:12px}
+.chapter-item::before{content:counter(chapters,decimal-leading-zero);font-family:var(--font-m);font-size:.78rem;color:var(--muted);flex-shrink:0;min-width:28px}
+.chapter-link{color:var(--ink);font-size:.97rem;flex:1}
+.chapter-link:hover{color:var(--accent)}
+.chapters-placeholder{color:var(--muted);font-style:italic;padding:20px 0}
+.related-section{margin-top:48px;padding-top:32px;border-top:2px solid var(--border)}
+.related-section h2{font-family:var(--font-d);font-size:1.2rem;font-weight:700;margin-bottom:16px}
+/* FOOTER */
+.site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;margin-top:80px;font-size:.85rem;text-align:center;line-height:2}
+.site-footer a{color:rgba(255,255,255,.8)}
+.site-footer a:hover{color:white}
+.footer-note{font-size:.75rem;opacity:.5;margin-top:4px}
+/* ENTRY */
+.entry-hero{min-height:calc(100vh - 64px);display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(160deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);text-align:center;padding:60px 20px;position:relative;overflow:hidden}
+.entry-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 50%,rgba(192,57,43,.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 50%,rgba(41,128,185,.15) 0%,transparent 60%)}
+.entry-author{position:relative;margin-bottom:48px}
+.entry-author h1{font-family:var(--font-d);font-size:clamp(2.4rem,6vw,4.2rem);font-weight:900;color:white;line-height:1.1;margin-bottom:14px}
+.entry-author p{color:rgba(255,255,255,.55);font-size:1.05rem;font-style:italic}
+.entry-tagline{position:relative;color:rgba(255,255,255,.35);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:48px}
+.lang-grid{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;max-width:960px;width:100%}
+.lang-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:24px 16px;text-decoration:none;color:white;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:10px}
+.lang-card:hover{background:rgba(192,57,43,.2);border-color:rgba(192,57,43,.5);transform:translateY(-5px);box-shadow:0 16px 40px rgba(0,0,0,.35);color:white;text-decoration:none}
+.lang-flag{font-size:2.2rem;line-height:1}
+.lang-card-name{font-family:var(--font-d);font-size:.95rem;font-weight:700;text-align:center}
+.lang-card-url{font-size:.65rem;color:rgba(255,255,255,.3);font-family:var(--font-m)}
+.lang-counts{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.lang-counts span{font-size:.7rem;color:rgba(255,255,255,.45);background:rgba(255,255,255,.07);padding:2px 8px;border-radius:10px}
+.entry-links{position:relative;margin-top:52px;display:flex;gap:20px;font-size:.82rem}
+.entry-links a{color:rgba(255,255,255,.4);transition:color .2s}
+.entry-links a:hover{color:white;text-decoration:none}
+@media(max-width:640px){
+  .site-header .container{height:auto;padding:12px 16px;flex-direction:column;gap:10px}
+  .books-grid{grid-template-columns:1fr}
+  .book-actions{flex-direction:column}
+  .search-input{width:100%;margin-left:0}
+}
+</style>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo">
+      <span class="logo-init">JM</span>
+      <div class="logo-text">
+        <strong>Juan Moisés de la Serna</strong>
+        <span>Neurocientífico · Doctor en Psicología</span>
+      </div>
+    </a>
+    <nav class="site-nav">
+      <a href="/">🌐 Idiomas</a>
+      <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank">ResearchGate ↗</a>
+      <a href="https://orcid.org/0000-0002-8401-8018" target="_blank">ORCID ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="lang-hero">
+  <div class="container">
+    <a href="/" class="lang-back">← Accueil</a>
+    <div class="lang-hero-title">
+      <span class="lang-flag-h">🇫🇷</span>
+      <h1>Bibliothèque Scientifique</h1>
+    </div>
+    <p class="lang-hero-author">Juan Moisés de la Serna</p>
+    <div class="hero-stats">
+      <div class="stat-item"><strong>12</strong><span>Livres</span></div>
+      <div class="stat-item"><strong>130</strong><span>Chapitres</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="lang-tabs">
+  <div class="container">
+    <button class="lang-tab active" onclick="cambiarTab('libros',this)">
+      Livres <span class="tab-count">12</span>
+    </button>
+    <button class="lang-tab" onclick="cambiarTab('capitulos',this)">
+      Chapitres <span class="tab-count">130</span>
+    </button>
+  </div>
+</div>
+
+<section id="tab-libros" class="tab-section">
+  <div class="container">
+    <div class="filters-row">
+      <button class="filter-btn active" onclick="filtrar('libros','todos',this)">Tous</button>
+      <button class="filter-btn" onclick="filtrar('libros','oa',this)">Accès ouvert</button>
+      <input type="text" class="search-input" placeholder="Rechercher..." oninput="buscar('libros',this.value)">
+    </div>
+    <div class="books-grid" id="grid-libros">
+<article class="book-card" data-oa="false" data-title="« l’accroche narrative, un entraînement pour l'intelligence émotionnelle »">
+  <div class="card-top"><span class="card-year">2021</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/laccroche-narrative-un-entrainement-pour-lintelligence-emotionnelle/">« L’accroche narrative, un entraînement pour l'intelligence émotionnelle »</a></h2>
+  <p class="card-authors">Paula Eleta · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="true" data-title="la chronobiologie: la biologie du temps">
+  <div class="card-top"><span class="card-year">2020</span><div class="card-badges"><span class="badge badge-oa">OA</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/la-chronobiologie-la-biologie-du-temps/">La Chronobiologie: La biologie du temps</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="le cyber-harcèlement: lorsque le harceleur s`introduit dans votre ordinateur">
+  <div class="card-top"><span class="card-year">2020</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/le-cyber-harcelement-lorsque-le-harceleur-sintroduit-dans-votre-ordina/">Le Cyber-harcèlement: Lorsque le harceleur s`introduit dans votre ordinateur</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="intelligence émotionnel dans le école">
+  <div class="card-top"><span class="card-year">2019</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/intelligence-emotionnel-dans-le-ecole/">Intelligence Émotionnel dans le École</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="le mal d’alzheimer iii">
+  <div class="card-top"><span class="card-year">2019</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/le-mal-dalzheimer-iii/">Le Mal d’Alzheimer III</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="différences homme-femme">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/differences-homme-femme/">Différences homme-femme</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="la cyber-psychologie">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/la-cyber-psychologie/">La Cyber-psychologie</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="la maladie d'alzheimer ii">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/la-maladie-dalzheimer-ii/">La maladie d'Alzheimer II</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="l'alzheimer: une maladie redoutable i">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/lalzheimer-une-maladie-redoutable-i/">L'Alzheimer: une maladie redoutable I</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="true" data-title="psychologie de la maltraitance">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-oa">OA</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/psychologie-de-la-maltraitance/">Psychologie de la maltraitance</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="psychologie du sommeil">
+  <div class="card-top"><span class="card-year">2018</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/psychologie-du-sommeil/">Psychologie du Sommeil</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card" data-oa="false" data-title="intelligence émotionnelle: apprenez à tirer le meilleur parti de vos émotions">
+  <div class="card-top"><span class="card-year">2017</span><div class="card-badges"><span class="badge badge-private">RG</span></div></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/libros/intelligence-emotionnelle-apprenez-a-tirer-le-meilleur-parti-de-vos-em/">Intelligence émotionnelle: Apprenez à tirer le meilleur parti de vos émotions</a></h2>
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article></div>
+    <p id="no-libros" class="no-results">Aucun résultat.</p>
+  </div>
+</section>
+
+<section id="tab-capitulos" class="tab-section" style="display:none">
+  <div class="container">
+    <div class="filters-row">
+      <button class="filter-btn active" onclick="filtrar('capitulos','todos',this)">Tous</button>
+      <button class="filter-btn" onclick="filtrar('capitulos','oa',this)">Accès ouvert</button>
+      <input type="text" class="search-input" placeholder="Rechercher..." oninput="buscar('capitulos',this.value)">
+    </div>
+    <div class="books-grid" id="grid-capitulos">
+<article class="book-card chapter-card" data-oa="true" data-title="chapter 1 - omics approaches in covid-19: an overview (citation: altable et al. cerebrovascular disease in covid-19: is there a higher risk of stroke? behavior & immunity - health)">
+  <div class="card-top"><span class="card-year">2023</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/chapter-1-omics-approaches-in-covid-19-an-overview-citation-altable-et/">Chapter 1 - Omics approaches in COVID-19: An overview (Citation: Altable et al. Cerebrovascular Disease in COVID-19: Is There a Higher Risk of Stroke? Behavior & Immunity - Health)</a></h2>
+  
+  <p class="card-authors">Marcos Altable · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="la salud mental: el próximo reto de la justicia">
+  <div class="card-top"><span class="card-year">2022</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-salud-mental-el-proximo-reto-de-la-justicia/">La salud mental: el próximo reto de la Justicia</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="protección a la vulnerabilidad en tiempos del covid-19">
+  <div class="card-top"><span class="card-year">2022</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/proteccion-a-la-vulnerabilidad-en-tiempos-del-covid-19/">Protección a la vulnerabilidad en tiempos del COVID-19</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="basi neuronali dell'intelligenza matematica">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/basi-neuronali-dellintelligenza-matematica/">Basi Neuronali dell'Intelligenza Matematica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="características de la persona altamente sensible">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/caracteristicas-de-la-persona-altamente-sensible/">Características de la persona altamente sensible</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="cómo ser altamente sensible y no morir en el intento">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/como-ser-altamente-sensible-y-no-morir-en-el-intento/">Cómo ser Altamente Sensible y no morir en el intento</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="consecuencias de la alta sensibilidad">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/consecuencias-de-la-alta-sensibilidad/">Consecuencias de la Alta Sensibilidad</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="consecuencias pandémicas de las células a la política internacional">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/consecuencias-pandemicas-de-las-celulas-a-la-politica-internacional/">Consecuencias pandémicas de las células a la política internacional</a></h2>
+  
+  <p class="card-authors">Paul Valent · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="conseguenze pandemiche dalle cellule alla politica internazionale">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/conseguenze-pandemiche-dalle-cellule-alla-politica-internazionale/">Conseguenze pandemiche dalle cellule alla politica internazionale</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="empezar a dar sentido a las consecuencias de la pandemia">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/empezar-a-dar-sentido-a-las-consecuencias-de-la-pandemia/">Empezar a dar sentido a las consecuencias de la pandemia</a></h2>
+  
+  <p class="card-authors">Paul Valent · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="errores habituales en los planes de prevención del suicidio en la policía">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/errores-habituales-en-los-planes-de-prevencion-del-suicidio-en-la-poli/">Errores Habituales en los Planes De Prevención del Suicidio en la Policía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="identificando la alta sensibilidad">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/identificando-la-alta-sensibilidad/">Identificando la Alta Sensibilidad</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="iniziare a dare un senso alle conseguenze della pandemia">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/iniziare-a-dare-un-senso-alle-conseguenze-della-pandemia/">Iniziare a dare un senso alle conseguenze della pandemia</a></h2>
+  
+  <p class="card-authors">Paul Valent · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="introducción a la alta sensibilidad">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/introduccion-a-la-alta-sensibilidad/">Introducción a la Alta Sensibilidad</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="introducción al estudio de la relación entre la alta sensibilidad y la salud mental">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/introduccion-al-estudio-de-la-relacion-entre-la-alta-sensibilidad-y-la/">Introducción al estudio de la relación entre la Alta Sensibilidad y la Salud Mental</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="introduzione alla neuromatematica">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/introduzione-alla-neuromatematica/">Introduzione alla Neuromatematica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la actual crisis mundial de la salud ¿es la pandemia una situación mundial de estrés y trauma">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-actual-crisis-mundial-de-la-salud-es-la-pandemia-una-situacion-mund/">La actual crisis mundial de la salud ¿es la pandemia una situación mundial de estrés y trauma</a></h2>
+  
+  <p class="card-authors">Paul Valent · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la realidad del suicidio en el ámbito policial">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-realidad-del-suicidio-en-el-ambito-policial/">La realidad del Suicidio en el ámbito Policial</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l'attuale crisi sanitaria globale la pandemia è una situazione globale di stress e trauma?">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lattuale-crisi-sanitaria-globale-la-pandemia-e-una-situazione-globale/">L'attuale crisi sanitaria globale la pandemia è una situazione globale di stress e trauma?</a></h2>
+  
+  <p class="card-authors">Paul Valent · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="mejoras para incorporar en los planes de prevención del suicidio en la policía">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/mejoras-para-incorporar-en-los-planes-de-prevencion-del-suicidio-en-la/">Mejoras para incorporar en los Planes de Prevención del Suicidio en la Policía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="pacientes no sensibles y pacientes sensibles">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/pacientes-no-sensibles-y-pacientes-sensibles/">Pacientes no sensibles y pacientes sensibles</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="problemas derivados de la alta sensibilidad">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/problemas-derivados-de-la-alta-sensibilidad/">Problemas derivados de la Alta Sensibilidad</a></h2>
+  
+  <p class="card-authors">Manuela Pérez Chacón · Antonio Chacon · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="procesos implicados en las consecuencias de la pandemia">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/procesos-implicados-en-las-consecuencias-de-la-pandemia/">Procesos implicados en las consecuencias de la pandemia</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="processi coinvolti nelle conseguenze della pandemia.">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/processi-coinvolti-nelle-conseguenze-della-pandemia/">Processi coinvolti nelle conseguenze della pandemia.</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="processi neuronali della matematica">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/processi-neuronali-della-matematica/">Processi Neuronali della Matematica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="propuestas tecnológicas a incluir en los planes de prevención del suicidio en la policía">
+  <div class="card-top"><span class="card-year">2021</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/propuestas-tecnologicas-a-incluir-en-los-planes-de-prevencion-del-suic/">Propuestas Tecnológicas a incluir en los Planes de Prevención del Suicidio en la Policía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="bases neuronales de la inteligencia matemática">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/bases-neuronales-de-la-inteligencia-matematica/">Bases neuronales de la inteligencia matemática</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="contextualizando la pandemia actual">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/contextualizando-la-pandemia-actual/">Contextualizando la Pandemia Actual</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="contextualizando la pandemia por covid-19">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/contextualizando-la-pandemia-por-covid-19/">Contextualizando la pandemia por COVID-19</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="contextualizando la pandemia">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/contextualizando-la-pandemia/">Contextualizando la Pandemia</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="impatto del covid -19 sul personale sanitario">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/impatto-del-covid-19-sul-personale-sanitario/">Impatto del Covid -19 sul personale sanitario</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="introducción a la enfermedad de parkinson">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/introduccion-a-la-enfermedad-de-parkinson/">Introducción a la Enfermedad de Parkinson</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna · Marcos Altable</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="introducción a la neuromatemática">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/introduccion-a-la-neuromatematica/">Introducción a la Neuromatemática</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="la fréquence cardiaque">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-frequence-cardiaque/">La fréquence cardiaque</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="la plus grande découverte de l'humanité">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-plus-grande-decouverte-de-lhumanite/">La plus grande découverte de l'humanité</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="le contrôle du temps">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/le-controle-du-temps/">Le contrôle du temps</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="le cycle de la vie">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/le-cycle-de-la-vie/">Le cycle de la vie</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="le cycle du sommeil">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/le-cycle-du-sommeil/">Le cycle du sommeil</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="le cycle menstruel">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/le-cycle-menstruel/">Le cycle menstruel</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les migrations">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-migrations/">Les migrations</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="neuronale grundlagen des glücks">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/neuronale-grundlagen-des-glucks/">Neuronale grundlagen des glücks</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="neuropsiquiatría en la enfermedad de parkinson">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/neuropsiquiatria-en-la-enfermedad-de-parkinson/">NEUROPSIQUIATRÍA EN LA ENFERMEDAD DE PARKINSON</a></h2>
+  
+  <p class="card-authors">Marcos Altable · Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="procesos neuronales de la matemáticas">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/procesos-neuronales-de-la-matematicas/">Procesos neuronales de la matemáticas</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="profil du harcelé et du harceleur">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/profil-du-harcele-et-du-harceleur/">Profil du harcelé et du Harceleur</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="reacciones sociales ante el covid-19">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/reacciones-sociales-ante-el-covid-19/">Reacciones sociales ante el COVID-19</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="salute mentale e isolamento in tempi di covid-19">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/salute-mentale-e-isolamento-in-tempi-di-covid-19/">Salute mentale e isolamento in tempi di Covid-19</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="vorteile des glücks">
+  <div class="card-top"><span class="card-year">2020</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/vorteile-des-glucks/">Vorteile des glücks</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="bases neuronales de la felicidad">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/bases-neuronales-de-la-felicidad/">Bases Neuronales de la Felicidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="beneficios de la felicidad">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/beneficios-de-la-felicidad/">Beneficios de la Felicidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="buscando la felicidad">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/buscando-la-felicidad/">Buscando la Felicidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="cuando la felicidad no llega">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/cuando-la-felicidad-no-llega/">Cuando la Felicidad No Llega</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="descubriendo la felicidad">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/descubriendo-la-felicidad/">Descubriendo la Felicidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la emoción de la felicidad">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-emocion-de-la-felicidad/">La Emoción de la Felicidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la résilience à l'école">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-resilience-a-lecole/">La résilience à l'École</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="le rôle de l’accompagnant dans l’alzheimer">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/le-role-de-laccompagnant-dans-lalzheimer/">Le rôle de l’accompagnant dans l’Alzheimer</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les avantages de l'intelligence émotionnelle">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-avantages-de-lintelligence-emotionnelle/">Les avantages de l'Intelligence Émotionnelle</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l'intelligence émotionnelle àl 'école">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lintelligence-emotionnelle-al-ecole/">L'intelligence émotionnelle àl 'École</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="l'intelligence émotionnelle et de bonheur">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lintelligence-emotionnelle-et-de-bonheur/">L'intelligence émotionnelle et de Bonheur</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l'intelligence émotionnelle et la performance scolaire">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lintelligence-emotionnelle-et-la-performance-scolaire/">L'intelligence émotionnelle et la Performance Scolaire</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l'intelligence émotionnelle et l'intimidation">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lintelligence-emotionnelle-et-lintimidation/">L'intelligence émotionnelle et l'Intimidation</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="l'intelligence émotionnelle">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lintelligence-emotionnelle/">L'Intelligence Émotionnelle</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="prévention de l’alzheimer">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/prevention-de-lalzheimer/">Prévention de l’Alzheimer</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="s'exprimant sur l'intelligence émotionnelle">
+  <div class="card-top"><span class="card-year">2019</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/sexprimant-sur-lintelligence-emotionnelle/">S'exprimant sur l'Intelligence Émotionnelle</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="ámbitos de aplicación de la psicología clínica">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/ambitos-de-aplicacion-de-la-psicologia-clinica/">Ámbitos de aplicación de la Psicología Clínica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="bases del manejo de los manuales de diagnóstico d.s.m.-v y c.i.e.-10">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/bases-del-manejo-de-los-manuales-de-diagnostico-dsm-v-y-cie-10/">Bases del manejo de los manuales de diagnóstico D.S.M.-V y C.I.E.-10</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="bases neuronales del cerebro">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/bases-neuronales-del-cerebro/">Bases Neuronales del Cerebro</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="beneficios de la inteligencia emocional">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/beneficios-de-la-inteligencia-emocional/">Beneficios de la Inteligencia Emocional</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="ciberpsicología: la nueva psicología">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/ciberpsicologia-la-nueva-psicologia/">Ciberpsicología: La Nueva Psicología</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="consejos para prevenir la mitomanía">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/consejos-para-prevenir-la-mitomania/">Consejos para prevenir la mitomanía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="description du sommeil">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/description-du-sommeil/">Description du sommeil</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diagnóstico de la mitomanía">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diagnostico-de-la-mitomania/">Diagnóstico de la mitomanía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="differences comportementales homme-femme">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/differences-comportementales-homme-femme/">Differences comportementales homme-femme</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="differences emotionnelles homme-femme">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/differences-emotionnelles-homme-femme/">Differences emotionnelles homme-femme</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="differences hormonales homme-femme">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/differences-hormonales-homme-femme/">Differences hormonales homme-femme</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="differences neuronales homme-femme">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/differences-neuronales-homme-femme/">Differences neuronales homme-femme</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="efectos de la privación de sueño">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/efectos-de-la-privacion-de-sueno/">Efectos de la privación de sueño</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el avatar y la identidad digital">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-avatar-y-la-identidad-digital/">El Avatar y la Identidad Digital</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el cáncer y su relación con la psicología">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-cancer-y-su-relacion-con-la-psicologia/">El Cáncer y su relación con la Psicología</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el ciclo de la vida">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-ciclo-de-la-vida/">El Ciclo de la Vida</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el diagnóstico diferencial en la psicología clínica">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-diagnostico-diferencial-en-la-psicologia-clinica/">El diagnóstico diferencial en la Psicología Clínica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el mayor descubrimiento de la humanidad">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-mayor-descubrimiento-de-la-humanidad/">El Mayor Descubrimiento de la Humanidad</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el paciente en consulta, manejo de la entrevista clínica">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-paciente-en-consulta-manejo-de-la-entrevista-clinica/">El paciente en consulta, manejo de la entrevista clínica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="historia y principios de la psicología clínica">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/historia-y-principios-de-la-psicologia-clinica/">Historia y principios de la Psicología Clínica</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="inteligencia emocional en la escuela">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/inteligencia-emocional-en-la-escuela/">Inteligencia Emocional en la Escuela</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="interviniendo en la inteligencia emocional">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/interviniendo-en-la-inteligencia-emocional/">Interviniendo en la Inteligencia Emocional</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la frecuencia cardíaca">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-frecuencia-cardiaca/">La Frecuencia Cardíaca</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la labor del psicooncólogo">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-labor-del-psicooncologo/">La Labor del Psicooncólogo</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la psicología de las redes sociales">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-psicologia-de-las-redes-sociales/">La Psicología de Las Redes Sociales</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la resiliencia en la escuela">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-resiliencia-en-la-escuela/">La resiliencia en la Escuela</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la tasa de regeneración celular">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-tasa-de-regeneracion-celular/">La Tasa de Regeneración Celular</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la utilidad tiene el sueño">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-utilidad-tiene-el-sueno/">La utilidad tiene el sueño</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="las oportunidades de la red">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/las-oportunidades-de-la-red/">Las Oportunidades de la Red</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l'avatar et l'identite digitale">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/lavatar-et-lidentite-digitale/">L'avatar et l'identite digitale</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les causes de l’alzheimer">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-causes-de-lalzheimer/">Les causes de l’Alzheimer</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les consequences d’alzheimer">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-consequences-dalzheimer/">Les consequences d’Alzheimer</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les opportunites d’internet">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-opportunites-dinternet/">Les opportunites d’internet</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les risques de l’internet">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-risques-de-linternet/">Les risques de l’internet</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="l’importance du sommeil">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/limportance-du-sommeil/">L’importance du sommeil</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="maltraitance chez l'adulte">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/maltraitance-chez-ladulte/">Maltraitance chez l'adulte</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="maltraitance chez les personnes agees">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/maltraitance-chez-les-personnes-agees/">Maltraitance chez les personnes agees</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="maltraitance pendant l'adolescence">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/maltraitance-pendant-ladolescence/">Maltraitance pendant l'adolescence</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="¿qué es la mitomanía?">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/que-es-la-mitomania/">¿Qué es la mitomanía?</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="síntomas de la mitomanía">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/sintomas-de-la-mitomania/">Síntomas de la mitomanía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="traitement des troubles du sommeil">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/traitement-des-troubles-du-sommeil/">Traitement des troubles du sommeil</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="tratamiento de la mitomanía">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/tratamiento-de-la-mitomania/">Tratamiento de la Mitomanía</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="troubles du sommeil">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/troubles-du-sommeil/">Troubles du sommeil</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="vers une definition de la maltraitance">
+  <div class="card-top"><span class="card-year">2018</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/vers-une-definition-de-la-maltraitance/">Vers une definition de la maltraitance</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="definición de la ciberadicción">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/definicion-de-la-ciberadiccion/">Definición de la Ciberadicción</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diagnóstico de la ciberadicción">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diagnostico-de-la-ciberadiccion/">Diagnóstico de la Ciberadicción</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diferencias comportamentales entre mujeres y hombres">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diferencias-comportamentales-entre-mujeres-y-hombres/">Diferencias Comportamentales entre mujeres y hombres</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diferencias emocionales entre mujeres y hombres">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diferencias-emocionales-entre-mujeres-y-hombres/">Diferencias Emocionales entre mujeres y hombres</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diferencias hormonales entre mujeres y hombres">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diferencias-hormonales-entre-mujeres-y-hombres/">Diferencias Hormonales entre mujeres y hombres</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="diferencias neuronales entre mujeres y hombres">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/diferencias-neuronales-entre-mujeres-y-hombres/">Diferencias Neuronales entre mujeres y hombres</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el modelo animal en la salud humana">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-modelo-animal-en-la-salud-humana/">El Modelo Animal en la Salud Humana</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="el origen de la depresión mayor">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/el-origen-de-la-depresion-mayor/">El Origen de la Depresión Mayor</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="¿es posible prevenir el ciberacoso?">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/es-posible-prevenir-el-ciberacoso/">¿Es Posible Prevenir el Ciberacoso?</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la distimia">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-distimia/">La Distimia</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la psicología de los animales">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-psicologia-de-los-animales/">La Psicología de los Animales</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la résilience">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-resilience/">La Résilience</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la théorie de l’esprit">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-theorie-de-lesprit/">La Théorie de l’Esprit</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la tristeza">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-tristeza/">La Tristeza</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les bénéfices de l’intelligence émotionnelle-entretien">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-benefices-de-lintelligence-emotionnelle-entretien/">Les bénéfices de l’intelligence émotionnelle-Entretien</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="les bénéfices de l’intelligence émotionnelle">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/les-benefices-de-lintelligence-emotionnelle/">Les bénéfices de l’intelligence émotionnelle</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="maltrato en la adolescencia">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/maltrato-en-la-adolescencia/">Maltrato en la Adolescencia</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="sintomatología de la ciberadicción">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/sintomatologia-de-la-ciberadiccion/">Sintomatología de la Ciberadicción</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="tratamiento de la ciberadicción">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/tratamiento-de-la-ciberadiccion/">Tratamiento de la Ciberadicción</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="tratando la depresión mayor">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/tratando-la-depresion-mayor/">Tratando la Depresión Mayor</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="false" data-title="troubles dépressifs et anxieux">
+  <div class="card-top"><span class="card-year">2017</span><span class="badge badge-private">RG</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/troubles-depressifs-et-anxieux/">Troubles dépressifs et anxieux</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="la programación de sesiones prácticas como un método orientado a incrementar la motivación del alumnado universitario">
+  <div class="card-top"><span class="card-year">2005</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/la-programacion-de-sesiones-practicas-como-un-metodo-orientado-a-incre/">La programación de sesiones prácticas como un método orientado a incrementar la motivación del alumnado universitario</a></h2>
+  
+  <p class="card-authors">Samuel Rueda · Francisco Javier Cantero Sánchez · Isabel María Herrera Sánchez · Jose María León-Rubio</p>
+</article>
+<article class="book-card chapter-card" data-oa="true" data-title="resultados previos a la tesis">
+  <div class="card-top"><span class="card-year">2005</span><span class="badge badge-oa">OA</span></div>
+  <h2 class="card-title"><a href="/bibliotheque-scientifique-fr/capitulos/resultados-previos-a-la-tesis/">Resultados previos a la Tesis</a></h2>
+  
+  <p class="card-authors">Juan Moisés de la Serna</p>
+</article></div>
+    <p id="no-capitulos" class="no-results">Aucun résultat.</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>Juan Moisés de la Serna</strong> · <a href="https://orcid.org/0000-0002-8401-8018" target="_blank">ORCID</a> · <a href="https://www.researchgate.net/profile/Juan-Moises-De-La-Serna" target="_blank">ResearchGate</a> · <a href="https://scholar.google.com/citations?user=TU_ID_AQUI" target="_blank">Google Scholar</a></p>
+    <p class="footer-note">Catálogo académico · Datos verificados desde ResearchGate y OpenAlex</p>
+  </div>
+</footer>
+<script>
+let filtros={libros:'todos',capitulos:'todos'};
+function cambiarTab(tab,btn){
+  document.querySelectorAll('.tab-section').forEach(s=>s.style.display='none');
+  document.querySelectorAll('.lang-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+tab).style.display='';
+  btn.classList.add('active');
+}
+function filtrar(tipo,valor,btn){
+  filtros[tipo]=valor;
+  btn.closest('.filters-row').querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  aplicar(tipo);
+}
+function buscar(tipo,q){aplicar(tipo,q.toLowerCase());}
+function aplicar(tipo,query=''){
+  let v=0;
+  document.querySelectorAll('#grid-'+tipo+' .book-card').forEach(card=>{
+    const oa=card.dataset.oa==='true';
+    const title=card.dataset.title||'';
+    const ok=(filtros[tipo]==='todos'||(filtros[tipo]==='oa'&&oa))&&(query===''||title.includes(query));
+    card.style.display=ok?'':'none';
+    if(ok)v++;
+  });
+  const nr=document.getElementById('no-'+tipo);
+  if(nr)nr.style.display=v===0?'block':'none';
+}
+function copiarCita(){
+  const t=document.getElementById('citation-text');
+  if(!t)return;
+  navigator.clipboard.writeText(t.innerText).then(()=>{
+    const btn=document.querySelector('[onclick="copiarCita()"]');
+    const orig=btn.textContent;
+    btn.textContent=btn.dataset.copiado||'✓ Copiado';
+    setTimeout(()=>btn.textContent=orig,2000);
+  });
+}
+</script>
+</body>
+</html>
