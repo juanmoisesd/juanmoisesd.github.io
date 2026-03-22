@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/est-il-possible-de-prevenir-le-cyber-harcelement/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/est-il-possible-de-prevenir-le-cyber-harcelement/
 citation: 'Juan Moisés de la Serna (2020). Est-il Possible De Prevenir Le Cyber-Harcèlement. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/est-il-possible-de-prevenir-le-cyber-harcelement/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
