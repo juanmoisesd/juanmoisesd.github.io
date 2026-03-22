@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/triggering-factors-for-cancer/
+permalink: /scientific-library-en/capitulos/triggering-factors-for-cancer/
 citation: 'Juan Moisés de la Serna (2017). Triggering Factors For Cancer. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/triggering-factors-for-cancer/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
