@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/maltrato-nos-idosos/
+permalink: /biblioteca-cientifica-es/capitulos/maltrato-nos-idosos/
 citation: 'Juan Moisés de la Serna (2017). Maltrato nos idosos. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/maltrato-nos-idosos/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
