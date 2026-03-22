@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/the-sleep-cycle/
+permalink: /scientific-library-en/capitulos/the-sleep-cycle/
 citation: 'Juan Moisés de la Serna (2018). The Sleep Cycle. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-sleep-cycle/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
