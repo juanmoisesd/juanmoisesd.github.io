@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/impacto-del-covid-19-en-el-personal-sanitario/
+permalink: /biblioteca-cientifica-es/capitulos/impacto-del-covid-19-en-el-personal-sanitario/
 citation: 'Juan Moisés de la Serna (2020). Impacto del COVID-19 en el personal sanitario. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/impacto-del-covid-19-en-el-personal-sanitario/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
