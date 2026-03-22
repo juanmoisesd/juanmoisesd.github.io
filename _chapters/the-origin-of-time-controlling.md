@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/the-origin-of-time-controlling/
+permalink: /scientific-library-en/capitulos/the-origin-of-time-controlling/
 citation: 'Juan Moisés de la Serna (2018). The origin of time-controlling. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/the-origin-of-time-controlling/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
