@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/violencia-de-genero-digital/
+permalink: /biblioteca-cientifica-es/capitulos/violencia-de-genero-digital/
 citation: 'Juan Moisés de la Serna (2018). Violência de gênero digital. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/violencia-de-genero-digital/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
