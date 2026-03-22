@@ -14,7 +14,7 @@ orcid: "https://orcid.org/0000-0002-8401-8018"
 researchgate_url: "https://www.researchgate.net/profile/Juan-Moises-De-La-Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /libros/la-chronobiologie-la-biologie-du-temps/
+permalink: /bibliotheque-scientifique-fr/libros/la-chronobiologie-la-biologie-du-temps/
 citation: 'Juan Moisés de la Serna (2020). *La Chronobiologie: La biologie du temps*. ResearchGate. https://juanmoises-de-la-serna.github.io/libros/la-chronobiologie-la-biologie-du-temps/'
 last_updated: "2026-03-21"
 schema_type: "Book"
