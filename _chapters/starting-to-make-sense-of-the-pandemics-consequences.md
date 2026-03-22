@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/starting-to-make-sense-of-the-pandemics-consequences/
+permalink: /scientific-library-en/capitulos/starting-to-make-sense-of-the-pandemics-consequences/
 citation: 'Paul Valent; Juan Moisés de la Serna (2021). Starting to Make Sense of the Pandemic’s Consequences. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/starting-to-make-sense-of-the-pandemics-consequences/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
