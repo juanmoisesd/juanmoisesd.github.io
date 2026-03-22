@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-
 {% assign book = page %}
 
-<!-- schema.org Book -->
+<!-- Schema.org Book -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
   "@id": "{{ site.url }}{{ page.url }}",
-  "name": "{{ book.title | jsonify }}",
+  "name": {{ book.title | jsonify }},
   "url": "{{ site.url }}{{ page.url }}",
   "author": [
     {% for author in book.authors %}
@@ -25,26 +24,8 @@ layout: default
   "datePublished": "{{ book.date | date: '%Y-%m-%d' }}",
   "inLanguage": "{{ book.lang }}",
   "isAccessibleForFree": {{ book.is_open_access }},
-  "publisher": {
-    "@type": "Organization",
-    "name": "ResearchGate"
-  },
-  "sameAs": "{{ site.author.researchgate }}",
-  {% if book.chapters %}
-  "hasPart": [
-    {% for ch in book.chapters %}
-    {
-      "@type": "Chapter",
-      "name": "{{ ch.title }}",
-      "url": "{{ site.url }}/libros/{{ book.slug }}/{{ ch.slug }}/"
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  {% endif %}
-  "potentialAction": {
-    "@type": "ReadAction",
-    "target": "{{ site.author.researchgate }}"
-  }
+  "publisher": { "@type": "Organization", "name": "ResearchGate" },
+  "sameAs": "{{ site.author.researchgate }}"
 }
 </script>
 
@@ -55,8 +36,20 @@ layout: default
     <nav class="breadcrumb" aria-label="Ubicación">
       <a href="{{ '/' | relative_url }}">Inicio</a>
       <span>›</span>
-      <a href="{{ '/libros/' | relative_url }}">Libros</a>
+      {% if book.lang %}
+      {% assign lang_path = book.lang %}
+      {% if lang_path == "es" %}<a href="/biblioteca-cientifica-es/">Biblioteca ES</a>
+      {% elsif lang_path == "en" %}<a href="/scientific-library-en/">Library EN</a>
+      {% elsif lang_path == "fr" %}<a href="/bibliotheque-scientifique-fr/">Bibliothèque FR</a>
+      {% elsif lang_path == "de" %}<a href="/wissenschaftliche-bibliothek-de/">Bibliothek DE</a>
+      {% elsif lang_path == "pt" %}<a href="/biblioteca-cientifica-pt/">Biblioteca PT</a>
+      {% elsif lang_path == "ar" %}<a href="/biblioteca-ar/">المكتبة AR</a>
+      {% elsif lang_path == "it" %}<a href="/biblioteca-scientifica-it/">Biblioteca IT</a>
+      {% elsif lang_path == "id" %}<a href="/perpustakaan-ilmiah-id/">Perpustakaan ID</a>
+      {% elsif lang_path == "ro" %}<a href="/biblioteca-stiintifica-ro/">Biblioteca RO</a>
+      {% endif %}
       <span>›</span>
+      {% endif %}
       <span>{{ book.title | truncate: 50 }}</span>
     </nav>
 
@@ -64,16 +57,18 @@ layout: default
     <header class="book-header">
       <div class="book-meta-top">
         <span class="book-year">{{ book.year }}</span>
-        <span class="book-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
+        <span class="badge badge-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
         {% if book.is_open_access == true %}
-        <span class="badge-oa">Acceso abierto</span>
+          <span class="badge badge-oa">Acceso abierto</span>
+        {% else %}
+          <span class="badge badge-private">ResearchGate</span>
         {% endif %}
       </div>
       <h1 class="book-title">{{ book.title }}</h1>
       <div class="book-authors">
         {% for author in book.authors %}
           {% if author contains "Juan Moisés" %}
-            <a href="{{ site.author.researchgate }}" target="_blank" class="author-main">{{ author }}</a>
+            <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="author-main">{{ author }}</a>
           {% else %}
             <span class="author-co">{{ author }}</span>
           {% endif %}
@@ -85,11 +80,11 @@ layout: default
 
     <!-- Acciones -->
     <div class="book-actions">
-      <a href="{{ site.author.researchgate }}" target="_blank" class="btn btn-primary">
+      <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-primary">
         Ver en ResearchGate ↗
       </a>
       {% if book.is_open_access == true %}
-      <a href="{{ site.author.researchgate }}" target="_blank" class="btn btn-secondary">
+      <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-secondary">
         Descargar PDF
       </a>
       {% endif %}
@@ -102,11 +97,9 @@ layout: default
       <p class="citation-text" id="citation-text">{{ book.citation }}</p>
     </div>
 
-    <!-- Contenido del libro (descripción, cuando se añada) -->
+    <!-- Descripción del libro -->
     {% if content and content != "" %}
-    <div class="book-description">
-      {{ content }}
-    </div>
+    <div class="book-description">{{ content }}</div>
     {% endif %}
 
     <!-- Capítulos -->
@@ -116,11 +109,11 @@ layout: default
       <ol class="chapters-list">
         {% for ch in book.chapters %}
         <li class="chapter-item">
-          <a href="{{ '/libros/' | relative_url }}{{ book.slug }}/{{ ch.slug }}/" class="chapter-link">
+          <a href="{{ page.url | relative_url }}{{ ch.slug }}/" class="chapter-link">
             {{ ch.title }}
           </a>
           {% if ch.date %}
-          <span class="chapter-date">· actualizado {{ ch.date | date: "%Y" }}</span>
+          <span class="chapter-date">· {{ ch.date | date: "%Y" }}</span>
           {% endif %}
         </li>
         {% endfor %}
@@ -148,10 +141,10 @@ layout: default
     </section>
     {% endif %}
 
-    <!-- Libros relacionados: placeholder para cuando haya más -->
+    <!-- Más libros del autor -->
     <section class="related-section">
       <h2>Más libros del autor</h2>
-      <a href="{{ '/libros/' | relative_url }}" class="btn btn-outline">Ver catálogo completo →</a>
+      <a href="{{ '/' | relative_url }}" class="btn btn-outline">Ver catálogo completo →</a>
     </section>
 
   </div>
