@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/differences-in-psychopathology-between-men-and-women/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/differences-in-psychopathology-between-men-and-women/
 citation: 'Juan Moisés de la Serna (2017). Differences in psychopathology between men and women. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/differences-in-psychopathology-between-men-and-women/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
