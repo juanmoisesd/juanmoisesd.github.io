@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/einfuhrung-in-die-hirnforschung/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/einfuhrung-in-die-hirnforschung/
 citation: 'Juan Moisés de la Serna (2020). Einführung in die Hirnforschung. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/einfuhrung-in-die-hirnforschung/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
