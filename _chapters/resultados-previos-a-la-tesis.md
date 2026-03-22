@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/resultados-previos-a-la-tesis/
+permalink: /bibliotheque-scientifique-fr/capitulos/resultados-previos-a-la-tesis/
 citation: 'Juan Moisés de la Serna (2005). Resultados previos a la Tesis. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/resultados-previos-a-la-tesis/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
