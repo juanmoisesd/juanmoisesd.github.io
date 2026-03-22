@@ -12,7 +12,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/acv-y-covid-19/
+permalink: /biblioteca-cientifica-es/capitulos/acv-y-covid-19/
 citation: 'Marcos Altable; Juan Moisés de la Serna (2020). ACV y COVID-19. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/acv-y-covid-19/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
