@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/epilepsia-na-infancia-e-o-psicossomatico/
+permalink: /biblioteca-stiintifica-ro/capitulos/epilepsia-na-infancia-e-o-psicossomatico/
 citation: 'Juan Moisés de la Serna (2020). Epilepsia na Infância e o Psicossomático. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/epilepsia-na-infancia-e-o-psicossomatico/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
