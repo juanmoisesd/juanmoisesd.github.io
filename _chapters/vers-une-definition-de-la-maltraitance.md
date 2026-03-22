@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/vers-une-definition-de-la-maltraitance/
+permalink: /bibliotheque-scientifique-fr/capitulos/vers-une-definition-de-la-maltraitance/
 citation: 'Juan Moisés de la Serna (2018). Vers une definition de la maltraitance. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/vers-une-definition-de-la-maltraitance/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
