@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: true
 availability: "Full-text available"
-permalink: /capitulos/seleccion-administracion-y-correccion-de-test-y-escalas-estandarizadas/
+permalink: /biblioteca-cientifica-es/capitulos/seleccion-administracion-y-correccion-de-test-y-escalas-estandarizadas/
 citation: 'Juan Moisés de la Serna (2018). Selección, administración y corrección de test y escalas estandarizadas. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/seleccion-administracion-y-correccion-de-test-y-escalas-estandarizadas/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
