@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/anorexia-nervosa/
+permalink: /biblioteca-cientifica-es/capitulos/anorexia-nervosa/
 citation: 'Juan Moisés de la Serna (2017). Anorexia nervosa. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/anorexia-nervosa/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
