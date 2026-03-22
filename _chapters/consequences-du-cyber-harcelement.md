@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/consequences-du-cyber-harcelement/
+permalink: /wissenschaftliche-bibliothek-de/capitulos/consequences-du-cyber-harcelement/
 citation: 'Juan Moisés de la Serna (2020). Conséquences du Cyber-harcèlement. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/consequences-du-cyber-harcelement/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
