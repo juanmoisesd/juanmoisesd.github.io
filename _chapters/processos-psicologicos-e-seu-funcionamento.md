@@ -11,7 +11,7 @@ authors:
   - "Juan Moisés de la Serna"
 is_open_access: false
 availability: "Private full-text"
-permalink: /capitulos/processos-psicologicos-e-seu-funcionamento/
+permalink: /biblioteca-cientifica-es/capitulos/processos-psicologicos-e-seu-funcionamento/
 citation: 'Juan Moisés de la Serna (2019). Processos Psicológicos e seu funcionamento. [Capítulo en libro por asignar]. https://juanmoises-de-la-serna.github.io/capitulos/processos-psicologicos-e-seu-funcionamento/'
 last_updated: "2026-03-21"
 schema_type: "Chapter"
