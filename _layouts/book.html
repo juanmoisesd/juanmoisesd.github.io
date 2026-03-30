@@ -1,4 +1,4 @@
----
+--- 
 layout: default
 ---
 {% assign book = page %}
@@ -16,7 +16,7 @@ layout: default
     {% for author in book.authors %}
     {
       "@type": "Person",
-      "name": "{{ author }}"{% if author contains "Juan Moisés" %},
+      "name": "{{ author }}"{% if author contains "Juan Moises" %},
       "identifier": "{{ site.author.orcid }}",
       "sameAs": "{{ site.author.orcid }}"{% endif %}
     }{% unless forloop.last %},{% endunless %}
@@ -34,12 +34,12 @@ layout: default
   <div class="container">
 
     <!-- Breadcrumb -->
-    <nav class="breadcrumb" aria-label="Ubicación">
+    <nav class="breadcrumb" aria-label="Ubicacion">
       <a href="{{ '/' | relative_url }}">Inicio</a>
       <span>›</span>
       {% if book.lang == "es" %}<a href="/biblioteca-cientifica-es/">Biblioteca ES</a>
       {% elsif book.lang == "en" %}<a href="/scientific-library-en/">Library EN</a>
-      {% elsif book.lang == "fr" %}<a href="/bibliotheque-scientifique-fr/">Bibliothèque FR</a>
+      {% elsif book.lang == "fr" %}<a href="/bibliotheque-scientifique-fr/">Bibliotheque FR</a>
       {% elsif book.lang == "de" %}<a href="/wissenschaftliche-bibliothek-de/">Bibliothek DE</a>
       {% elsif book.lang == "pt" %}<a href="/biblioteca-cientifica-pt/">Biblioteca PT</a>
       {% elsif book.lang == "ar" %}<a href="/biblioteca-ar/">المكتبة AR</a>
@@ -51,45 +51,61 @@ layout: default
       <span>{{ book.title | truncate: 50 }}</span>
     </nav>
 
-    <!-- Cabecera del libro -->
+    <!-- Cabecera del libro con portada simulada -->
     <header class="book-header">
-      <div class="book-meta-top">
-        <span class="book-year">{{ book.year }}</span>
-        <span class="badge badge-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
-        {% if book.is_open_access == true %}
-          <span class="badge badge-oa">Acceso abierto</span>
-        {% else %}
-          <span class="badge badge-private">ResearchGate</span>
-        {% endif %}
+
+      <!-- Portada visual del libro -->
+      <div class="book-cover">
+        <div class="book-cover-visual">
+          <span class="book-cover-icon">📖</span>
+          <p class="book-cover-title">{{ book.title | truncate: 60 }}</p>
+          <p class="book-cover-author">{{ book.authors | first }}</p>
+        </div>
       </div>
-      <h1 class="book-title">{{ book.title }}</h1>
-      <div class="book-authors">
-        {% for author in book.authors %}
-          {% if author contains "Juan Moisés" %}
-            <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="author-main">{{ author }}</a>
+
+      <!-- Info del libro -->
+      <div class="book-header-info">
+        <div class="book-meta-top">
+          <span class="book-year">{{ book.year }}</span>
+          <span class="badge badge-lang lang-{{ book.lang }}">{{ book.lang | upcase }}</span>
+          {% if book.is_open_access == true %}
+            <span class="badge badge-oa">Acceso abierto</span>
           {% else %}
-            <span class="author-co">{{ author }}</span>
+            <span class="badge badge-private">ResearchGate</span>
           {% endif %}
-          {% unless forloop.last %}<span class="author-sep">·</span>{% endunless %}
-        {% endfor %}
+        </div>
+
+        <h1 class="book-title">{{ book.title }}</h1>
+
+        <div class="book-authors">
+          {% for author in book.authors %}
+            {% if author contains "Juan Moises" %}
+              <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="author-main">{{ author }}</a>
+            {% else %}
+              <span class="author-co">{{ author }}</span>
+            {% endif %}
+            {% unless forloop.last %}<span class="author-sep">·</span>{% endunless %}
+          {% endfor %}
+        </div>
+
+        <p class="book-date">Publicado: {{ book.date_display }}</p>
+
+        <!-- Acciones -->
+        <div class="book-actions">
+          <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-primary">
+            Ver en ResearchGate ↗
+          </a>
+          {% if book.is_open_access == true %}
+          <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-secondary">
+            Descargar PDF
+          </a>
+          {% endif %}
+          <button class="btn btn-outline" onclick="copiarCita()">Copiar cita</button>
+        </div>
       </div>
-      <p class="book-date">Publicado: {{ book.date_display }}</p>
     </header>
 
-    <!-- Acciones -->
-    <div class="book-actions">
-      <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-primary">
-        Ver en ResearchGate ↗
-      </a>
-      {% if book.is_open_access == true %}
-      <a href="{{ site.author.researchgate }}" target="_blank" rel="noopener" class="btn btn-secondary">
-        Descargar PDF
-      </a>
-      {% endif %}
-      <button class="btn btn-outline" onclick="copiarCita()">Copiar cita</button>
-    </div>
-
-    <!-- Cita recomendada (generada dinámicamente con URL correcta) -->
+    <!-- Cita recomendada -->
     <div class="citation-box" id="citation-box">
       <p class="citation-label">Cita recomendada (APA)</p>
       <p class="citation-text" id="citation-text">
@@ -99,24 +115,20 @@ layout: default
       </p>
     </div>
 
-    <!-- Descripción del libro -->
+    <!-- Descripcion -->
     {% if content and content != "" %}
     <div class="book-description">{{ content }}</div>
     {% endif %}
 
-    <!-- Capítulos -->
+    <!-- Capitulos -->
     {% if book.chapters %}
     <section class="chapters-section">
       <h2>Capítulos</h2>
       <ol class="chapters-list">
         {% for ch in book.chapters %}
         <li class="chapter-item">
-          <a href="{{ page.url | relative_url }}{{ ch.slug }}/" class="chapter-link">
-            {{ ch.title }}
-          </a>
-          {% if ch.date %}
-          <span class="chapter-date">· {{ ch.date | date: "%Y" }}</span>
-          {% endif %}
+          <a href="{{ page.url | relative_url }}{{ ch.slug }}/" class="chapter-link">{{ ch.title }}</a>
+          {% if ch.date %}<span class="chapter-date">· {{ ch.date | date: "%Y" }}</span>{% endif %}
         </li>
         {% endfor %}
       </ol>
@@ -128,7 +140,7 @@ layout: default
     </section>
     {% endif %}
 
-    <!-- Ediciones / actualizaciones anuales -->
+    <!-- Ediciones -->
     {% if book.editions %}
     <section class="editions-section">
       <h2>Historial de actualizaciones</h2>
@@ -143,7 +155,7 @@ layout: default
     </section>
     {% endif %}
 
-    <!-- Más libros del autor -->
+    <!-- Mas libros -->
     <section class="related-section">
       <h2>Más libros del autor</h2>
       <a href="{{ '/' | relative_url }}" class="btn btn-outline">Ver catálogo completo →</a>
@@ -157,10 +169,9 @@ function copiarCita() {
   const texto = document.getElementById('citation-text').innerText;
   navigator.clipboard.writeText(texto).then(() => {
     const btn = document.querySelector('[onclick="copiarCita()"]');
-    btn.textContent = '✓ Copiado';
+    btn.textContent = 'Copiado ✓';
     setTimeout(() => btn.textContent = 'Copiar cita', 2000);
   }).catch(() => {
-    // Fallback para navegadores sin clipboard API
     const range = document.createRange();
     range.selectNode(document.getElementById('citation-text'));
     window.getSelection().removeAllRanges();
@@ -168,4 +179,4 @@ function copiarCita() {
     document.execCommand('copy');
   });
 }
-        </script>
+</script>
