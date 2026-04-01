@@ -1,5 +1,4 @@
 name: Check for broken links
-
 on:
   push:
       branches: [ main, master ]
@@ -7,16 +6,13 @@ on:
             branches: [ main, master ]
               schedule:
                   - cron: '0 9 * * 1'
-
                   jobs:
                     check-links:
                         runs-on: ubuntu-latest
                             steps:
-                                  - name: Checkout code
-                                          uses: actions/checkout@v4
-
-                                                      - name: Check links with lychee
-                                                              uses: lycheeverse/lychee-action@v1.8.0
-                                                                      with:
-                                                                                args: --verbose --max-retries 3 --timeout 10 '**/*.html' '**/*.md'
-                                                                                          fail: true
+                                  - uses: actions/checkout@v4
+                                        - name: Link Checker
+                                                uses: lycheeverse/lychee-action@v1.8.0
+                                                        with:
+                                                                  args: --verbose --max-retries 3 --timeout 10 '**/*.html' '**/*.md'
+                                                                            fail: true
