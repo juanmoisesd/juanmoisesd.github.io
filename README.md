@@ -158,3 +158,12 @@ Cuando tengas el CSV completo de todos tus libros:
 python generar_sitio.py
 ```
 El script evita duplicados de slug y es idempotente (puedes ejecutarlo varias veces).
+
+## How to Cite
+
+If you use this repository in your research, please cite:
+
+> de la Serna, J. M. (2026). *Juanmoisesd.Github.Io*. Universidad Internacional de La Rioja (UNIR).
+> https://github.com/juanmoisesd/juanmoisesd.github.io 
+
+See `CITATION.cff` for formatted references.
